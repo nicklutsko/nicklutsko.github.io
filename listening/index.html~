@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Research Interests
+title: Listening
 ---
 
 		<div class="listening">
 			<h1>Listening</h1>
-			<p>Some things to listen to:</p>
+			<p>Some things to listen to while reading my papers:</p>
 			<ol>
-			  <li><big>Lutsko, N. J., Held, I. M., and Zurita-Gotor, P. (2015). Applying the Fluctuation–Dissipation Theorem to a Two-Layer Model of Quasi-Geostrophic Turbulence. Journal
-of the Atmospheric Sciences, 72(8):3161 – 3177.</big></li>
-			  <li><big>Lutsko, N. J. and Held, I. M. (2016). The Response of an Idealized Atmosphere to Orographic Forcing: Zonal vs Meridional Propagation Journal
-of the Atmospheric Sciences, <i>Accepted</i>.</big></li>
+			  <li><big><a href="https://www.youtube.com/watch?v=yaWesK-nWts">Kaytranada -- Glowed Up</a>  I like the herky-jerky flow</big></li>
+			  <li><big><a href="https://www.youtube.com/watch?v=WvJ9yLnunwQ">Kedr Livanskiy -- Razrushitelniy Krug</a>  Samples Aphex Twin!</big></li>
+			  <li><big><a href="https://www.youtube.com/watch?v=ZhBh261KK9c">Antwon -- 100k</a>  Interesting structure for a rap song</big></li>
 			</ol>  
 
 		</div>
