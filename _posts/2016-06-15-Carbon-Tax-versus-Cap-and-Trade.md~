@@ -14,11 +14,11 @@ date: 2016-06-15
 
 <p>From an economist’s perspective, climate change is an example of a negative externality. Externalities were first really discussed in Arthur Pigou’s 1920 book The Economics of Welfare. According to Wikipedia, Pigou (who I had never heard of) was a good friend of Keynes, though they often disagreed, and a great economist -- he’s not as well remembered as he should be.</p>
 
-<img src="marg_ben.png" alt="Marginal Benefit" style="width:304px;height:228px;">
-
 <p>Externalities are basically the spillover from an activity. An example is if a chemical plant releases its wastewater into a nearby river. The key thing about an externality is that it affects people not participating in the activity, like people downstream of the chemical plant. There can also be positive externalities: if you have work done on your house to make it more attractive you increase the value of your neighbours’ houses as well as your own.</p>
 
 <p>Carbon taxes and cap and trade are both ways of dealing with a negative externality by implementing a Pigouvian tax, which is a tax on an economic activity that generates a negative externality. The theory behind it is quite neat.</p>
+
+<img src="marg_ben.png" alt="Marginal Benefit" style="width:304px;height:228px;">
 
 <p>To take a concrete example, suppose we draw a graph of the marginal benefit you get each month from driving your car versus how how many hours per month you spend driving your car. The blue line in the figure gives an example in which these are linearly related (it seems like people always assume a linear relationship, at least in textbook examples). Intuitively, it makes sense that driving two hours a month gives you a lot more benefit than not driving at all, but driving 16 hours a month doesn’t get you much more than driving 14 hours a month. So the marginal benefit is much bigger going from 0 hours to 2 hours than going from 14 hours to 16 hours.</p>
 
