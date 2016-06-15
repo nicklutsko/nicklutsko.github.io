@@ -19,7 +19,7 @@ date: 2016-06-15
 <p>Carbon taxes and cap and trade are both ways of dealing with a negative externality by implementing a Pigouvian tax, which is a tax on an economic activity that generates a negative externality. The theory behind it is quite neat.</p>
 
 
-<img src="images/marg_ben.PNG" alt="Marginal Benefit" style="width:300px;height:225px;">
+<img src="images/marg_ben.png" alt="Marginal Benefit" style="width:300px;height:225px;">
 
 <p>To take a concrete example, suppose we draw a graph of the marginal benefit you get each month from driving your car versus how how many hours per month you spend driving your car. The blue line in the figure gives an example in which these are linearly related (it seems like people always assume a linear relationship, at least in textbook examples). Intuitively, it makes sense that driving two hours a month gives you a lot more benefit than not driving at all, but driving 16 hours a month doesn’t get you much more than driving 14 hours a month. So the marginal benefit is much bigger going from 0 hours to 2 hours than going from 14 hours to 16 hours.</p>
 
