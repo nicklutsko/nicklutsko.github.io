@@ -24,7 +24,7 @@ date: 2016-06-15
 
 <p>Eventually driving for too long actually reduces the additional benefit you get from your car (because you spend too much on gas, waste too much time in the car, etc.) and the marginal benefit is negative. Conventional economic thinking is that economic actors increase their usage until the marginal benefit is zero.</p>
 
-<p>The idea of a Pigouvian tax is to make an economic activity more expensive so that the marginal benefit goes to zero faster. This effectively moves the x-axis on the graph further up the y-axis (dashed line). The tax revenue (shaded) helps pay for the negative effects of driving your car. In a cap and trade system the “tax” comes from businesses paying for the emission permits. The area between the shaded rectangle and the marginal benefit line is “lost benefit”, which has to be taken into account when setting the tax rate.</p>
+<p>The idea of a Pigouvian tax is to make an economic activity more expensive so that the marginal benefit goes to zero faster. This effectively moves the x-axis on the graph further up the y-axis (dashed line). The tax revenue (shaded) helps pay for the negative impacts of driving your car. In a cap and trade system the “tax” comes from businesses paying for the emission permits. The area between the shaded rectangle and the marginal benefit line is “lost benefit”, which has to be taken into account when setting the tax rate.</p>
 
 <h2>Krugman’s Arguments</h2>
 
