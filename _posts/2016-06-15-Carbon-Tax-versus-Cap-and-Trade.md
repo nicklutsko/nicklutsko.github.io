@@ -10,7 +10,7 @@ date: 2016-06-15
 
 <h2>Externalities</h2>
 
-<p>I think it’s fair to divide the arguments for and against each option into those that are more abstract and those that have more to do with the detailed implementation of either system. Let’s start with the abstract arguments.</p>
+<p>I think it’s fair to divide the arguments for and against each option into those that are more abstract and those that have to do with actually implementing either system. Let’s start with the abstract arguments.</p>
 
 <p>From an economist’s perspective, climate change is an example of a <i>negative externality</i>. Externalities were first really discussed in Arthur Pigou’s 1920 book <i>The Economics of Welfare</i>. According to Wikipedia, Pigou was a good friend of Keynes, though they often disagreed, and a great economist -- he’s not as well remembered as he should be. Pigou is also a bit of a strawman in Keynes’ <i>General Theory</i>.</p>
 
