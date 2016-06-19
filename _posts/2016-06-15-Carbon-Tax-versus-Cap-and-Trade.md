@@ -28,7 +28,7 @@ date: 2016-06-15
 
 <h2>Krugman’s Arguments</h2>
 
-<p>Krugman points out that both cap and trade and carbon taxes function in this way. However, when thinking about cap and trade the x-axis is emissions, whereas with a carbon tax the x-axis is cost. So with cap and trade we directly control the emissions whereas with a carbon tax we control the cost of the emissions. For this reason cap and trade is a more direct way of reducing emissions, which is what we want to do. In both cases, the tax revenue can be used to help people deal with the consequences of climate change.</p>
+<p>Krugman points out that with cap and trade the x-axis is emissions, whereas with a carbon tax the x-axis is cost. So with cap and trade we directly control the emissions whereas with a carbon tax we control the cost of the emissions. For this reason cap and trade is a more direct way of reducing emissions, which is what we want to do. In both cases, the tax revenue can be used to help people deal with the consequences of climate change.</p>
 
 <p>One thing to note is that Krugman cites some studies which show that the lost benefit is actually quite small under most cap and trade proposals (presumably this doesn’t change with a carbon tax). These calculations don’t even include the estimated benefit to the environment of reducing emissions, so the lost benefit really doesn’t seem to be something we have to worry about.</p>
 
