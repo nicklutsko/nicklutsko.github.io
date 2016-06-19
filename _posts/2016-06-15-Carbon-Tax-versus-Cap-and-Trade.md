@@ -52,7 +52,7 @@ date: 2016-06-15
 
 <p>It would be great if either of these proposals was implemented on a large scale. As Krugman writes, they both provide good incentives to reduce emissions and at least a somewhat morally fair way of reducing the effects of negative externalities. Right now, I tentatively lean on the side of carbon tax. Implementing cap and trade seems overwhelming from a legislative perspective and I suspect some things would fall through the cracks. And, while I don’t worry about permits being used dishonestly, I do worry that they would benefit larger companies more than smaller ones and developed countries more than developing countries. I’m not an economist though, so I’m happy to change my mind.</p>
 
-<p>There are some other related and interesting concepts and questions. For instance, the “social cost of carbon” can be used to price carbon, say for a carbon tax. Calculating this cost is probably quite an interesting exercise. I’m also curious how exactly the emissions of a given company/person/etc. are measured. I’d imagine that this is typically quite opaque and expect it to be pretty inaccurate.</p>
+<p>There are some other related and interesting concepts and questions. For instance, the “social cost of carbon” can be used to price carbon, say for a carbon tax. Calculating this cost is probably quite an interesting exercise. I’m also curious how exactly the emissions of a given company/person/etc. are measured. I’d imagine that this is typically quite opaque, and expect it to be pretty inaccurate.</p>
 
 
 
