@@ -4,7 +4,7 @@ title: "Carbon Tax versus Cap and Trade"
 date: 2016-06-15
 ---
 
-<p>I’m curious to figure out which of these is the better option for trying to reduce emissions. My instinct is to support a carbon tax over cap and trade because I have a vague recollection of hearing a talk make this point. However, <a href="http://krugman.blogs.nytimes.com/2009/09/27/the-textbook-economics-of-cap-and-trade/?_r=0">Paul Krugman</a> actually favors cap and trade over a carbon tax, which seems like a good reason to support cap and trade.</p>
+<p>I’m curious to figure out which of these is the better option for trying to reduce emissions. My instinct is to support a carbon tax over cap and trade because I have a vague recollection of hearing a talk make this point. However, <a href="http://krugman.blogs.nytimes.com/2009/09/27/the-textbook-economics-of-cap-and-trade/?_r=0">Paul Krugman</a> actually favors cap and trade over a carbon tax, which seems like a good reason to take cap and trade seriously.</p>
 
 <p>Before getting started, we want to reduce emissions but we also want to somehow grow, or at least maintain, the world economy and help developing countries. There’s some thorny moral issues here, since developing countries won’t be able to emit as much as developed countries have already emitted, but I’m going to ignore the question of which option is fairer. Also, many people think both of these are bad options since neither will do enough to limit emissions. That’s true, but they seem to be the most likely options to be implemented in the near future and so I want to have an opinion on which is better.</p>
 
