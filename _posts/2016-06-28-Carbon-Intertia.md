@@ -15,7 +15,7 @@ date: 2016-06-28
 
 <p>Calculating our carbon inertia is hard. It would be do-able if we had perfect integrated assessment models and so could explore how optimized the transformation would have to be. But to give an order of magnitude estimate, let’s take the increasing wind capacity by a factor of ten wedge. This estimate says that the lifecycle emissions of wind-turbines is about 12 g CO2-eq / kWh. We need to go from a capacity of about 60 TWh to about 6000 TWh. The total emissions are thus:<br>
 5940 x 10<sup>12</sup> x 12 / 10<sup>3</sup> / 10<sup>6</sup> = 71.3 Mtons CO2-eq.<br>
-Given that annual CO2 emissions are about 10Gtons, this is encouraging.</p>
+Given that annual CO2 emissions are about 10 Gtons, this is encouraging.</p>
 
 <p>As another example, Socolow and Pacala propose doubling the average fuel efficiency of cars from 30mpg to 60mpg. Presumably, this would mean replacing all the inefficient cars with more efficient ones. Suppose instead we replaced them with electric cars, which had zero emissions. About 10% of a normal car’s lifetime emissions come while it is being built. Suppose we decided, today, to replace every low mileage care on Earth with an electric car, and that manufacturing an electric car produced the same emissions as manufacturing a regular car (in fact electric cars often have slightly higher emissions). There are about 1 billion cars in the world and we can use an estimate of 20 tons CO2-eq as the emissions required to build a car. Replacing all the cars in the world would thus require 20 Gtons CO2-eq, which is roughly the same order of magnitude as annual CO2 emissions.</p>
 
