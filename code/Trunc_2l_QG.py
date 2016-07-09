@@ -4,9 +4,11 @@ Nicholas Lutsko -- AOS Program, Princeton
 Zonally truncated 2-layer QG model after Held & Panetta 1988 
 Only keep 1 zonal wavenumber, default is k=0.7
 
-Here it just saves the growth rate, the 
+Here it just tracks the growth rate, the 
 domain-mean energy and the domain-mean enstrophy,
-but it can be easily modified to do other things.
+and also plots the zonal-mean streamfunction as a
+function of time, but it can be easily modified to 
+do other things.
 
 The non-linear terms are calculated using the
 Orszag (1971) alias-free transform method. Leapfrog
