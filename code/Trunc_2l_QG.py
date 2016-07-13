@@ -4,18 +4,18 @@ Nicholas Lutsko -- AOS Program, Princeton
 Zonally truncated 2-layer QG model after Held & Panetta 1988 
 Only keep 1 zonal wavenumber, default is k=0.7
 
+The non-linear terms are calculated using the
+Orszag (1971) alias-free transform method. Leapfrog
+time-stepping is used for all terms except the 
+hyperdiffusion.
+
 Here it just tracks the growth rate, the 
 domain-mean energy and the domain-mean enstrophy,
 and also plots the zonal-mean streamfunction as a
 function of time, but it can be easily modified to 
 do other things.
 
-The non-linear terms are calculated using the
-Orszag (1971) alias-free transform method. Leapfrog
-time-stepping is used for all terms except the 
-hyperdiffusion.
-
-Last updated -- July 5th 2016
+Last updated -- July 12th 2016
 """
 import numpy as np 
 import math
@@ -32,9 +32,9 @@ N = 256 #size of spectral decomposition
 L = 20. #size of domain -- stick to multiples of 10
 
 nu = pow( 10., -3. ) #viscous dissipation
-km = 0.3 #Ekman friction
-kt = 0.067 #radiative damping
-bet = 0.15 #beta
+km = 0.3 #Ekman friction -- setting in PH88 is 0.3
+kt = 0.067 #radiative damping -- value in PH88 is 0.067
+bet = 0.15 #beta -- value in PH88 is 0.15
 pi = math.pi #always useful
 
 #Wavenumbers:
@@ -140,9 +140,10 @@ def lterm(lay, k1, qc, psi, opsi, upsi, j):
 #######################################################
 #  Initial conditions:
 
-#Load ICs:
-psic_1[0] = np.load("IC.txt") 
-psic_2[0] = np.load("IC2.txt")
+#Make ICs:
+from random import random
+psic_1[0] = [ [ random() * .0001  for i in range(N) ] for j in range(2) ]
+psic_2[0] = [ [ random() * .0001  for i in range(N) ] for j in range(2) ]
 psic_1[0, 0, 0 ] = 0.
 psic_2[0, 0, 0 ] = 0.
 
@@ -192,7 +193,7 @@ nl2 = np.zeros(N).astype(complex)
 for i in range(1, ts):
 
     if i % 10 == 0:
-        print "Timestep:", i
+        print "Timestep:", i, " / ", ts
 
     #Calculate conjugates:
     qcc_1 = np.fft.fft( np.fft.ifft(qc_1[1, 1] ).conjugate() )
@@ -251,10 +252,21 @@ for i in range(1, ts):
 
 time = np.arange(0, ts * dt, dt)
 y = np.linspace( 0., L, 256 )
-v = np.linspace( -0.02, 0.02, 100 )
+v = np.linspace( -0.025, 0.025, 100 )
+
+fig = plt.figure( figsize = (10, 8) )
+plt.subplots_adjust( left = 0.1, right = 0.9, bottom = 0.1, top = 0.95 )
+
+ax = plt.subplot( 1, 1, 1 )
 
 plt.contourf( time, y, np.swapaxes( psi_1, 0, 1), v, cmap = plt.cm.RdBu_r )
+cbar = plt.colorbar(ticks = [-0.02, -0.01, 0., 0.01, 0.02])
+cbar.set_label(r"$\psi_1$", fontsize = 20 )
 
-plt.colorbar()
+plt.xlabel("Time")
+plt.ylabel("Y")
+ax.tick_params(axis = 'x', which = 'both', direction = 'out', top = 'off')
+ax.tick_params(axis = 'y', which = 'both', direction = 'out', right = 'off')
+
 plt.show()
 
