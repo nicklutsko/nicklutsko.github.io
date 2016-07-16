@@ -2,6 +2,7 @@
 layout: post
 title: "Carbon Inertia"
 date: 2016-06-28
+use_math: true
 ---
 
 <p>People often talk about how we’re locked in a certain amount of warming: even if we were to immediately stop emitting CO<sub>2</sub>, the planet would keep warming up, for a little while at least. This is because the climate system responds to perturbations on several different time-scales, some of them quite long. In the absence of human intervention, it will also take a long time for atmospheric CO<sub>2</sub> levels to return to pre-industrial values through geological processes. These are arguments for reducing emissions as quickly as possible, but a related question I haven’t seen much discussion of is: how many emissions are we locked in for?</p>
