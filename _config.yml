@@ -1,4 +1,4 @@
 name: Nick Lutsko
-markdown: maruku
+markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
