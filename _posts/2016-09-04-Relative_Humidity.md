@@ -2,6 +2,7 @@
 layout: post
 title: "Relative Humidity in the Tropics"
 date: 2016-09-04
+use_math: true
 ---
 
 <p>Many of our predictions for how climate will change under higher CO<sub>2</sub> levels assume that relative humidity stays roughly constant in the tropics. Just one example of the power of this assumption is that it can be used to significantly reduce the spread between model estimates of some of the feedbacks controlling Earth's climate sensitivity <a href="http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-15-0352.1">(Caldwell et al, 2016)</a>. There are a lot of different justifications for the fixed relatively humidity assumption. Recently David Romps laid out an analytical model for relative humidity in the tropics, which can then be used to explain why relative humidity varies little under global warming. I'm going to try to summarize it here.</p>
