@@ -29,9 +29,9 @@ where $L$ is the latent heat of vaporization, $\gamma$ is the temperature lapse 
 
 <p>One of the things Romps is interested in explaining is the "C" shape of vertical relative humidity profiles: the relative humidity is largest close to the surface and in the upper troposphere, with a maximum of about 90\%, and then there is a minimum of around 30\% in the mid-troposphere. This can be explained by thinking about how $s$ and $d$ change vertically.</p>
 
-<p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so the first term dominates and $s$ increases, while $d$ is roughly constant. So the relative humidity will decrease. In the upper troposphere the first term of equation 2 dominates, and $s$ goes to roughly 1km^-1. However, as discussed above, in the anvil $d$ is very large, so the relative humidity gets large again.</p>
+<p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so the first term dominates and $s$ increases, while $d$ is roughly constant. So the relative humidity will decrease. In the upper troposphere the first term of equation 2 dominates, and $s$ goes to roughly 1km$^{-1}$. However, as discussed above, in the anvil $d$ is very large, so the relative humidity gets large again.</p>
 
-<p>In the lower- to mid- troposphere $s$ ~ 0.3km^-1 and the minimum and maximum values of the relative humidity are set by the value of d. Using the values above, this sets the limit of relative humidity at $0.2 / (0.2 + 0.3)  = 0.4$ and $2 / (2 + 0.3)$ = 0.9.</p>
+<p>In the lower- to mid- troposphere $s$ ~ 0.3km$^{-1}$ and the minimum and maximum values of the relative humidity are set by the value of d. Using the values above, this sets the limit of relative humidity at $0.2 / (0.2 + 0.3)  = 0.4$ and $2 / (2 + 0.3)$ = 0.9.</p>
 
 
 <h2>Response to Global Warming</h2>
