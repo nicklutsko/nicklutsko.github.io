@@ -21,9 +21,9 @@ where $L$ is the latent heat of vaporization, $\Gamma$ is the temperature lapse 
 
 <p>There's some subtlety to this. For instance, how $s$ varies with temperature depends on how large the temperature change is. More importantly, since moisture is present $\Gamma$ is actually proportional to $s$. Romps eventually gets an equation for $\Gamma$ which doesn't depend on $s$, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, $\Gamma$ will be larger for drier air, so $s$ will increase $($and the relative humidity will decrease!$)$.</p>
 
-<p>$d$ is harder to get a handle on. At the height of the anvil, where the cloud spreads out, $d$ must get very large. So at this height $d$ overwhelms $s$ and the relative humidity is large. But apart from this we don't can't say much about $d$, and so the theory isn't actually closed. Simulations and observations suggest that typical values are between ~200m$^{-1}$ and 2km$^{-1}$ through most of the troposphere, so this is what we have to go on.</p> 
+<p>$d$ is harder to get a handle on. At the height of the anvil, where the cloud spreads out, $d$ must get very large. So at this height we expect $d$ to overwhelm $s$ and the relative humidity to be large. But apart from this we don't can't say much about $d$, and so the theory isn't actually closed. Simulations and observations suggest that typical values are between ~200m$^{-1}$ and 2km$^{-1}$ through most of the troposphere, so this is what we have to go on.</p> 
 
-<p>Another caveat is that to get equation 1 we have to assume that condensates rain out immediately. If they don't then they could be re-evaporated, which clearly affects the humidity. This can incorporated into the theory using a parameter $\alpha$, which is the fraction of condensate that is re-evaporated. If $\alpha = 1$ the relative humidity goes to 1 and if it is zero then we get equation 1 again. Romps shows that for intermediate values the theory is unchanged, qualitatively at least.</p>
+<p>Another caveat is that to get equation 1 we have to assume that condensates rain out immediately. If they don't then they could be re-evaporated, which clearly affects the humidity. This can incorporated into the theory using a parameter $\alpha$, which is the fraction of condensate that is re-evaporated. If $\alpha = 1$ the relative humidity goes to 1 and if it is zero then we get equation 1 again. Romps shows that the theory is qualitatively unchanged by including $\alpha$.</p>
 
 <h2>Typical Vertical Profiles</h2>
 
@@ -41,9 +41,9 @@ where $L$ is the latent heat of vaporization, $\Gamma$ is the temperature lapse 
 <p>One way of explaining this is that, assuming entrainment and detrainment are fixed, the relative humidity is just a function of temperature. Increasing the surface temperature then "exposes" more of the high temperature part of the temperature-RH curve. Since the curve is relatively flat near 300K, relative humidity doesn't change much near the surface, while the minimum relative humidity will just move higher up in the atmosphere, though its value will stay constant.</p> 
 
 
-<h2>Caveat: Entrainment and Detrainment Rates</h2>
+<h2>Entrainment and Detrainment Rates</h2>
 
-<p>There are a lot of really neat ideas in this paper, but the big open questions are entrainment and detrainment. We don't really have first-principle explanations for these, except in the anvil, so we have to rely on estimates and we also have to assume that they are relatively unchanged under global warming. This seems to be one of the main outstanding issues in convection, and there don't seem to be obvious ways of developing deeper theories for them. Maybe "emergent constraint"-type thinking would be useful?</p>
+<p>There are a lot of really neat ideas in this paper, but the big open questions are the entrainment and detrainment rates. We don't really have first-principle explanations for these, so we have to rely on observational/modelling estimates, and we also have to assume that they are relatively unchanged under global warming. This seems to be one of the main outstanding issues in convection, and there don't seem to be obvious ways of developing deeper theories for them. Maybe "emergent constraint"-type thinking would be useful?</p>
 
 
 
