@@ -19,7 +19,7 @@ s = \frac{L\Gamma}{R_vT^2} - \frac{g}{R_dT}
 $$
 where $L$ is the latent heat of vaporization, $\Gamma$ is the temperature lapse rate, $R_v$ is the specific gas constant of moist air, $T$ is temperature, $g$ is gravitational acceleration and $R_d$ is the specific gas constant of dry air.</p> 
 
-<p>There's some subtlety to this. For instance, how $s$ varies with temperature depends on how large the temperature change is. More importantly, since moisture is present $\Gamma$ is actually proportional to $s$. Romps eventually gets an equation for $\Gamma$ which doesn't depend on $s$, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, $\Gamma$ will get larger the drier the air is, so $s$ will increase $($and the relative humidity will decrease!$)$.</p>
+<p>There's some subtlety to this. For instance, how $s$ varies with temperature depends on how large the temperature change is. More importantly, since moisture is present $\Gamma$ is actually proportional to $s$. Romps eventually gets an equation for $\Gamma$ which doesn't depend on $s$, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, $\Gamma$ will be larger for drier air, so $s$ will increase $($and the relative humidity will decrease!$)$.</p>
 
 <p>$d$ is harder to get a handle on. At the height of the anvil, where the cloud spreads out, $d$ clearly gets very large, overwhelming s, and so the relative humidity will be large in the upper troposphere. Apart from this, we don't have much of a theory for $d$ and so the theory isn't actually closed. Simulations and observations suggest that typical values are between ~200m$^{-1}$ and 2km$^{-1}$ through most of the troposphere.</p> 
 
