@@ -17,7 +17,7 @@ So what sets $s$ and d? $s$ is actually straightforward to derive using the Clau
 $$
 s = \frac{L\gamma}{R_vT^2} - \frac{g}{R_dT}
 $$
-where L is the latent heat of vaporization, gamma is the temperature lapse rate, R_v is the specific gas constant of moist air, T is temperature, g is gravitational acceleration and R_d is the specific gas constant of dry air.</p> 
+where $L$ is the latent heat of vaporization, $\gamma$ is the temperature lapse rate, $R_v$ is the specific gas constant of moist air, $T$ is temperature, $g$ is gravitational acceleration and $R_d$ is the specific gas constant of dry air.</p> 
 
 <p>There's some subtlety to this. How $s$ varies with temperature depends on how large the temperature change is. But more importantly, since moisture is present \gamma is actually proportional to s. Romps eventually gets an equation for \gamma which doesn't depend on s, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, \gamma will get larger the drier the air is, so $s$ will increase (and the relative humidity will decrease!).</p>
 
