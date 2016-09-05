@@ -13,7 +13,7 @@ use_math: true
 $$
 RH = \frac{d}{d + s}.
 $$
-So what sets $s$ and d? $s$ is actually straightforward to derive using the Clausius-Clapeyron equation and hydrostatic balance, to get
+So what sets $s$ and d? $s$ is actually straightforward to derive using the Clausius-Clapeyron equation and hydrostatic balance, getting
 $$
 s = \frac{L\Gamma}{R_vT^2} - \frac{g}{R_dT}
 $$
