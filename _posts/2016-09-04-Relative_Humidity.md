@@ -19,11 +19,11 @@ s = \frac{L\gamma}{R_vT^2} - \frac{g}{R_dT}
 $$
 where $L$ is the latent heat of vaporization, $\gamma$ is the temperature lapse rate, $R_v$ is the specific gas constant of moist air, $T$ is temperature, $g$ is gravitational acceleration and $R_d$ is the specific gas constant of dry air.</p> 
 
-<p>There's some subtlety to this. How $s$ varies with temperature depends on how large the temperature change is. But more importantly, since moisture is present \gamma is actually proportional to s. Romps eventually gets an equation for \gamma which doesn't depend on s, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, \gamma will get larger the drier the air is, so $s$ will increase (and the relative humidity will decrease!).</p>
+<p>There's some subtlety to this. How $s$ varies with temperature depends on how large the temperature change is. But more importantly, since moisture is present \gamma is actually proportional to s. Romps eventually gets an equation for \gamma which doesn't depend on s, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, \gamma will get larger the drier the air is, so $s$ will increase $($and the relative humidity will decrease!$)$.</p>
 
 <p>$d$ is harder to get a handle on. Simulations and observations suggest that typical values are between \sim200m$^{-1}$ and 2km$^{-1}$ through most of the troposphere. At the height of the anvil, where the cloud spreads out, $d$ clearly gets very large, overwhelming s, and so the relative humidity will be large in the upper troposphere. Apart from this, we don't have much of a theory for $d$ and so the theory isn't actually closed.</p> 
 
-<p>A caveat is that to get equation 1 we have to assume that condensates rain out immediately. If they don't then they could be re-evaporated, which clearly affects the humidity. If we define \alpha as the fraction of condensate that is re-evaporated, then if \alpha = 1 the relative humidity goes to 1 and if it is zero then we get equation 1 again. Romps suggests that \alpha will generally not affect the results, qualitatively at least.</p>
+<p>A caveat is that to get equation 1 we have to assume that condensates rain out immediately. If they don't then they could be re-evaporated, which clearly affects the humidity. If we define $\alpha$ as the fraction of condensate that is re-evaporated, then if $\alpha = 1$ the relative humidity goes to 1 and if it is zero then we get equation 1 again. Romps suggests that $\alpha$ will generally not affect the results, qualitatively at least.</p>
 
 <h2>Typical Vertical Profiles</h2>
 
@@ -31,12 +31,12 @@ where $L$ is the latent heat of vaporization, $\gamma$ is the temperature lapse 
 
 <p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so the first term dominates and $s$ increases, while $d$ is roughly constant. So the relative humidity will decrease. In the upper troposphere the first term of equation 2 dominates, and $s$ goes to roughly 1km^-1. However, as discussed above, in the anvil $d$ is very large, so the relative humidity gets large again.</p>
 
-<p>In the lower- to mid- troposphere $s$ ~ 0.3km^-1 and the minimum and maximum values of the relative humidity are set by the value of d. Using the values above, this sets the limit of relative humidity at 0.2 / (0.2 + 0.3)  = 0.4 and 2 / (2 + 0.3) = 0.9.</p>
+<p>In the lower- to mid- troposphere $s$ ~ 0.3km^-1 and the minimum and maximum values of the relative humidity are set by the value of d. Using the values above, this sets the limit of relative humidity at $0.2 / (0.2 + 0.3)  = 0.4$ and $2 / (2 + 0.3)$ = 0.9.</p>
 
 
 <h2>Response to Global Warming</h2>
 
-<p>Using typical values, Romps estimates that relative humidity would increase by 0.003 - 0.008 per degree warming at 300K (at 1 bar). If RH = 80% at 300K then at 301K it will be 80.3-80.8%. So this is encouraging for the theory.</p>
+<p>Using typical values, Romps estimates that relative humidity would increase by 0.003 - 0.008 per degree warming at 300K $($at 1 bar$)$. If RH = 80% at 300K then at 301K it will be 80.3-80.8%. So this is encouraging for the theory.</p>
 
 <p>One way of explaining this is that, assuming entrainment and detrainment are fixed, the relative humidity is just a function of temperature. Increasing the surface temperature then "exposes" more of the high temperature part of the temperature-RH curve. Since the curve is relatively flat near 300K, relative humidity doesn't change much near the surface, while the minimum relative humidity will just move higher up in the atmosphere, though its value will stay constant.</p> 
 
