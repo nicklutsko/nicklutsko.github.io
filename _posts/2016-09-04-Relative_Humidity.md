@@ -9,7 +9,7 @@ use_math: true
 
 <h2>Theory</h2>
 
-<p>The basic picture is of relative humidity being determined by a battle between detraining air from convective plumes, which tries to moisten the environment, and subsiding air, which dries out the environment. Romps defines an inverse length-scale for each of these; call them $d$ and $s$, with units 1 / length. $1 / d$ is the distance away from a convecting plume over which detraining air moistens the environment, while $1 / s$ is the water vapor lapse rate $($water vapor will decrease with altitude$)$. After some algebra, the relative humidity can be approximated as
+<p>The basic picture is of relative humidity being determined by a battle between detraining air from convective plumes, which tries to moisten the environment, and subsiding air, which dries out the environment. Romps defines an inverse length-scale for each of these; call them $d$ and $s$, with units 1/length. $1 / d$ is the distance away from a convecting plume over which detraining air moistens the environment, while $1 / s$ is the water vapor lapse rate $($water vapor decreases with altitude$)$. After some algebra, the relative humidity can be approximated as
 $$
 RH = \frac{d}{d + s}.
 $$
