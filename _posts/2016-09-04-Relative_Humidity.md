@@ -27,18 +27,18 @@ where $L$ is the latent heat of vaporization, $\Gamma$ is the temperature lapse 
 
 <h2>Typical Vertical Profiles</h2>
 
-<p>One of the things Romps is interested in explaining is the "C" shape of vertical relative humidity profiles: the relative humidity is largest close to the surface and in the upper troposphere, with a maximum of about 90%, and then there is a minimum of around 30% in the mid-troposphere. This can be explained by thinking about how $s$ and $d$ change vertically.</p>
+<p>One of the things Romps is interested in explaining is the "C" shape of vertical relative humidity profiles: the relative humidity is largest close to the surface and in the upper troposphere, with a maximum of about 90%, and then there is a minimum of around 30% in the mid-troposphere. This shape comes about because of how $s$ and $d$ change vertically.</p>
 
-<p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so the first term dominates and $s$ increases, while $d$ is roughly constant. So the relative humidity will decrease. In the upper troposphere the first term of equation 2 dominates, and $s$ goes to roughly 1km$^{-1}$. However, as discussed above, in the anvil $d$ is very large, so the relative humidity gets large again.</p>
+<p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so $s$ increases and, assuming that $d$ is roughly constant the relative humidity will decrease. But eventually $s$ stablizes at about 1km$^{-1}$, because $\Gamma$ is just the dry adiabatic lapse rate. At the same time, $d$ starts to increase close to the anvil and so the relative humidity gets large again in the upper troposphere. This gives us the C shape.</p>
 
-<p>In the lower- to mid- troposphere $s$ ~ 0.3km$^{-1}$ and the minimum and maximum values of the relative humidity are set by the value of d. Using the values above, this sets the limit of relative humidity at $0.2 / (0.2 + 0.3)  = 0.4$ and $2 / (2 + 0.3)$ = 0.9.</p>
+<p>We can also calculate what we expect the maximum and minimum relative humidity to be. Taking $s$ ~ 0.3km$^{-1}$ in the lower troposphere and using the values of $d$ from before, we get $0.2 / (0.2 + 0.3)  = 0.4$ and $2 / (2 + 0.3)$ = 0.9, close to what is observed.</p>
 
 
 <h2>Response to Global Warming</h2>
 
-<p>Using typical values, Romps estimates that relative humidity would increase by 0.003 - 0.008 per degree warming at 300K $($at 1 bar$)$. If RH = 80% at 300K then at 301K it will be 80.3-80.8%. So this is encouraging for the theory.</p>
+<p>Clearly, we hope that this theory predicts a small change in relative humidity under a global warming scenario. Using typical values, Romps estimates that relative humidity would increase by 0.003 - 0.008 per degree warming at 300K $($at 1 bar$)$: if RH = 80% at 300K then at 301K it will be 80.3-80.8%. So this is encouraging for the theory.</p>
 
-<p>One way of explaining this is that, assuming entrainment and detrainment are fixed, the relative humidity is just a function of temperature. Increasing the surface temperature then "exposes" more of the high temperature part of the temperature-RH curve. Since the curve is relatively flat near 300K, relative humidity doesn't change much near the surface, while the minimum relative humidity will just move higher up in the atmosphere, though its value will stay constant.</p> 
+<p>An intuitive way of thinking about this is that, assuming entrainment and detrainment are fixed, the relative humidity is just a function of temperature, so that there is an invariant temperature-RH curve. Increasing the surface temperature then "exposes" more of the high temperature part of this temperature-RH curve. Since the curve is relatively flat near 300K, relative humidity doesn't change much near the surface. Similarly, the minimum relative humidity in the C just moves higher up in the atmosphere and its value will stay constant.</p> 
 
 
 <h2>Entrainment and Detrainment Rates</h2>
