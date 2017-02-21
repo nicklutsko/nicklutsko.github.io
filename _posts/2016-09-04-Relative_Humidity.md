@@ -13,7 +13,7 @@ use_math: true
 $$
 RH = \frac{d}{d + s}.
 $$
-So what sets $s$ and d? $s$ is actually straightforward to derive using the Clausius-Clapeyron equation and hydrostatic balance, getting
+So what sets $s$ and d? $s$ is actually straightforward to derive using the Clausius-Clapeyron equation and hydrostatic balance, giving
 $$
 s = \frac{L\Gamma}{R_vT^2} - \frac{g}{R_dT}
 $$
@@ -21,15 +21,15 @@ where $L$ is the latent heat of vaporization, $\Gamma$ is the temperature lapse 
 
 <p>There's some subtlety to this. For instance, how $s$ varies with temperature depends on how large the temperature change is. More importantly, since moisture is present $\Gamma$ is actually proportional to $s$. Romps eventually gets an equation for $\Gamma$ which doesn't depend on $s$, but it's quite messy and depends on the entrainment and detrainment rates. Just thinking intuitively though, $\Gamma$ will be larger for drier air, so $s$ will increase and the relative humidity will decrease.</p>
 
-<p>$d$ is harder to get a handle on. At the height of the anvil, where the cloud spreads out, $d$ must get very large. So at this height we expect $d$ to overwhelm $s$ and the relative humidity to be large. But apart from this we don't can't say much about $d$, and so the theory isn't actually closed. Simulations and observations suggest that typical values are between ~200m$^{-1}$ and 2km$^{-1}$ through most of the troposphere.</p> 
+<p>$d$ is harder to get a handle on. At the height of the anvil, where the cloud spreads out, $d$ must get very large. So at this height we expect $d$ to overwhelm $s$ and the relative humidity to be large. But apart from this we can't say much about $d$ and so the theory isn't actually closed. Simulations and observations suggest that typical values are between ~200m$^{-1}$ and 2km$^{-1}$ through most of the troposphere.</p> 
 
-<p>Another caveat is that to get equation 1 we have to assume that condensates rain out immediately. If they don't then they could be re-evaporated, which clearly affects the humidity. This can incorporated into the theory using a parameter $\alpha$, which is the fraction of condensate that is re-evaporated. If $\alpha = 1$ the relative humidity goes to 1 and if it is zero then we get the first equation again. According to Romps the theory is qualitatively unchanged by including $\alpha$.</p>
+<p>Another caveat is that we've assumed that condensates rain out immediately. If they don't then they could be re-evaporated, which clearly affects the humidity. This can be incorporated into the theory using a parameter $\alpha$, which is the fraction of condensate that is re-evaporated. If $\alpha = 1$ the relative humidity goes to 1 and if it is zero then we get the first equation again. Romps shows that the theory is qualitatively unchanged by including $\alpha$.</p>
 
 <h2>Typical Vertical Profiles</h2>
 
-<p>One of the things Romps is interested in explaining is the "C" shape of vertical relative humidity profiles: the relative humidity is largest close to the surface and in the upper troposphere, with a maximum of about 90%, and then there is a minimum of around 30% in the mid-troposphere. This shape comes about because of how $s$ and $d$ change vertically.</p>
+<p>One of the things Romps is interested in explaining is the "C" shape of vertical relative humidity profiles: the relative humidity is largest close to the surface and in the upper troposphere, with a maximum of about 90%, and there is a minimum of around 30% in the mid-troposphere. This shape comes about because of how $s$ and $d$ change with altitude.</p>
 
-<p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so $s$ increases and, assuming that $d$ is roughly constant the relative humidity will decrease. But eventually $s$ stablizes at about 1km$^{-1}$, because $\Gamma$ is just the dry adiabatic lapse rate. At the same time, $d$ starts to increase close to the anvil and so the relative humidity gets large again in the upper troposphere. This gives us the C shape.</p>
+<p>When going from the surface to the mid-troposphere the lapse rate increases and the change in temperature is large, so $s$ increases and, assuming that $d$ is roughly constant, the relative humidity will decrease. But eventually $s$ stablizes at about 1km$^{-1}$, because $\Gamma$ is just the dry adiabatic lapse rate. At the same time, $d$ starts to increase close to the anvil and so the relative humidity gets large again in the upper troposphere. This gives us the C shape.</p>
 
 <p>We can also calculate what we expect the maximum and minimum relative humidity to be. Taking $s$ ~ 0.3km$^{-1}$ in the lower troposphere and using the values of $d$ from before, we get $0.2 / (0.2 + 0.3)  = 0.4$ and $2 / (2 + 0.3)$ = 0.9, close to what is observed.</p>
 
@@ -38,7 +38,7 @@ where $L$ is the latent heat of vaporization, $\Gamma$ is the temperature lapse 
 
 <p>Clearly, we hope that this theory predicts a small change in relative humidity under a global warming scenario. Using typical values, Romps estimates that relative humidity would increase by 0.003 - 0.008 per degree warming at 300K $($at 1 bar$)$: if RH = 80% at 300K then at 301K it will be 80.3-80.8%. So this is encouraging for the theory.</p>
 
-<p>An intuitive way of thinking about this is that, assuming entrainment and detrainment are fixed, the relative humidity is just a function of temperature, so that there is an invariant temperature-RH curve. Increasing the surface temperature then "exposes" more of the high temperature part of this temperature-RH curve. Since the curve is relatively flat near 300K, relative humidity doesn't change much near the surface. Similarly, the minimum relative humidity in the C just moves higher up in the atmosphere and its value will stay constant.</p> 
+<p>An intuitive way of thinking about this is that, assuming entrainment and detrainment are fixed, the relative humidity is just a function of temperature, so that there is an invariant temperature-RH curve. Increasing the surface temperature then "exposes" more of the high temperature part of this temperature-RH curve. Since the curve happens to be relatively flat near 300K, relative humidity doesn't change much near the surface. Similarly, the minimum relative humidity in the C just moves higher up in the atmosphere and its value will stay constant.</p> 
 
 
 <h2>Entrainment and Detrainment Rates</h2>
