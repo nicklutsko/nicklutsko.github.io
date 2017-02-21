@@ -13,7 +13,7 @@ use_math: true
 
 <p>Calculating our carbon inertia is hard. It would be relatively easy if we had perfect integrated assessment models and could explore different possibilities. But to give an order of magnitude estimate, let’s first take the "increasing wind capacity by a factor of ten" wedge. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1530-9290.2012.00464.x/abstract">This estimate</a> gives the mean lifecycle emissions of wind-turbines as about 12 g CO<sub>2</sub>-eq / kWh. We need to go from a capacity of about <a href="http://cmi.princeton.edu/wedges/wind_power.php">60 TWh to about 6000 TWh</a>. The total emissions for this increase in capacity is then roughly 
 $$
-5940 \times 10^{12} \times 12 \mathbin{/} 10^3 \mathbin{/} 10^6 = 71.3 
+5940 \times 10^{12} \times 12 \mathbin{/} 10^3 \mathbin{/} 10^6 = 71.3 \text{Mtons CO<sub>2</sub>-eq}.
 $$ 
 Given that annual global CO<sub>2</sub> emissions are about 10 Gtons, this is encouraging.</p>
 
