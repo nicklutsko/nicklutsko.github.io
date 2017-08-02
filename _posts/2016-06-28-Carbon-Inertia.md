@@ -11,9 +11,9 @@ use_math: true
 
 <p>In the worst case, we would have to burn all the available fossil fuels to transform to a carbon neutral society. In a better scenario it would be possible to go through with this transformation while leaving a significant amount of carbon in the ground, but this would require the process to be highly optimized. In the best case, of course, we would be able to overhaul our energy infrastructure without emitting much CO<sub>2</sub>.</p>
 
-<p>Calculating our carbon inertia is hard. It would be relatively easy if we had perfect integrated assessment models and could explore different possibilities. But to give an order of magnitude estimate, let’s first take the "increasing wind capacity by a factor of ten" wedge. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1530-9290.2012.00464.x/abstract">This estimate</a> gives the mean lifecycle emissions of wind-turbines as about 12 g CO<sub>2</sub>-eq / kWh. We need to go from a capacity of about <a href="http://cmi.princeton.edu/wedges/wind_power.php">60 TWh to about 6000 TWh</a>. The total emissions for this increase in capacity is then roughly 
+<p>Calculating society's carbon inertia is hard. It would be relatively easy if we had perfect integrated assessment models and could explore different possibilities. But to give an order of magnitude estimate, let’s first take the "increasing wind capacity by a factor of ten" wedge. <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1530-9290.2012.00464.x/abstract">This estimate</a> gives the mean lifecycle emissions of wind-turbines as about 12 g CO<sub>2</sub>-eq / kWh. We need to go from a capacity of about <a href="http://cmi.princeton.edu/wedges/wind_power.php">60 TWh to about 6000 TWh</a>. The total emissions for this increase in capacity is then roughly 
 $$
-5940 \times 10^{12} \times 12 \mathbin{/} 10^3 \mathbin{/} 10^6 = 71.3 Mtons CO_2-eq.
+5940 \times 10^{12} \times 12 \mathbin{/} 10^3 \mathbin{/} 10^6 = 71.3 $Mtons CO_2-eq$.
 $$ 
 Given that annual global CO<sub>2</sub> emissions are about 10 Gtons, this is encouraging.</p>
 
