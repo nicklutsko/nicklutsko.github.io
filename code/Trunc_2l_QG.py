@@ -270,5 +270,8 @@ ax.tick_params(axis = 'y', which = 'both', direction = 'out', right = 'off')
 
 plt.xlim([100., 250.])
 
+ax.patch.set_facecolor('k')
+ax.patch.set_alpha(0.25)
+
 plt.show()
 
