@@ -11,9 +11,9 @@ p {
 }
   </style>  
 
-<p><font size=4>We want to reduce emissions but we also want to continue growing, or at least maintaining, the world economy. The two policy options for reducing emissions that are most likely to be implemented are a carbon tax or a cap and trade scheme. Ignoring moral issues of fairness and focusing only on the two goals of reducing emissions and not damaging the world economy, which of these is the better option?</font></p>
+<p>We want to reduce emissions but we also want to continue growing, or at least maintaining, the world economy. The two policy options for reducing emissions that are most likely to be implemented are a carbon tax or a cap and trade scheme. Ignoring moral issues of fairness and focusing only on the two goals of reducing emissions and not damaging the world economy, which of these is the better option?</p>
 
-<h3>Externalities</h3>
+<h2>Externalities</h2>
 
 <p>From an economist’s perspective, climate change is an example of a <i>negative externality</i>. Externalities seem to have been first discussed in Arthur Pigou’s 1920 book <i>The Economics of Welfare</i>, and can be thought of as the spillover from an activity. An example of a negative externality is a chemical plant that releases its wastewater into a nearby river. There can also be positive externalities: if you have work done on your house to make it more attractive you increase the value of your neighbours’ houses as well as your own. Either way, an externality affects people not directly participating in the activity, like the people downstream of the chemical plant.</p>
 
