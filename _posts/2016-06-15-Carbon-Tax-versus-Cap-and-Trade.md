@@ -11,7 +11,7 @@ p {
 }
   </style>  
 
-<p>We want to reduce emissions but we also want to continue growing, or at least maintaining, the world economy. The two policy options for reducing emissions that are most likely to be implemented are a carbon tax or a cap and trade scheme. Ignoring moral issues of fairness and focusing only on the two goals of reducing emissions and not damaging the world economy, which of these is the better option?</p>
+<p><font size=4>We want to reduce emissions but we also want to continue growing, or at least maintaining, the world economy. The two policy options for reducing emissions that are most likely to be implemented are a carbon tax or a cap and trade scheme. Ignoring moral issues of fairness and focusing only on the two goals of reducing emissions and not damaging the world economy, which of these is the better option?</font></p>
 
 <h3>Externalities</h3>
 
