@@ -4,6 +4,13 @@ title: "Carbon Tax versus Cap and Trade"
 date: 2016-06-15
 ---
 
+  <style>  
+
+p {
+   font-size: 4;
+}
+  </style>  
+
 <p>We want to reduce emissions but we also want to continue growing, or at least maintaining, the world economy. The two policy options for reducing emissions that are most likely to be implemented are a carbon tax or a cap and trade scheme. Ignoring moral issues of fairness and focusing only on the two goals of reducing emissions and not damaging the world economy, which of these is the better option?</p>
 
 <h2>Externalities</h2>
