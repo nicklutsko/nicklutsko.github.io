@@ -26,6 +26,8 @@ h1 {
 p {
     font-size: 5;
     color: #333;
+    text-align: justify;
+    text-justify: inter-word;
 }
 footer {
     border-top: 1px solid #d5d5d5;
