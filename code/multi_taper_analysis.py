@@ -70,7 +70,6 @@ def multi_taper_ps( x, nfft, dt = 1, nw = 3 ):
 	for i in range( k ):
 		fx = np.fft.fft( E[:, i] * x[:], nfft)
    		Pk[i, :] = abs( np.fft.fft( E[:, i] * x[:], nfft) ) ** 2
-
 	#else  #compute DFT on nfft evenly spaced samples around unit circle:
    	#	Pk=abs(czt(E(:,1:k).*x(:,ones(1,k)),nfft)).^2; 
 	####python doesn't have czt function. Can find scripts online, but for now just leave it
