@@ -121,6 +121,7 @@ def multi_taper_coh( x, y, dt = 1, nw = 8, qbias = 0, confn = 0 ):
 	   s       - frequency
 	   c       - coherence
 	   ph      - phase
+	   a       - regression co-efficients
 	   ci      - 95% coherence confidence level
 	   phi     - 95% phase confidence interval, bias correct (add and subtract phi from ph).
 
@@ -187,6 +188,8 @@ def multi_taper_coh( x, y, dt = 1, nw = 8, qbias = 0, confn = 0 ):
 	Cxy = np.conj( Cxy ) 
 	ph = np.angle( Cxy ) * 180. / np.pi
 	c = abs( Cxy ) / np.sqrt( np.sum( abs( fkx ) ** 2, axis = 0) * np.sum( abs( fky ) ** 2, axis = 0 ) )
+	#Compute regression co-efficients
+	a = a[1:(nx + 1) / 2 + 1]
 
 	#cut records
 	c = c[1:(nx + 1) / 2 + 1]
@@ -196,7 +199,7 @@ def multi_taper_coh( x, y, dt = 1, nw = 8, qbias = 0, confn = 0 ):
 	phi = np.zeros( len(pls) ) 
 	ci = np.zeros( len( c ) )
 
-	return s, c, ph, ci, phi
+	return s, c, ph, a, ci, phi
 
 
 
