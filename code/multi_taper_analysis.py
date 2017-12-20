@@ -1,3 +1,10 @@
+""""
+Nicholas Lutsko -- EAPS department, MIT
+
+Two functions to compute the power spectrum of a signal and to do a coherence analysis of two time-series, using the multi-taper method. These are based on Matlab functions available from Peter Huybers' website. The adaptive weights function is needed by the two main functions. 
+
+Last updated -- December 19th 2017
+"""
 import numpy as np
 import spectrum
 
