@@ -10,7 +10,7 @@ date: 2018-03-03
 
 <p>This <i>rebound effect</i> is the key to the Jevons paradox. Conventional economic thinking assumes that reducing the cost of something increases the demand for it. If the demand increases rapidly with a reduction in price -- if the demand is "elastic" -- then an increase in efficiency increases the net consumption and we have the Jevons paradox. On the other hand if the demand doesn't increase much even with a big reduction in price (the demand is inelastic) then consumption decreases. There's also an indirect effect, since savings in one area (bulbs) can be used to pay for something else (more air conditioning, for instance).</p>
 
-<p>This is a microeconomic argument, focusing on individual consumers. There's also a macroeconomic argument: more efficient energy use is good for the economy, stimulating resource consumption.</p>
+<p>This is a microeconomic argument, focusing on individual consumers. There's also a macroeconomic argument: more efficient energy use is good for the economy, stimulating more resource consumption.</p>
 
 <p>So are technology-driven improvements in efficiency ultimately bad for the environment? It all depends on the size of the rebound effect, which is extremely difficult to measure and so there are people on both sides of the argument (<a href="https://www.sciencedirect.com/science/article/pii/S0301421508007428">large rebound effect</a>, <a href="http://environment.yale.edu/gillingham/GillinghamRapsonWagner_Rebound.pdf">small rebound effect</a>). When I think about me and the people around me, demand seems to be pretty inelastic, probably because people are irrational: they replace an inefficient bulb with one efficient bulb, not two. But this is obviously a very small sample size.</p>
 
