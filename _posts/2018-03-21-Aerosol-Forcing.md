@@ -11,9 +11,9 @@ use_math: true
 
 <p>Another reason to worry about the historical aerosol forcing is that climate models are often tuned by comparing with the global-mean surface temperature record from the 20th century. As part of this, models have to be given estimates of how aerosol and greenhouse gas levels varied during this time, making the final parameter settings in models sensitive to our guesses of the historical aerosol forcing.</p>
 
-<p>Why is the aerosol forcing poorly constrained? Because of the classic climate issues: we don't have long enough historical records of aerosol emissions, and even if we did, aerosol processes take place on scales that are much too small to resolve in climate models so we have to parameterize them. Another issue is that the atmosphere has background levels of aerosols $($dust, sea-salt, etc.$)$, and we don't know what the effect of aerosols in a "clean" (human-free) atmosphere is.</p>
+<p>Why is the aerosol forcing poorly constrained? Because of the classic climate issues: we don't have long enough historical records of aerosol emissions, and even if we did, aerosol processes take place on scales that are much too small to resolve in climate models, so we have to parameterize them. Another issue is that there are natural aerosols $($dust, sea-salt, etc.$)$, so even a "clean" $($human-free$)$ atmosphere has an aerosol forcing, but we don't know how big this background forcing is.</p>
 
-<p>In <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00656.1">a paper from 2015</a>, Bjorn Stevens tried to get at the aerosol forcing indirectly, using several different approaches. I've been intrigued by this paper: tighter constrains on the aerosol forcing would be a big step forward, so this is a summary of what Stevens did.</p>
+<p>In <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00656.1">a study from 2015</a>, Bjorn Stevens tried to get at the historical aerosol forcing indirectly, using several different approaches. This is an intriguing paper: tighter constrains on the aerosol forcing would be a big step forward, so this is a summary of what Stevens did.</p>
 
 
 <h3>A Simple Model for Aerosol Forcing</h3>
