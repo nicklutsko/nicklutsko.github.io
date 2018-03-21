@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Carbon Tax versus cap-and-trade"
+title: "Carbon Tax versus Cap-and-Trade"
 date: 2016-06-15
 ---
 
