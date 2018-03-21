@@ -18,7 +18,7 @@ use_math: true
 
 <h3>A Simple Model for Aerosol Forcing</h3>
 
-<p>The first approach Stevens takes is to develop a simple model for the global aersol forcing $F$, based on a paper by Carlson et al. \(1992\). The model is based on the idea that $F$ can be parameterized using the emission of sulfur dioxide \(SO$_2$\), which is useful because we have estimates of SO$_2$ emissions going back to 1750. This leads to a very simple equation for $F$, which includes a linear term and a logarithmic term:
+<p>The first approach Stevens takes is to develop a simple model for the global aersol forcing $F$, based on a paper by <a href="http://science.sciencemag.org/content/255/5043/423">Carlson et al. $($1992$)$</a>. The model parameterizes $F$ using the emission of sulfur dioxide $($SO$_2)$, which is useful because we have estimates of SO$_2$ emissions going back to 1750, and consists of a linear term and a logarithmic term:
 $$
 F = -\alpha SO_2 - \beta ln\left(\frac{SO_2}{\overline{SO_2}} + 1\right),
 $$ 
