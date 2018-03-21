@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "The Importance of Knowing the Historical Aerosol Forcing"
+title: "Historical Aerosol Forcing"
 date: 2018-03-21
 use_math: true
 ---
 
-<p>Earth's climate over the past 150 or so years has been strongly affected by humans. The most well known, and important, human perturbation is the increased concentration of CO$_2$ in the atmosphere, which is responsible for the global warming we have experienced, and will continue to experience in the future. But humans have also emitted large amounts of aerosols into the atmosphere. Aerosols actually cool the planet, counteracting the increased CO$_2$ concentrations to some extent, but it's still unclear exactly how much they cooled the planet by.</p>
+<p>Earth's climate over the past 150 or so years has been strongly affected by humans. The most well known, and important, human perturbation is the increased concentration of CO$_2$ in the atmosphere, which is responsible for the global warming we have experienced, and will continue to experience in the future. But humans have also emitted large amounts of aerosols into the atmosphere. Aerosols actually cool the planet, counteracting the increased CO$_2$ concentrations to some extent, and it's still unclear exactly how much they cooled the planet by.</p>
 
-<p>This is a surprisingly important question. If the aerosol effect is large, say a -2Wm$^{-2}$ forcing from pre-industrial to present, it would imply that Earth's surface temperature is very sensitive to greenhouse gas forcing. This would also be worrying since we expect the aerosol forcing to increase more slowly in the future \(because of efforts to reduce pollution\), so temperatures would rise more quickly in the future than they have in the past. On the other hand, a small aerosol effect would point to a lower sensitivity. \(Note that there's been a lot of work recently on why it's deceptive to use historical records to estimate Earth's sensitivity, so we can't just make an inference based on the aerosol forcing\).</p>
+<p>This is a surprisingly important question. If the aerosol effect is large, say a -2Wm$^{-2}$ forcing from pre-industrial to present, it would imply that Earth's surface temperature is very sensitive to greenhouse gas forcing. This would also be worrying since we expect the aerosol forcing to increase more slowly in the future $($because of efforts to reduce pollution$)$, so temperatures would rise more quickly in the future than they have in the past. On the other hand, a small aerosol effect would point to a lower sensitivity. $($Note that there's been a lot of work recently on why it's deceptive to use historical records to estimate Earth's sensitivity, so we can't just make an inference based on the aerosol forcing$)$.</p>
 
 <p>Another reason to worry about the historical aerosol forcing is that climate models are often tuned by comparing with the global-mean surface temperature record from the 20th century. As part of this, models have to be given estimates of how aerosol and greenhouse gas levels varied during this time, making the final parameter settings in models sensitive to our guesses of the historical aerosol forcing.</p>
 
-<p>Given all this, why is the aerosol forcing poorly constrained? Because of the classic climate issues: we don't have long enough historical records of aerosol emissions, and even if we did, aerosol processes take place on scales that are much too small to resolve in climate models. Another issue is we don't know what background levels of aerosols \(dust, sea-salt, etc.\) are.</p>
+<p>Given all this, why is the aerosol forcing poorly constrained? Because of the classic climate issues: we don't have long enough historical records of aerosol emissions, and even if we did, aerosol processes take place on scales that are much too small to resolve in climate models. Another issue is we don't know what background levels of aerosols $($dust, sea-salt, etc.$)$ are.</p>
 
 <p>In <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00656.1">a paper from 2015</a>, Bjorn Stevens tried to get at the aerosol forcing indirectly, using several different approaches. I've been intrigued by this paper for a while: tighter constrains on the aerosol forcing would be a big step forward, so here are notes on what Stevens did.</p>
 
@@ -20,7 +20,7 @@ use_math: true
 
 <p>The first approach Stevens takes is to develop a simple model for the global aersol forcing $F$, based on a paper by Carlson et al. \(1992\). The model is based on the idea that $F$ can be parameterized using the emission of sulfur dioxide \(SO$_2$\), which is useful because we have estimates of SO$_2$ emissions going back to 1750. This leads to a very simple equation for $F$, which includes a linear term and a logarithmic term:
 $$
-F = -\alpha SO_2 - \beta ln\left(\frac{SO_2}{\SO_2\>} + 1\right),
+F = -\alpha SO_2 - \beta ln\left(\frac{SO_2}{\overline{SO_2}} + 1\right),
 $$ 
 where $\alpha$ and $\beta$ are coefficients and $\overline{SO_2}$ is a background, natural source of SO$_2$.</p>
 
