@@ -4,9 +4,9 @@ title: "Carbon Tax versus Cap and Trade"
 date: 2016-06-15
 ---
 
-<p>We want to reduce emissions but we also want to continue growing, or at least maintaining, the world economy. The two policy options for reducing emissions that are most likely to be implemented are a carbon tax or a cap and trade scheme. Ignoring moral issues of fairness and focusing only on the two goals of reducing emissions and not damaging the world economy, which of these is the better option?</p>
+<p>Two of the most talked about policy proposals for reducing emissions are a carbon tax and implementing a cap-and-trade scheme. Ignoring moral issues of fairness, I'm interested in understanding: how do these differ? And which is the better option?</p>
 
-<h2>Externalities</h2>
+<h3>Externalities</h3>
 
 <p>From an economist’s perspective, climate change is an example of a <i>negative externality</i>. Externalities seem to have been first discussed in Arthur Pigou’s 1920 book <i>The Economics of Welfare</i>, and can be thought of as the spillover from an activity. An example of a negative externality is a chemical plant that releases its wastewater into a nearby river. There can also be positive externalities: if you have work done on your house to make it more attractive you increase the value of your neighbours’ houses as well as your own. Either way, an externality affects people not directly participating in the activity, like the people downstream of the chemical plant.</p>
 
@@ -20,7 +20,7 @@ date: 2016-06-15
 
 <p>The idea of a Pigouvian tax is to make an economic activity more expensive so that the marginal benefit goes to zero faster. This moves the x-axis on the graph further up the y-axis (dashed line). In the example, the tax revenue (shaded) helps pay for the negative impacts of driving your car. In a cap and trade system the “tax” comes from businesses paying for the emission permits. The area between the shaded rectangle and the marginal benefit line is “lost benefit”, which has to be taken into account when setting the tax rate.</p>
 
-<h2>Paul Krugman’s Arguments</h2>
+<h3>Paul Krugman’s Arguments</h3>
 
 <p><a href="http://krugman.blogs.nytimes.com/2009/09/27/the-textbook-economics-of-cap-and-trade/?_r=0">Paul Krugman</a> points out that with cap and trade the x-axis is emissions, whereas with a carbon tax the x-axis is cost. So with cap and trade we can directly control the emissions but with a carbon tax we only control the cost of emitting. For this reason cap and trade is a more direct way of reducing emissions, which is what we want to do. In either case the tax revenue can be used to help people deal with the consequences of climate change.</p>
 
