@@ -13,7 +13,7 @@ use_math: true
 
 <p>Why is the aerosol forcing poorly constrained? Because of the classic climate issues: we don't have long enough historical records of aerosol emissions, and even if we did, aerosol processes take place on scales that are much too small to resolve in climate models, so we have to parameterize them. Another issue is that there are natural aerosols $($dust, sea-salt, etc.$)$, so even a "clean" $($human-free$)$ atmosphere has an aerosol forcing, but we don't know how big this background forcing is.</p>
 
-<p>In <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00656.1">a study from 2015</a>, Bjorn Stevens tried to get at the historical aerosol forcing indirectly, using several different approaches. This is an intriguing paper: tighter constrains on the aerosol forcing would be a big step forward, so this is a summary of what Stevens did.</p>
+<p>In <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00656.1">a study from 2015</a>, Bjorn Stevens tried to get at the historical aerosol forcing indirectly, using several different approaches. This is an intriguing paper: tighter constrains on the aerosol forcing would be a big step forward, and I've been curious to read it for a while.</p>
 
 
 <h3>A Simple Model for Aerosol Forcing</h3>
