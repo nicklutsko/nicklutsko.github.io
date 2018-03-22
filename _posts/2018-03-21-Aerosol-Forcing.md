@@ -33,7 +33,7 @@ where $\alpha$ and $\beta$ are coefficients and $\overline{SO_2}$ is a natural s
 <p>The end result is an estimate for the aerosol forcing of -0.3Wm$^{-2}$ to -1Wm$^{-2}$, where the upper bound $($-0.3$)$ comes from an obervational study by <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2009JD012105">Murphy et al</a>. The point of the paper is really the lower bound of -1Wm$^{-2}$; previous estimates, like from the Carlson et al paper, got as high as -2.3Wm$^{-2}$.</p>
 
 
-<h3>Comparisons with Models</h3>
+<h3>Comparisons with CMIP5 Models</h3>
 
 <p>This lower bound is supported by some comparisons of models to observations. First, Stevens looks at temperature trends from 1920 to 1950, a period of rapid warming $($0.09K/dec$)$, little volcanic activity and during which the aerosol forcing and the greenhouse gas forcing were probably comparable. The volcanic activity is important because different models treat volcanoes in different ways.
 
