@@ -42,7 +42,7 @@ Comparing with the pre-industrial control simulations, the warming trend over th
 <p>The other comparison is with the asymmetry in the clear-sky albedo I mentioned earlier. The ensemble-mean value is about 2.2 times larger than an observational estimate from CERES, with the asymmetry being more than five times larger in some models than the observations. This is more evidence that the aerosol forcing is too strong in models, though models in which the indirect effect is included tend to have a smaller asymmetry.</p>
 
 
-<h3>Wrap-up</h3>
+<h3>Wrap-Up</h3>
 
 <p>This is a compelling paper, though it is quite confusing in places. For example, Stevens is trying to constrain the magnitude of the aerosol forcing, but uses previously published estimates to fit the parameters of his model. It is also unclear where Stevens gets some of his numbers from, like the -0.75Wm$^{-2}$ bound on the indirect effect.</p>
 
