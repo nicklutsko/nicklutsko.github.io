@@ -4,18 +4,18 @@ title: Code
 ---
 
 		<div class="code">
-			<h2>Multi-Taper Spectral Analysis</h2>
+			<h3>Multi-Taper Spectral Analysis</h3>
 			<p><font size=3>This script includes functions to compute the power spectrum of a signal and to perform a coherence analysis of two time-series using the multi-taper method. These are basically just Python versions of the Matlab functions available from <a href="http://www.people.fas.harvard.edu/~phuybers/Mfiles/index.html">Peter Huybers' website</a>. Requires the <a href="http://thomas-cokelaer.info/software/spectrum/html/contents.html">spectrum</a> Python module.</font></p>
 
 			<p><font size=3><a href="multi_taper_analysis.py">multi_taper_analysis.py</a></font></p>
 
-			<h2>Eddy Flux Co-Spectra</h2>
+			<h3>Eddy Flux Co-Spectra</h3>
 			<p><font size=3>Function for calculating eddy flux co-spectra, following method of <a href="https://www.jstage.jst.go.jp/article/jmsj1965/49/2/49_2_125/_article">Hayashi (1971)</a> (see also <a href="http://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281991%29048%3C0688%3APSSOTE%3E2.0.CO%3B2">Randel and Held (1991)</a>). Includes functions to calculate space-time cross-spectra and phase-speed cross-spectrum.</font></p>
 
 			<p><font size=3><a href="eddy_co_spectra.py">eddy_co_spectra.py</a></font></p>
 
 
-			<h2>"1-Dimensional" 2-layer QG Model</h2>
+			<h3>"1-Dimensional" 2-layer QG Model</h3>
 			<p><font size=3>Stand-alone Python script for a "1-dimensional" 2-layer QG model described in <a href="http://www.gfdl.noaa.gov/bibliography/related_files/rlp8801.pdf">Panetta and Held (1988)</a>. The model is truncated in wavenumber space to retain only the zonal-mean flow and one non-zero zonal wavenumber (the default set-up retains the most unstable wave) and can be quickly run on a laptop. Non-linear terms are de-aliased using the Orszag (1971) "two-thirds" rule. The domain is doubly-periodic and the model is forced by an unstable meridional temperature gradient and by lower-layer Ekman friction. Note that all variables are non-dimensionalized.</font></p>
 
 			<p><font size=3><a href="Trunc_2l_QG.py">Trunc_2l_QG.py</a></font></p>
