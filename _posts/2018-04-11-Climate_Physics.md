@@ -2,6 +2,7 @@
 layout: post
 title: "The Similarities, and Differences, Between High Energy Physics and Climate Science"
 date: 2018-04-11
+use_math: true
 ---
 
 <p>The difference between "theory" and "experiments" is not very well defined in climate science. A "theoretical" paper in climate science almost always includes results from simulations (experiments) with idealized numerical models. Are these models "theories"? How complete does a model have to be before it is no longer "theoretical"[^1]? On the other hand, given that we only have one climate system, we can't conduct experiments with it; efforts to increase CO$_2$ concentrations are not driven by scientific curiousity. Maybe exoplanets should be thought of as the natural set of specimens available to us, which we can probe and dissect, but our ability to observe these is still limited and it is not always clear what studying them can tell us about Earth's climate. The same issues come up with paleoclimate.</p>
