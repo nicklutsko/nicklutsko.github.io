@@ -13,7 +13,7 @@ use_math: true
 
 <p>In climate science the divisions are less obvious, but I think it's still useful to think in this way. The first distinction I would make is between theory, climate models and observations. "Theory" here is both theory in the sense a theoretical physicist would use it and results from idealized numerical models, while "models" means the comprehensive models used to inform policy and predict the weather.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/Climate.png" alt="Climate" style="width:455px;height:330px;"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/Climate.png" alt="Climate" style="width:333px;height:450px;"></center>
 
 <p>Next, for both models and observations the same distinction can be made between "experimentalists" and "phenomenologists". For models, the experimentalists are the model developers, while the phenomenology is the analysis of simulations with these comprehensive models. This could be to predict warming by the end of the 21st century, to test the ability of climate models to make decadal predictions, to develop emergent constraints on climate sensitivity, etc. On the observational side, the experimentalists build satellites, measure carbon fluxes, gather paleoclimate data, ..., while the phenomenologists again analyze the data.</p>
 
