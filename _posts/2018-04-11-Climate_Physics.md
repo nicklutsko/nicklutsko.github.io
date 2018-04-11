@@ -7,13 +7,13 @@ use_math: true
 
 <p>The difference between "theory" and "experiments" is not very well defined in climate science. A "theoretical" paper in climate science almost always includes results from simulations $($experiments$)$ with idealized numerical models. Are these models "theories"? How complete does a model have to be before it is no longer "theoretical"[^1]? On the other hand, given that we only have one climate system, we can't conduct experiments with it; efforts to increase CO$_2$ concentrations are not driven by scientific curiousity. Maybe exoplanets should be thought of as the natural set of specimens available to us, which we can probe and dissect, but our ability to observe these is still limited and it is not always clear what studying them can tell us about Earth's climate. The same issues come up with paleoclimate.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/HEP.png" alt="HEP" style="width:500px;height:333px;"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/HEP.png" alt="HEP" style="width:412px;height:242px;"></center>
 
 <p>Given these ambiguities, I think it's interesting to compare with high energy physics $($HEP$)$. As I understand, HEP can be divided into three sub-disciplines: theory, experiment and phenomenology (see sketch). Theoreticians study string theory, quantum gravity, etc., and work entirely in theory-world; while a huge number of people design and build the experiments to test these theories, like the LHC. Some of them might describe themselves as physicists, others as engineers; I'm not sure how the distinction is made. Finally, phenomenologists come up with ways of testing the theories and interpreting the experiments. For instance, how to actually convert the output of the LHC to say whether the Higgs particle exists or not.</p>
 
 <p>In climate science the divisions are less obvious, but I think it's still useful to think in this way. The first distinction I would make is between theory, climate models and observations. "Theory" here is both theory in the sense a theoretical physicist would use it and results from idealized numerical models, while "models" means the comprehensive models used to inform policy and predict the weather.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/Climate.png" alt="Climate" style="width:500px;height:400px;"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/Climate.png" alt="Climate" style="width:455px;height:370px;"></center>
 
 <p>Next, for both models and observations the same distinction can be made between "experimentalists" and "phenomenologists". For models, the experimentalists are the model developers, while the phenomenology is the analysis of simulations with these comprehensive models. This could be to predict warming by the end of the 21st century, to test the ability of climate models to make decadal predictions, to develop emergent constraints on climate sensitivity, etc. On the observational side, the experimentalists build satellites, measure carbon fluxes, gather paleoclimate data, ..., while the phenomenologists again analyze the data.</p>
 
