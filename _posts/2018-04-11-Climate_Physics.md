@@ -5,7 +5,7 @@ date: 2018-04-11
 use_math: true
 ---
 
-<p>The difference between "theory" and "experiments" is not very well defined in climate science. A "theoretical" paper in climate science almost always includes results from simulations $($experiments$)$ with idealized numerical models. Are these models "theories"? How complete does a model have to be before it is no longer "theoretical"[^1]? On the other hand, given that we only have one climate system, we can't conduct experiments with it; efforts to increase CO$_2$ concentrations are not driven by scientific curiousity. Maybe exoplanets should be thought of as the natural set of specimens available to us, which we can probe and dissect, but our ability to observe these is still limited and it is not always clear what studying them can tell us about Earth's climate. The same issues come up with paleoclimate.</p>
+<p markdown="1">The difference between "theory" and "experiments" is not very well defined in climate science. A "theoretical" paper in climate science almost always includes results from simulations $($experiments$)$ with idealized numerical models. Are these models "theories"? How complete does a model have to be before it is no longer "theoretical" [^1]? On the other hand, given that we only have one climate system, we can't conduct experiments with it; efforts to increase CO$_2$ concentrations are not driven by scientific curiousity. Maybe exoplanets should be thought of as the natural set of specimens available to us, which we can probe and dissect, but our ability to observe these is still limited and it is not always clear what studying them can tell us about Earth's climate. The same issues come up with paleoclimate.</p>
 
 <center><img src="http://nicklutsko.github.io/notes/images/HEP.png" alt="HEP" style="width:412px;height:242px;"></center>
 
@@ -23,7 +23,7 @@ use_math: true
 
 <p>For myself, I find my work so far is a combination of theory and phenomenology. I've worked on some very idealized problems, some problems involving observations and others involving climate model data. I like the different challenges and ways of thinking required to work on these kinds of problems, which is one of the benefits of the freedom of climate science.</p>
 
-<p>[^1]: This is not just an issue in climate science, most fields now combine theory with idealized simulations.</p>
+[^1]: This is not just an issue in climate science, most fields now combine theory with idealized simulations.
 
 
 
