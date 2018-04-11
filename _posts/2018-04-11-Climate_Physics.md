@@ -19,7 +19,7 @@ use_math: true
 
 <p>For myself, I find my work so far is a combination of theory and phenomenology. I've worked on some very idealized problems, some problems involving observations and others involving climate model data. I like the different challenges and ways of thinking required to work on these kinds of problems, which is one of the benefits of the freedom of climate science.</p>
 
-[^1]: This is not just an issue in climate science, most fields now combine theory with idealized simulations.
+<p>[^1]: This is not just an issue in climate science, most fields now combine theory with idealized simulations.</p>
 
 
 
