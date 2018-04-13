@@ -21,7 +21,7 @@ use_math: true
 
 <p>Individual climate scientists have to decide where they want to position themselves. An important part of this is their relationship to the modelling centers $($often government labs$)$ which develop the comprehensive models. Obviously if you want to develop climate models you have to be affiliated with a modelling center, and if you want to analyze model data it's also useful to good working relationships with people who work at a modelling center.</p>
 
-<p>For myself, I find my work so far is a combination of theory and phenomenology. I've worked on some <a href="https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-14-0356.1">very idealized problems</a>, some problems <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JAS-D-17-0099.1">involving observations</a>involving observations and others involving <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0736.1">data from comprehensive models</a>. I like that these different problems requires different ways of thinking and that I can move back and forth depending on my mood.</p>
+<p>For myself, I find my work so far is a combination of theory and phenomenology. I've worked on some <a href="https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-14-0356.1">very idealized problems</a>, some problems <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JAS-D-17-0099.1">involving observations</a> and others involving <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-17-0736.1">data from comprehensive models</a>. I like that these different problems requires different ways of thinking and that I can move back and forth depending on my mood.</p>
 
 [^1]: This is not just an issue in climate science, most fields now combine theory with idealized simulations.
 
