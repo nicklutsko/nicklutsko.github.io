@@ -28,8 +28,13 @@ p {
     color: #333;
     text-align: justify;
     text-justify: inter-word;
-    width: 570px;
+    width: 700px;
 }
+ul { 
+    width: 700px;
+}
+
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 3;
