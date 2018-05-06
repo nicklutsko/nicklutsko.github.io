@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Similarities and Differences Between High Energy Physics and Climate Science"
+title: "High Energy Physics and Climate Science"
 date: 2018-04-11
 use_math: true
 ---
