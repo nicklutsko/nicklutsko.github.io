@@ -9,7 +9,7 @@ use_math: true
 
 <p>Given these ambiguities, I think it's interesting to compare with high energy physics $($HEP$)$. As I understand, HEP can be divided into three sub-disciplines: theory, experiment and phenomenology $($see sketch$)$. Theoreticians study string theory, quantum gravity, etc., and work entirely in theory-world. Meanwhile a huge number of people design and build experiments like the LHC to test these theories. Some of them might describe themselves as physicists, others as engineers; I'm not sure how the distinction is made. Finally, phenomenologists come up with ways of testing the theories and interpreting the experiments. For instance, how to actually interpret the output of the LHC to say whether the Higgs particle exists or not.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/HEP.png" alt="HEP" style="width:360px;height:242px;" class="center">
+<center><img src="http://nicklutsko.github.io/notes/images/HEP.png" alt="HEP" style="width:360px;height:242px;" class="center"></center>
 
 <p>In climate science the divisions are less obvious, but I think it's still useful to think in this way. The first distinction I would make is between theory, climate models and observations. "Theory" here is both theory in the sense a theoretical physicist would use it and results from idealized numerical models, while "models" means the comprehensive climate models used to inform policy and to predict the weather.</p>
 
