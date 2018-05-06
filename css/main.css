@@ -1,5 +1,5 @@
 body {
-    width: 6a0%;
+    width: 570px;
     padding-left:  300px;
     padding-top:  50px;
 }
@@ -28,6 +28,7 @@ p {
     color: #333;
     text-align: justify;
     text-justify: inter-word;
+    width: 570px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
