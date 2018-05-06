@@ -31,9 +31,11 @@ p {
     width: 800px;
 }
 ul { 
-    width: 600px;
+    width: 800px;
 }
-
+ol { 
+    width: 800px;
+}
 
 footer {
     border-top: 1px solid #d5d5d5;
@@ -42,7 +44,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    width: 800px;
     font-size: 4;
 }
 
