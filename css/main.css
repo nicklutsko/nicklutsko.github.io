@@ -53,3 +53,22 @@ ul.posts li {
 }
 
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit; color: inherit}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
