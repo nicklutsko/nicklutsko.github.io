@@ -2,7 +2,6 @@ body {
     width: 6a0%;
     padding-left:  300px;
     padding-top:  50px;
-    padding-right:  100px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -29,7 +28,10 @@ p {
     color: #333;
     text-align: justify;
     text-justify: inter-word;
-
+    width: 700px;
+}
+ul { 
+    width: 700px;
 }
 
 
