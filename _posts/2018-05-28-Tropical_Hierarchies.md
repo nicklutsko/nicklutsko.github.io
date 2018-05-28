@@ -20,7 +20,7 @@ date: 2018-05-28
 
 <p>(Note: I’m thinking here of understanding the mean state of the tropical atmosphere, not transient phenomena, like the MJO and tropical cyclones.)</p>
 
-<p>An example of this is the phenomenon of convective self-organization. This is seen in small domain cloud-resolving models in radiative-convective equilibrium (RCE) and global RCE models, and whether it occurs or not depends on the model resolution, domain size and average surface temperature. We also know that it is caused by <a href="https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-11-0257.1">longwave cloud radiative effects</a>. But its relevance to the real world is still unclear. Is self-organization an artifact of the models? Or is there something fundamental about it?</p>
+<p>An example of this is the phenomenon of convective self-organization. This is seen in small domain cloud-resolving models in radiative-convective equilibrium (RCE) and global RCE models, and whether it occurs or not depends on the model resolution, domain size and average surface temperature. We also know that it is caused by longwave cloud radiative effects (see <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL064260">here</a> for an entry into the literature). But its relevance to the real world is still unclear. Is self-organization an artifact of the models? Or is there something fundamental about it?</p>
 
 <p>The problem is we don’t have a standard hierarchy connecting RCE models to the real tropical atmosphere. One reason for this is the separation of scales in the tropics. The state of the tropical atmosphere is determined by the microphysical processes operating in clouds, by cloud-scale processes like entrainment and by the large-scale tropical circulation, and these are all tightly coupled. So a useful representation of the tropical atmosphere needs to include many different processes, acting on a wide range of scales.</p>
 
@@ -36,7 +36,7 @@ date: 2018-05-28
 
 <p>To get back to building a model hierarchy for the tropical atmosphere, this will have to be a community effort. On the one hand, simplified RCE models need to be developed, with idealized microphysics, radiation, cloud processes, etc. There probably isn’t a “best” way of doing this, so the  final forms of the models will probably come down to people’s preferences. On the other hand, mock-Walker simulations (in 2D and in 3D) also need to be a prominent part of the hierarchy, since they’re the most straightforward way of connecting small domain results to the actual tropical atmosphere.</p>
 
-<p>(Note: the RCEMIP project, led by Allison Wing, is a useful effort in the other direction. That is, instead of building a model hierarchy, it looks at the range of model behaviors in small domain and long-channel RCE.) </p>
+<p>(Note: the <a href="https://www.geosci-model-dev.net/11/793/2018/gmd-11-793-2018-discussion.html">RCEMIP project</a>, led by Allison Wing, is a useful effort in the other direction. That is, instead of building a model hierarchy, it looks at the range of model behaviors in small domain and long-channel RCE.) </p>
 
 
 
