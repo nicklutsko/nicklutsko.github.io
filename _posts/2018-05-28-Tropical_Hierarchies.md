@@ -33,8 +33,8 @@ date: 2018-05-28
 <p>An analogy is that in the mid-latitudes we can “give” ourselves the temperature stratification in the two-layer model, because what we really care about is the dynamics. In mock-Walker simulations we give ourselves the basic structure of the convection, so that we can study the convection itself.</p>
 
 <table class="image">
-<caption align="bottom">From <a href="https://link.springer.com/article/10.1007%2Fs00382-003-0369-6">Bony et al. (2004)</a></caption>
 <tr><td><img src="http://nicklutsko.github.io/notes/images/tropics.png" alt="Tropics" style="width:359px;height:234px;" class="center"></td></tr>
+<caption align="bottom" style="text-align: center">From <a href="https://link.springer.com/article/10.1007%2Fs00382-003-0369-6">Bony et al. (2004)</a></caption>
 </table>
 
 <p>To get back to building a model hierarchy for the tropical atmosphere, this will have to be a community effort. On the one hand, simplified RCE models need to be developed, with idealized microphysics, radiation, cloud processes, etc. There probably isn’t a “best” way of doing this, so the  final forms of the models will probably come down to people’s preferences. On the other hand, mock-Walker simulations (in 2D and in 3D) also need to be a prominent part of the hierarchy, since they’re the most straightforward way of connecting small domain results to the actual tropical atmosphere.</p>
