@@ -14,7 +14,7 @@ date: 2018-05-28
 
 <p>One way to put it is that Isaac emphasized using “the” hierarchy rather than using “a” hierarchy. Having a canonical hierarchy focuses the community’s efforts, stopping us from going on a random walk through model phase space.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/hierarchies.png" alt="Model Hierarchies" style="width:300px;height:150px;" class="center"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/hierarchies.png" alt="Model Hierarchies" style="width:240px;height:147px;" class="center"></center>
 
 <p>Something I’ve been thinking about recently is how to develop a similar hierarchy for the tropical atmosphere. Many different models are used to study the tropical atmosphere, with different boundary conditions, boundary layer schemes, domain geometries; with or without rotation, with or without clouds, etc. This diversity of model configurations makes it hard to get an overview of what we actually know about the tropical atmosphere. Which results are robust across models?  And how do they carry over into the real tropics?</p>
 
@@ -32,7 +32,10 @@ date: 2018-05-28
 
 <p>An analogy is that in the mid-latitudes we can “give” ourselves the temperature stratification in the two-layer model, because what we really care about is the dynamics. In mock-Walker simulations we give ourselves the basic structure of the convection, so that we can study the convection itself.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/tropics.png" alt="Model Hierarchies" style="width:350px;height:250px;" class="center"></center>
+<table class="image">
+<caption align="bottom">From <a href="https://link.springer.com/article/10.1007%2Fs00382-003-0369-6">Bony et al. (2004)</a></caption>
+<tr><td><img src="http://nicklutsko.github.io/notes/images/tropics.png" alt="Tropics" style="width:359px;height:234px;" class="center"></td></tr>
+</table>
 
 <p>To get back to building a model hierarchy for the tropical atmosphere, this will have to be a community effort. On the one hand, simplified RCE models need to be developed, with idealized microphysics, radiation, cloud processes, etc. There probably isn’t a “best” way of doing this, so the  final forms of the models will probably come down to people’s preferences. On the other hand, mock-Walker simulations (in 2D and in 3D) also need to be a prominent part of the hierarchy, since they’re the most straightforward way of connecting small domain results to the actual tropical atmosphere.</p>
 
