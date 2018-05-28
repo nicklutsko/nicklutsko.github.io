@@ -18,7 +18,7 @@ date: 2018-05-28
 
 <p>Something I’ve been thinking about recently is how to develop a similar hierarchy for the tropical atmosphere. Many different models are used to study the tropical atmosphere, with different boundary conditions, boundary layer schemes, domain geometries; with or without rotation, with or without clouds, etc. This diversity of model configurations makes it hard to get an overview of what we actually know about the tropical atmosphere. Which results are robust across models?  And how do they carry over into the real tropics?</p>
 
-<p>(Note: I’m thinking here of understanding the mean state of the tropical atmosphere, not transient phenomena, like the MJO and tropical cyclones.)</p>
+<p>(Note: I’m thinking here of understanding the mean state of the tropical atmosphere, not transient phenomena like the MJO and tropical cyclones.)</p>
 
 <p>An example of this is the phenomenon of convective self-organization. This is seen in small domain cloud-resolving models in radiative-convective equilibrium (RCE) and global RCE models, and whether it occurs or not depends on the model resolution, domain size and average surface temperature. We also know that it is caused by longwave cloud radiative effects (see <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL064260">here</a> for an entry into the literature). But its relevance to the real world is still unclear. Is self-organization an artifact of the models? Or is there something fundamental about it?</p>
 
