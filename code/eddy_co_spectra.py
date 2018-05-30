@@ -74,9 +74,9 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
 			K_combine[:, i] = np.convolve( K_combine[:, i], gauss_filter, 'same' )
 
 	#Take out positive and negative parts
-	K_p = K_combine[:tf, :]
-	K_n = K_combine[tf:, :]
-	K_p = K_p[::-1, :]
+	K_n = K_combine[:tf, :]
+	K_p = K_combine[tf:, :]
+	K_n = K_n[::-1, :]
 
 	return K_p, K_n, lon_freq, om 
 
