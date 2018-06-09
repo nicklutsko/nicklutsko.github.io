@@ -42,7 +42,10 @@ footer {
     font-size: 3;
     width: 800px;
 }
-
+ul.index { 
+    width: 570px;
+    font-size: 4;
+}
 ul.posts { 
     width: 800px;
     font-size: 4;
