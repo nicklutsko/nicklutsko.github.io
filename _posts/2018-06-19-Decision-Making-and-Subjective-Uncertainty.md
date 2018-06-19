@@ -5,7 +5,7 @@ Models to Inform Climate Policy"
 date: 2018-06-19
 ---
 
-<p markdown="1"><a href="https://en.wikipedia.org/wiki/Integrated_assessment_modelling">Integrated Assessment Models (IAMs)</a> are one of the main tools used by policy makers to predict the economic impacts of climate change. For instance, they played an important role in determining the Paris Climate Goals, and are used by the US government to estimate the “social cost” of carbon (SCC). It’s worrying then that they’ve been criticized recently for drastically underestimating the potential risks of global warming (see <a href="https://www.vox.com/energy-and-environment/2018/6/8/17437104/climate-change-global-warming-models-risks">David Roberts’ article on Vox</a> for a summary)</p>
+<p markdown="1"><a href="https://en.wikipedia.org/wiki/Integrated_assessment_modelling">Integrated Assessment Models (IAMs)</a> are one of the main tools used by policy makers to predict the economic impacts of climate change. For instance, they played an important role in determining the Paris Climate Goals, and are used by the US government to estimate the “social cost” of carbon (SCC). It’s worrying then that they’ve been criticized recently for drastically underestimating the potential risks of global warming (see <a href="https://www.vox.com/energy-and-environment/2018/6/8/17437104/climate-change-global-warming-models-risks">David Roberts’ article on Vox</a> for a summary).</p>
 
 <p>The technical reasons for the shortcomings of IAMs can get involved, but some of the critiques raise an interesting question that is more fundamental to thinking about climate policy: how can we make decisions in the face of large uncertainties? And not just large uncertainties, but what are sometimes called “subjective” uncertainties?</p>
 
@@ -15,9 +15,9 @@ date: 2018-06-19
 
 <center><img src="http://nicklutsko.github.io/notes/images/IAMs.png" alt="IAMs" style="width:320px;height:234px;" class="center"></center>
 
-<p>The economic model predicts carbon emissions, which are fed to the carbon-climate model, and the climate model estimates a “damage function”, which is given back to the economic model. Together, these can be used to explore the economic impacts of socio-economic storylines. For instance, we could compare a “business-as-usual” storyline with a future in which there is aggressive mitigation, and see which scenario would result in the higher overall economic growth.</p>
+<p>The economic model predicts carbon emissions, which are fed to the carbon-climate model, and the climate model estimates a “damage function”, which is given back to the economic model. Together, these can be used to explore the economic impacts of socio-economic storylines. For instance, we could compare a “business-as-usual” storyline with a future in which there is aggressive mitigation, and see which scenario results in the higher overall economic growth.</p>
 
-<p>IAMs combine models for two systems we can’t model very well: the climate system and (even worse) the economy; so their results have a lot of uncertainty, and they’ve been described as <a href="http://www.nber.org/papers/w19244">"close to useless as tools for policy analysis"</a>. But they’re still the best tool we have for predicting the potential economic impacts of climate change, and they actively inform policy decisions, so it’s important that we make them as good as we can.</p>
+<p>IAMs combine models for two systems we can’t model very well: the climate system and (even worse) the economy; so their results have a lot of uncertainty, and they’ve been described as <a href="http://www.nber.org/papers/w19244">"close to useless as tools for policy analysis"</a>. But they’re still the best tool we have for predicting the potential economic impacts of climate change and they actively inform policy decisions, so we need to take criticisms of them seriously.</p>
 
 <h3>Subjective Uncertainty</h3>
 
