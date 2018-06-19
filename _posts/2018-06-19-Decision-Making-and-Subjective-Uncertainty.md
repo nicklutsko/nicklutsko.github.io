@@ -37,7 +37,7 @@ date: 2018-06-19
 
 <p>Multiple priors are likely to come up whenever an uncertainty is poorly constrained and so people’s opinions and biases come into play when quantifying the uncertainty.</p>
 
-<h3>Uncertainty in IAMs</h3>
+<h3>Uncertainty In IAMs</h3>
 
 <p>How do IAMs deal withs subjective uncertainty? Basically by ignoring it.  IAMS use “expected utility functions” to integrate over their uncertainties, but the utility functions are based on the judgments of the people building them, and so they only consider a single prior (this is why the estimates of the SCC by Nordhaus and by Stern can be so different).</p>
 
@@ -45,7 +45,7 @@ date: 2018-06-19
 
 <p>So IAMs both underestimate the risks of climate change and the uncertainty of their predictions. This isn’t an ideal situation.</p>
 
-<h3>How Can We Account for Subjective Uncertainty?</h3>
+<h3>How Can We Account For Subjective Uncertainty?</h3>
 
 <p>There has been some recent theoretical work on how to extend the expected utility framework to include multiple priors (see <a href="https://www0.gsb.columbia.edu/faculty/gheal/EnvironmentalEconomicsPapers/REEP%20uncertainty%20published.pdf">here</a> and <a href="http://personal.lse.ac.uk/MILLNER/files/handbook.pdf">here</a>). The simplest way is to replace the expected utility functions with “max-min” expected utility. This means that we compare policies based on their worst-case outcomes, considering all of the priors.</p>
 
