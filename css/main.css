@@ -50,7 +50,9 @@ ul.posts {
     width: 800px;
     font-size: 4;
 }
-
+h2.posts { 
+    width: 800px;
+}
 ul.posts li {
     list-style: none;
 }
