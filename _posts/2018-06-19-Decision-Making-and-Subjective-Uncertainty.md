@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Decision-Making and Subjective Uncertainty: Using Integrated Assessment Models to Inform Climate Policy"
+title: "Decision-Making and Subjective Uncertainty: Using Integrated Assessment <br />
+Models to Inform Climate Policy"
 date: 2018-06-19
 ---
 
