@@ -51,10 +51,9 @@ date: 2018-06-19
 
 <p>This can be made more elaborate. For instance, we could combine the best and worst outcomes of each policy (e.g., 0.6 x the worst outcome + 0.4 x the best outcome) or weight the outcomes by our (subjective) estimate of their likelihood.</p>
 
-<p>Whatever choice we make involves ethical decisions. The max-min approach is the most risk-averse method of evaluating policy choices, and speaks to the preference people have for <a href="https://en.wikipedia.org/wiki/Ambiguity_aversion">“ambiguity aversion”</a> (“better the devil you know than the devil you don’t”). If they felt as though there was a non-negligible (say 5%) chance of disastrous climate change, then people would generally prefer to take the certain cost of paying today over the uncertain cost of betting on the potential of disaster.</p>
+<p>Whatever choice we make involves ethical decisions about how we want to handle risk. The max-min approach is the most risk-averse method of evaluating policy choices, and speaks to the preference people have for <a href="https://en.wikipedia.org/wiki/Ambiguity_aversion">“ambiguity aversion”</a> (“better the devil you know than the devil you don’t”). If they felt as though there was a non-negligible (say 5%) chance of disastrous climate change, then people would generally prefer to take the certain cost of paying today over the uncertain cost of betting on the potential of disaster.</p>
 
-<p>The opposite would be a “max-max” approach, which would take the best possible outcome of each policy, and would be a heavy bet against climate change having major impacts.
-</p>
+<p>The opposite would be a “max-max” approach, which would take the best possible outcome of each policy, and would be a heavy bet against climate change having major impacts.</p>
 
 <p>Because IAMs currently ignore tail risks and subjective uncertainty, pretty much whatever we do to incorporate these into IAM studies will increase how much damage we expect climate change to have, and adding these into our decision making is pretty urgent. I’m not sure what the best way of doing this is (max-min seems a bit too cautious), but it’s clear we can’t just ask “what impacts could this policy have?” and have to include a preference for how risk adverse we are, or else who’s (subjective) opinions we trust the most. </p>
 
