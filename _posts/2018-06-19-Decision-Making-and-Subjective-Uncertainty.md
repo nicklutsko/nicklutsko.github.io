@@ -32,7 +32,7 @@ date: 2018-06-19
 
 <p>The general issue of subjective uncertainty is also referred to as the issue of having multiple priors (really multiple non-overlapping priors):</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/multiple_priors.png" alt="Multiple Priors" style="width:526px;height:288px;" class="center"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/multiple_priors.png" alt="Multiple Priors" style="width:263px;height:144px;" class="center"></center>
 
 <p>Multiple priors are likely to come up whenever an uncertainty is poorly constrained and so people’s opinions and biases come into play when quantifying the uncertainty.</p>
 
