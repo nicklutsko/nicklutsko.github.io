@@ -29,7 +29,7 @@ date: 2018-06-19
 
 <p>Things get even worse on the economic side. An important subjective uncertainty is the discount rate: how much we want to push the costs of climate change onto future generations. Taking a steep discount rate means that we expect future generations to come up with technological innovations to deal with the effects of climate change, and we shouldn’t worry about emitting carbon today. A low discount rate leads to the opposite conclusion, and says that we should be doing everything we can to reduce carbon emissions. </p>
 
-<p>This isn’t something with a “correct” answer, but it has a huge impact on projections of climate change impacts. <a href="http://www.nber.org/papers/w19244">Pindyck (2017)</a> suggests that much of the difference between <a href="http://piketty.pse.ens.fr/files/Nordhaus2007b.pdf">Nordhaus (2008)</a>’s estimate of $20/ton for the SCC and <a href="http://mudancasclimaticas.cptec.inpe.br/~rmclima/pdfs/destaques/sternreview_report_complete.pdf">Stern (2007)</a>’s estimate of $200/ton comes from differences in their assumptions about the discount rate.</p>
+<p>This isn’t something with a “correct” answer, but it has a huge impact on projections of climate change impacts: <a href="http://www.nber.org/papers/w19244">Pindyck (2017)</a> suggests that much of the difference between <a href="http://piketty.pse.ens.fr/files/Nordhaus2007b.pdf">Nordhaus (2008)</a>’s estimate of $20/ton for the SCC and <a href="http://mudancasclimaticas.cptec.inpe.br/~rmclima/pdfs/destaques/sternreview_report_complete.pdf">Stern (2007)</a>’s estimate of $200/ton comes from differences in their assumptions about the discount rate.</p>
 
 <p>The general issue of subjective uncertainty is also referred to as the issue of having multiple priors (really multiple non-overlapping priors):</p>
 
@@ -47,7 +47,7 @@ date: 2018-06-19
 
 <h3>How Can We Account For Subjective Uncertainty?</h3>
 
-<p>There has been some recent theoretical work on how to extend the expected utility framework to include multiple priors (see <a href="https://www0.gsb.columbia.edu/faculty/gheal/EnvironmentalEconomicsPapers/REEP%20uncertainty%20published.pdf">here</a> and <a href="http://personal.lse.ac.uk/MILLNER/files/handbook.pdf">here</a>). The simplest way is to replace the expected utility functions with “max-min” expected utility. This means that we compare policies based on their worst-case outcomes, considering all of the priors.</p>
+<p>There has been some recent theoretical work on how to extend the expected utility framework to include multiple priors (see <a href="https://www0.gsb.columbia.edu/faculty/gheal/EnvironmentalEconomicsPapers/REEP%20uncertainty%20published.pdf">here</a> and <a href="http://personal.lse.ac.uk/MILLNER/files/handbook.pdf">here</a>). The simplest way is to replace the expected utility functions with “max-min” expected utility. This means policies are compared based on their worst-case outcomes, considering all of the priors.</p>
 
 <p>This can be made more elaborate. For instance, we could combine the best and worst outcomes of each policy (e.g., 0.6 x the worst outcome + 0.4 x the best outcome) or weight the outcomes by our (subjective) estimate of their likelihood.</p>
 
