@@ -27,7 +27,7 @@ date: 2018-06-19
 
 <p>Another way to put this is that our estimates of the tail risks of climate change are basically educated guesses.</p>
 
-<p>Things get even worse on the economic side. An important subjective uncertainty is the discount rate: how much we want to push the costs of climate change onto future generations. Taking a steep discount rate means that we expect future generations to come up with technological innovations to deal with the effects of climate change, and so we shouldn’t worry about emitting carbon today. A low discount rate leads to the opposite conclusion, and says that we should be doing everything we can to reduce carbon emissions. </p>
+<p>Things get even worse on the economic side. An important subjective uncertainty is the discount rate: how much we want to push the costs of climate change onto future generations. Taking a steep discount rate means that we expect future generations to come up with technological innovations to deal with the effects of climate change, and we shouldn’t worry about emitting carbon today. A low discount rate leads to the opposite conclusion, and says that we should be doing everything we can to reduce carbon emissions. </p>
 
 <p>This isn’t something with a “correct” answer, but it has a huge impact on projections of climate change impacts. <a href="http://www.nber.org/papers/w19244">Pindyck (2017)</a> suggests that much of the difference between <a href="http://piketty.pse.ens.fr/files/Nordhaus2007b.pdf">Nordhaus (2008)</a>’s estimate of $20/ton for the SCC and <a href="http://mudancasclimaticas.cptec.inpe.br/~rmclima/pdfs/destaques/sternreview_report_complete.pdf">Stern (2007)</a>’s estimate of $200/ton comes from differences in their assumptions about the discount rate.</p>
 
@@ -39,9 +39,9 @@ date: 2018-06-19
 
 <h3>Uncertainty In IAMs</h3>
 
-<p>How do IAMs deal with subjective uncertainty? Basically by ignoring it. IAMS use “expected utility functions” to integrate over their uncertainties, but the utility functions are based on the judgments of the people building them, and so they only consider a single prior (this is why the estimates of the SCC by Nordhaus and by Stern can be so different).</p>
+<p>How do IAMs deal with subjective uncertainty? Basically by ignoring it. IAMS use “expected utility functions” to integrate over their uncertainties, but the utility functions are based on the judgments of the people building them and hence only consider a single prior (this is why the estimates of the SCC by Nordhaus and by Stern are so different).</p>
 
-<p>They also ignore the tail risks on the climate side and so predict that even large warmings will have relatively small economic impacts. The thinking seems to be that since we don’t know how close we are to any tipping points, IAMs shouldn’t take them into account. And it’s actually worse than that, since they also omit the effects of climate changes that are hard to quantify economically, like ocean acidification (more <a href="https://academic.oup.com/reep/advance-article/doi/10.1093/reep/rey005/5025082">here</a>).</p>
+<p>They also ignore the tail risks on the climate side, predicting that even large warmings will have relatively small economic impacts. The thinking seems to be that since we don’t know how close we are to any tipping points, IAMs shouldn’t take them into account. And it’s actually worse than that, since they also omit the effects of climate changes that are hard to quantify economically, like ocean acidification (more <a href="https://academic.oup.com/reep/advance-article/doi/10.1093/reep/rey005/5025082">here</a>).</p>
 
 <p>So IAMs both underestimate the risks of climate change and the uncertainty of their predictions. This isn’t an ideal situation.</p>
 
