@@ -35,7 +35,7 @@ date: 2018-06-19
 
 <center><img src="http://nicklutsko.github.io/notes/images/multiple_priors.png" alt="Multiple Priors" style="width:263px;height:144px;" class="center"></center>
 
-<p>Multiple priors are likely to come up whenever an uncertainty is poorly constrained and so people’s opinions and biases come into play when quantifying the uncertainty.</p>
+<p>Multiple priors/subjective uncertainity is likely to come up whenever an uncertainty is poorly constrained and so people’s opinions and biases come into play when quantifying it.</p>
 
 <h3>Uncertainty In IAMs</h3>
 
