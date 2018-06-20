@@ -17,7 +17,7 @@ date: 2018-06-19
 
 <p>The economic model predicts carbon emissions, which are fed to the carbon-climate model, and the climate model estimates a “damage function”, which is given back to the economic model. Together, these can be used to explore the economic impacts of socio-economic storylines. For instance, we could compare a “business-as-usual” storyline with a future in which there is aggressive mitigation, and see which scenario results in the higher overall economic growth.</p>
 
-<p>IAMs combine models for two systems we can’t model very well: the climate system and (even worse) the economy; so their results have a lot of uncertainty, and they’ve been described as <a href="http://www.nber.org/papers/w19244">"close to useless as tools for policy analysis"</a>. But they’re still the best tool we have for predicting the potential economic impacts of climate change and they actively inform policy decisions, so we need to take criticisms of them seriously.</p>
+<p>IAMs combine models for two systems we can’t model very well: the climate system and (even worse) the economy; so their results come with a lot of uncertainty, and they’ve been described as <a href="http://www.nber.org/papers/w19244">"close to useless as tools for policy analysis"</a>. But they’re still the best tool we have for predicting the potential economic impacts of climate change and they actively inform policy decisions, so we need to take criticisms of them seriously.</p>
 
 <h3>Subjective Uncertainty</h3>
 
@@ -35,11 +35,11 @@ date: 2018-06-19
 
 <center><img src="http://nicklutsko.github.io/notes/images/multiple_priors.png" alt="Multiple Priors" style="width:263px;height:144px;" class="center"></center>
 
-<p>Multiple priors/subjective uncertainity is likely to come up whenever an uncertainty is poorly constrained and so people’s opinions and biases come into play when quantifying it.</p>
+<p>Intuitively, multiple priors are likely to come up whenever an uncertainty is poorly constrained and so people’s opinions and biases come into play when quantifying it.</p>
 
 <h3>Uncertainty In IAMs</h3>
 
-<p>How do IAMs deal with subjective uncertainty? Basically by ignoring it. IAMS use “expected utility functions” to integrate over their uncertainties, but the utility functions are based on the judgments of the people building them and hence only consider a single prior (this is why the estimates of the SCC by Nordhaus and by Stern are so different).</p>
+<p>How do IAMs deal with subjective uncertainty? Basically by ignoring it. IAMS use “expected utility functions” to integrate over their uncertainties, but the utility functions are based on the judgments of the people building them and only consider a single prior (this is why the estimates of the SCC by Nordhaus and by Stern are so different).</p>
 
 <p>They also ignore the tail risks on the climate side, predicting that even large warmings will have relatively small economic impacts. The thinking seems to be that since we don’t know how close we are to any tipping points, IAMs shouldn’t take them into account. And it’s actually worse than that, since they also omit the effects of climate changes that are hard to quantify economically, like ocean acidification (more <a href="https://academic.oup.com/reep/advance-article/doi/10.1093/reep/rey005/5025082">here</a>).</p>
 
@@ -51,11 +51,11 @@ date: 2018-06-19
 
 <p>This can be made more elaborate. For instance, we could combine the best and worst outcomes of each policy (e.g., 0.6 x the worst outcome + 0.4 x the best outcome) or weight the outcomes by our (subjective) estimate of their likelihood.</p>
 
-<p>Whatever choice we make involves ethical decisions about how we want to handle risk. The max-min approach is the most risk-averse method of evaluating policy choices, and speaks to the preference people have for <a href="https://en.wikipedia.org/wiki/Ambiguity_aversion">“ambiguity aversion”</a> (“better the devil you know than the devil you don’t”). If they felt as though there was a non-negligible (say 5%) chance of disastrous climate change, then people would generally prefer to take the certain cost of paying today over the uncertain cost of betting on the potential of disaster.</p>
+<p>Whatever choice we make involves ethical decisions about how we want to handle risk. The max-min approach is the most risk-averse method of evaluating policy options, and speaks to the preference people have for <a href="https://en.wikipedia.org/wiki/Ambiguity_aversion">“ambiguity aversion”</a> (“better the devil you know than the devil you don’t”). If they felt as though there was a non-negligible (say 5%) chance of disastrous climate change, then people would generally prefer to take the certain cost of paying today over the uncertain cost of betting on the potential of disaster.</p>
 
 <p>The opposite would be a “max-max” approach, which would take the best possible outcome of each policy, and would be a heavy bet against climate change having major impacts.</p>
 
-<p>Because IAMs currently ignore tail risks and subjective uncertainty, pretty much whatever we do to incorporate these into IAM studies will increase how much damage we expect climate change to have. So adding these into our decision making is pretty urgent. I’m not sure what the best way of doing this is (max-min seems a bit too cautious), but it’s clear we can’t just ask “what impacts could this policy have?” and have to include a preference for how risk adverse we are, or else who’s (subjective) opinions we trust the most. </p>
+<p>Because IAMs currently ignore tail risks and subjective uncertainty, pretty much whatever we do to incorporate these into IAM studies will increase how much damage we expect climate change to have, and we really need to start doing this. I’m not sure what the best way of accounting for them is (max-min seems a bit too cautious), but it’s clear we can’t just ask “what impacts could this policy have?” and have to include a preference for how risk adverse we are, or else who’s (subjective) opinions we trust the most. </p>
 
 <p>Perhaps the most important thing is that however subjective uncertainties are accounted for, this choice must be clearly communicated to policy makers. If the result of a max-min study suggests we should be urgently reducing CO<sub>2</sub> emissions, the people making decisions should be clear that this is based on a comparison of worst-case scenarios. It might even be better to take this further and have policy makers choose in advance how to balance risk-aversion with subjective estimates of uncertainty in studies of future climate scenarios. Since they're the ones who will make the decisions, they should be involved in modeling the potential impacts of these decisions. </p>
 
