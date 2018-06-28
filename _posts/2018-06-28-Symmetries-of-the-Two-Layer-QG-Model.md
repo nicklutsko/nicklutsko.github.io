@@ -7,7 +7,7 @@ use_math: true
 
 <p>One of the simplest models of mid-latitudes dynamics is Phillips’ two-layer quasi-geostrophic $($QG$)$ model on a $\beta$ plane. This consists of two layers of constant density, with the top layer lighter than the bottom layer, whose interface is relaxed to some equilibrium slope $($which represents the tropics receiving more solar radiation than high latitudes$)$. Surface friction is also added to the lower layer:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/2_layer_QG.jpg" alt="2_layer" style="width:483px;height:154px; position:absolute; LEFT:170px"" class="center">
+<img src="http://nicklutsko.github.io/notes/images/2_layer_QG.jpg" alt="2_layer" style="position:absolute; left:170px; width:483px;height:154px;" class="center">
 
 <p>$\theta$ is potential temperature and $Q$ is the zonal-mean potential vorticity, defined below. The non-dimensionalized equations for the two layers are:
 $$
