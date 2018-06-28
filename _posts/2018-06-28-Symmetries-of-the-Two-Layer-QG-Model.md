@@ -58,7 +58,7 @@ and then switch the layers, i.e., make the co-ordinate transform $z → -z$.</p>
 
 <p>Here’s what the zonal-mean winds look like in simulations of these climates with Earth-like parameters:</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/climate_comp_2.png" alt="climate_comp" style="width:400px;height:400px;" class="center"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/climate_comp_2.png" alt="climate_comp" style="width:200px;height:400px;" class="center"></center>
 
 <p>and here’s snapshots of the PV in both layers of an Earth-like simulation and a simulation with reversed temperature gradient:</p>
 
@@ -70,7 +70,7 @@ and then switch the layers, i.e., make the co-ordinate transform $z → -z$.</p>
 
 <center><img src="http://nicklutsko.github.io/notes/images/delta_comp.png" alt="delta_comp" style="width:292px;height:400px;" class="center"></center>
 
-<p>To make things slightly more realistic, here are some simulations with the Held-Suarez model of a control Earth-like set-up $($top$)$, a set-up with a reversed temperature gradient $($middle$)$ and a set-up with a reversed temperature gradient and friction in the upper troposphere $($bottom$)$</p>
+<p>To make things slightly more realistic, here are some simulations with the Held-Suarez model of a control Earth-like set-up $($top$)$, a set-up with a reversed temperature gradient $($middle$)$ and a set-up with a reversed temperature gradient and friction in the upper troposphere $($bottom$)$ $($the black contours are zonal-mean winds and the colored contours are the eddy momentum fluxes$)$</p>
 
 <center><img src="http://nicklutsko.github.io/notes/images/dycore_emfs.png" alt="dycore_emfs" style="width:400px;height:400px;" class="center"></center>
 
