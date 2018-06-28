@@ -84,7 +84,7 @@ $$</p>
 
 <p>The spherical geometry and presence of a stratosphere means things aren’t exact anymore, but qualitatively these are similar to the corresponding two-layer simulations.</p>
 
-<h3>How Relevant is Climate 2?</h3>
+<h3>Some Implications</h3>
 
 <p>I've already mentioned some situations in which climate 2 would be relevant, like a planet with high obliquity and a situation with a strong negative topographic $\beta$ effect. The flow underneath an ice shelf might also be like climate 2 if the water feels a strong frictional force from the ice.</p>
 
