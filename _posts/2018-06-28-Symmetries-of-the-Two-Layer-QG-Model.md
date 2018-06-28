@@ -69,7 +69,7 @@ $$</p>
 
 <p>Notice that in the reversed temperature gradient case there are two strong westerly jets in the upper troposphere, while the winds in the lower troposphere are pretty similar to the control case. This is because they are constrained to balance the vertically-integrated eddy momentum flux divergence.</p>
 
-<p>Here are snapshots of the PV in both layers of an Earth-like simulation and a simulation with reversed temperature gradient:</p>
+<p>Here are snapshots of the PV in both layers of an Earth-like simulation and a simulation with the temperature gradient reversed:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/PV_snapshot.png" alt="PV_snapshot" style="position:absolute; left:250px; width:450px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
