@@ -88,7 +88,7 @@ $$</p>
 
 <p>I've already mentioned some situations in which climate 2 would be relevant, like a planet with high obliquity and a situation with a strong negative topographic $\beta$ effect. The flow underneath an ice shelf might also be like climate 2 if the water feels a strong frictional force from the ice.</p>
 
-<p>Besides these special cases, I think the more interesting point is that these results highlight that because of the symmetries of the 2-layer model, its climate is defined by the position of the friction relative to the PV gradient. This is really the only degree of freedom in the model; we can change parameter values, but as long as the friction is in the layer with the smaller PV gradient the climate will be "Earth-like".</p>
+<p>Besides these special cases, I think the more interesting point is that these results highlight the symmetries of the 2-layer model, which mean that its climate is defined by the position of the friction relative to the PV gradient. This is really the only degree of freedom in the model; we can change parameter values, but as long as the friction is in the layer with the smaller PV gradient the climate will be "Earth-like".</p>
 
 <p>$($Email me if you want code for any of the simulations$)$.</p>
 
