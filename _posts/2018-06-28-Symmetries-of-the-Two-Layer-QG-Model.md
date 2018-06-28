@@ -7,8 +7,8 @@ use_math: true
 
 <p>One of the simplest models of mid-latitudes dynamics is Phillips’ two-layer quasi-geostrophic $($QG$)$ model on a $\beta$ plane. This consists of two layers of constant density, with the top layer lighter than the bottom layer, whose interface is relaxed to some equilibrium slope $($which represents the tropics receiving more solar radiation than high latitudes$)$. Surface friction is also added to the lower layer:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/2_layer_QG.jpg" alt="2_layer" style="position:absolute; left:170px; width:483px;height:154px;" class="center">
-
+<img src="http://nicklutsko.github.io/notes/images/2_layer_QG.jpg" alt="2_layer" style="position:absolute; left:250px; width:483px;height:154px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br />
 <p>$\theta$ is potential temperature and $Q$ is the zonal-mean potential vorticity, defined below. The non-dimensionalized equations for the two layers are:
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 - \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k (+ hyperdiffusion),
@@ -64,13 +64,15 @@ $$</p>
 
 <p>Here’s what the zonal-mean winds in the two layers look like in some simulations of these climates with Earth-like parameters:</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/climate_comp_2.png" alt="climate_comp" style="width:200px;height:400px;" class="center"></center>
+<img src="http://nicklutsko.github.io/notes/images/climate_comp_2.png" alt="climate_comp" style="position:absolute; left:370px; width:200px;height:400px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>Notice that in the reversed temperature gradient case there are two strong westerly jets in the upper troposphere, while the winds in the lower troposphere are pretty similar to the control case. This is because they are constrained to balance the vertically-integrated eddy momentum flux divergence.</p>
 
 <p>Here are snapshots of the PV in both layers of an Earth-like simulation and a simulation with reversed temperature gradient:</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/PV_snapshot.png" alt="PV_snapshot" style="width:450px;height:300px;" class="center"></center>
+<img src="http://nicklutsko.github.io/notes/images/PV_snapshot.png" alt="PV_snapshot" style="position:absolute; left:250px; width:450px;height:300px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>Taking things further, the two climate are actually end-members of a continuum of climates; it is really the ratio of the friction in the two layers which matters. We can define a quantity $\Delta$, which is equal to the friction in layer 2 minus the friction in layer 1, divided by the friction in layer 2: $\Delta = (\tau_{f, 2} - \tau_{f, 1} ) / \tau_{f, 2}$; and then go smoothly from climate 1 to climate 2 by varying $\Delta$ from 1 to -1:</p>
 
@@ -78,7 +80,8 @@ $$</p>
 
 <p>Finally, to make things more realistic, here are some simulations with the GFDL dry dynamical core, forced with Held-Suarez physics, of an Earth-like case $($top$)$, a case with a reversed temperature gradient $($middle$)$ and a case with a reversed temperature gradient and friction in the upper troposphere $($bottom$)$ $($the black contours are zonal-mean winds and the colored contours are the eddy momentum fluxes$)$:</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/dycore_emfs.png" alt="dycore_emfs" style="width:400px;height:400px;" class="center"></center>
+<img src="http://nicklutsko.github.io/notes/images/dycore_emfs.png" alt="dycore_emfs" style="position:absolute; left:280px; width:400px;height:400px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The spherical geometry and presence of a stratosphere means things aren’t exact anymore, but qualitatively these are similar to the corresponding two-layer simulations.</p>
 
