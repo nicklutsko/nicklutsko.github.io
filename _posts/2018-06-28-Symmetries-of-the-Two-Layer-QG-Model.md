@@ -11,7 +11,7 @@ use_math: true
 
 <p>The way to think about the dynamics of this system is that eddies try to flatten out the interface by transporting heat polewards, fighting against the radiative relaxation, and the equations for the two layers are:
 $$
-\frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 - \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k,
+\frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 - \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k (+ hyperdiffusion),
 $$
 where $q_k = \nabla^2 \psi_k + (-1)^k (\psi_1 - \psi_2) + \beta y$ is the potential vorticity, with $\psi$ the streamfunction and $\beta$ the gradient of the Coriolis parameter. $k$ = 1 for the top layer and 2 for the bottom layer, and the $\delta$-function indicates that the friction only acts in the lower layer. $\psi_R$ is the equilibrium slope which the interface is relaxed to, and is chosen to make the system baroclinically unstable.</p>
 
@@ -28,7 +28,7 @@ where overlines denote zonal-means, and the main balance is between $\beta$ and 
 
 <p>How can we switch this, so that the lower layer PV gradient is larger? One way is to reverse the temperature gradient so that the “pole” gets more sun than the “tropics”. This would be the case on a planet with high eccentricity, and in the two-layer model is done by reversing the sign  of $\psi_R$:
 $$
-\frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 - \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k,
+\frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 + \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k,
 $$
 This makes the PV gradient larger in the lower layer:
 $$
@@ -37,9 +37,7 @@ $$
 $$
 </p> 
 
-<p>Another way to make the PV gradient larger in the lower layer is to take the original set-up and change the sign of $\beta$, i.e., $\beta → -\beta$. Everything stays the same except that the PV is now $q_k = \nabla^2 \psi_k + (-1)^k (\psi_1 - \psi_2) - \beta y$.</p>
-
-<p>If we then make the co-ordinate transform $(x, y) → (-x, -y)$, we end up with exactly the same system as when reversing the temperature gradient:</p>
+<p>Another way to make the PV gradient larger in the lower layer is to take the original set-up and change the sign of $\beta$, i.e., $\beta → -\beta$. Everything stays the same except that the PV is now $q_k = \nabla^2 \psi_k + (-1)^k (\psi_1 - \psi_2) - \beta y$. If we then make the co-ordinate transform $(x, y) → (-x, -y)$, we end up with exactly the same system as when reversing the temperature gradient:
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 + \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k, \\
 q_k = \nabla^2 \psi_k + (-1)^k (\psi_1 - \psi_2) + \beta y. 
@@ -52,7 +50,7 @@ and then switch the layers, i.e., make the co-ordinate transform $z → -z$.</p>
 
 <p>In summary, the two-layer model has two climate: the Earth-like climate 1, and climate 2 which is like a planet with a reversed temperature gradient. We can go from climate 1 to climate 2 by making one of the perturbations discussed above, and can go back by making another perturbation $($and so on$)$:</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/relationships.png" alt="relationships" style="width:800px;height:200px;" class="center"></center>
+<img src="http://nicklutsko.github.io/notes/images/relationships.png" alt="relationships" style="width:800px;height:200px;">
 
 <p>The key difference between the two climates is that in climate 1 the friction is in the layer with the smaller PV gradient, while in climate 2 the friction is in the layer with the larger PV gradient.</p>
 
@@ -70,7 +68,7 @@ and then switch the layers, i.e., make the co-ordinate transform $z → -z$.</p>
 
 <p>and you can smoothly go from climate 1 to climate 2 by varying $\Delta$ from -1 to 1:</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/delta_comp.png" alt="delta_comp" style="width:400px;height:292px;" class="center"></center>
+<center><img src="http://nicklutsko.github.io/notes/images/delta_comp.png" alt="delta_comp" style="width:292px;height:400px;" class="center"></center>
 
 <p>To make things slightly more realistic, here are some simulations with the Held-Suarez model of a control Earth-like set-up $($top$)$, a set-up with a reversed temperature gradient $($middle$)$ and a set-up with a reversed temperature gradient and friction in the upper troposphere $($bottom$)$</p>
 
