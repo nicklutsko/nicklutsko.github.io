@@ -30,7 +30,7 @@ where $U$ is the zonal-mean zonal wind and the main balance is between $\beta$ a
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 + \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k.
 $$
-The vertical wind shear is then negative, as $U_1 - U_2 &lt; 0$, and the PV gradient is larger in the lower layer.</p> 
+The vertical wind shear is then negative $(U_1 - U_2 &lt; 0)$ and the PV gradient is larger in the lower layer.</p> 
 
 <p>Another way to make the PV gradient larger in the lower layer is to take the original set-up and change the sign of $\beta$. This could happen with a strong, negative topographic $\beta$, but otherwise you have to imagine a planet that's wider at the poles than at the equator $($like an inverted cone$)$.</p>
 
@@ -56,28 +56,28 @@ $$</p>
 
 <h3>Simulating the Climates</h3>
 
-<p>Here’s what the zonal-mean winds in the two layers look like in some simulations of these climates with Earth-like parameters:</p>
+<p>Here’s what the zonal-mean winds in the two layers look like in simulations of these climates with Earth-like parameters:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/climate_comp_2.png" alt="climate_comp" style="position:absolute; left:370px; width:200px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>In the reversed temperature gradient case there are two strong easterly jets in the upper troposphere, while the winds in the lower troposphere are pretty similar to the control case, because they still have to balance the vertically-integrated eddy momentum flux divergence.</p>
 
-<p>For reference, here are snapshots of the PV in both layers of an Earth-like simulation and a simulation with the temperature gradient reversed:</p>
+<p>And for reference, here are snapshots of the PV in both layers of an Earth-like simulation and a simulation with the temperature gradient reversed:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/PV_snapshot.png" alt="PV_snapshot" style="position:absolute; left:250px; width:450px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>Taking things further, the two climate are actually end-members of a continuum of climates; it is really the ratio of the friction in the two layers which matters. We can define a quantity $\Delta$, which is equal to the friction in layer 2 minus the friction in layer 1, divided by the friction in layer 2: $\Delta = (\tau_{f, 2} - \tau_{f, 1} ) / \tau_{f, 2}$; and then go smoothly from climate 1 to climate 2 by varying $\Delta$ from 1 to -1:</p>
+<p>Taking things further, the two climate are actually end-members of a continuum of climates; it is really the ratio of the friction in the two layers which matters. We can define a quantity $\Delta$, which is equal to the friction in layer 2 minus the friction in layer 1, divided by the friction in layer 2: $\Delta = (\tau_{f, 2} - \tau_{f, 1} ) / \tau_{f, 2}$, and then go smoothly from climate 1 to climate 2 by varying $\Delta$ from 1 to -1:</p>
 
 <center><img src="http://nicklutsko.github.io/notes/images/delta_comp.png" alt="delta_comp" style="width:292px;height:400px;" class="center"></center>
 
-<p>Finally, to make things more realistic, here are some simulations with the GFDL dry dynamical core, forced with Held-Suarez physics, of an Earth-like case $($top$)$, a case with a reversed temperature gradient $($middle$)$ and a case with a reversed temperature gradient and friction in the upper troposphere $($bottom$)$ $($the black contours are zonal-mean winds and the colored contours are the eddy momentum fluxes$)$:</p>
+<p>Finally, for some more realistic examples, here are the zonal-mean winds $($black contours$)$ and eddy momentum fluxes $($colored contours$)$ from some simulations with the GFDL dry dynamical core, forced with Held-Suarez physics, of an Earth-like case $($top$)$, a case with a reversed temperature gradient $($middle$)$ and a case with a reversed temperature gradient and friction in the upper troposphere $($bottom$)$:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/dycore_emfs.png" alt="dycore_emfs" style="position:absolute; left:280px; width:400px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>The spherical geometry and presence of a stratosphere means things aren’t exact anymore, but qualitatively these are similar to the corresponding two-layer simulations.</p>
+<p>The spherical geometry and the presence of a stratosphere mean things aren’t exact anymore, but qualitatively these are similar to the corresponding two-layer simulations.</p>
 
 <h3>Some Implications</h3>
 
