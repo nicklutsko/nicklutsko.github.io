@@ -43,7 +43,7 @@ $$
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 - \psi_R ) - \frac{1}{\tau_f}\delta_{k1}\nabla^2 \psi_k,
 $$
-and then switching the layers, i.e., making the co-ordinate transform $z → -z$:
+and then switch the layers, i.e., make the co-ordinate transform $z → -z$:
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_2 - \psi_1 - \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k.
 $$</p>
