@@ -24,18 +24,13 @@ $$
 \frac{dQ_1}{dy} = \beta - \frac{d^2 U_1 }{dy^2} + (U_1 - U_2), \\
 \frac{dQ_2}{dy} = \beta - \frac{d^2 U_2 }{dy^2} - (U_1 - U_2), 
 $$
-where $U$ is the zonal-mean zonal wind and the main balance is between $\beta$ and the vertical wind shear $(beta + (U_1 - U_2) > beta - (U_1 - U_2))$. This means that eddies can propagate further from their source in the upper layer than in the lower layer, which makes the dynamics of the upper layer more linear. In the lower layer the waves essentially just form and break $($non-linearly$)$ in place $($see <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JAS-D-17-0099.1">here</a> for more on lower layer eddies$)$.</p> 
+where $U$ is the zonal-mean zonal wind and the main balance is between $\beta$ and the vertical wind shear $(\beta + (U_1 - U_2) > \beta - (U_1 - U_2))$. This means that eddies can propagate further from their source in the upper layer than in the lower layer, which makes the dynamics of the upper layer more linear. In the lower layer the waves essentially just form and break $($non-linearly$)$ in place $($see <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JAS-D-17-0099.1">here</a> for more on lower layer eddies$)$.</p> 
 
 <p>How could we switch this, to make the PV gradient in the lower layer larger? One way is to reverse the temperature gradient so that the “pole” gets more sun than the “tropics”. This would be the case on a planet with high obliquity, and in the two-layer model is done by reversing the sign  of $\psi_R$:
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 + \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k.
 $$
-The PV gradients are then:
-$$
-\frac{dQ_1}{dy} = \beta - \frac{d^2 U_1 }{dy^2} - (U_1 - U_2), \\
-\frac{dQ_2}{dy} = \beta - \frac{d^2 U_2 }{dy^2} + (U_1 - U_2).
-$$
-</p> 
+The vertical wind shear is then negative, as $U_1 - U_2 &lt 0$, and the PV gradient is larger in the lower layer.</p> 
 
 <p>Another way to make the PV gradient larger in the lower layer is to take the original set-up and change the sign of $\beta$. This could happen with a strong, negative topographic $\beta$, but otherwise you have to imagine a planet that's wider at the poles than at the equator $($like an inverted cone$)$.</p>
 
