@@ -30,7 +30,7 @@ where $U$ is the zonal-mean zonal wind and the main balance is between $\beta$ a
 $$
 \frac{\partial q_k}{\partial t} + J(\psi_k, q_k) = -\frac{1}{\tau_d}(-1)^k (\psi_1 - \psi_2 + \psi_R ) - \frac{1}{\tau_f}\delta_{k2}\nabla^2 \psi_k.
 $$
-The vertical wind shear is then negative, as $U_1 - U_2 &lt 0$, and the PV gradient is larger in the lower layer.</p> 
+The vertical wind shear is then negative, as $U_1 - U_2 &lt; 0$, and the PV gradient is larger in the lower layer.</p> 
 
 <p>Another way to make the PV gradient larger in the lower layer is to take the original set-up and change the sign of $\beta$. This could happen with a strong, negative topographic $\beta$, but otherwise you have to imagine a planet that's wider at the poles than at the equator $($like an inverted cone$)$.</p>
 
