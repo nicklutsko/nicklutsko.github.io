@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Are We So Confident Heatwaves Have Been Influenced By Human Activities?"
+title: "Why Are We So Confident Heatwaves Have Been Influenced By Humans?"
 date: 2018-07-19
 ---
 
