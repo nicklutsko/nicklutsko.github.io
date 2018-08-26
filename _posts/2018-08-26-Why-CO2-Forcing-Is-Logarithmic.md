@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why the Radiative Forcing of CO$_2$ is a Logarithmic Function of Atmospheric CO$_2$ concentrations"
+title: "Why the Radiative Forcing of CO2 is a Logarithmic Function of Atmospheric CO$_2$ concentrations"
 date: 2018-07-19
 ---
 
