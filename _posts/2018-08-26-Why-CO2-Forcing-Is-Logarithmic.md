@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Why the Radiative Forcing of CO2 is a Logarithmic Function of Atmospheric CO$_2$ concentrations"
+title: "Why The Radiative Forcing of CO2 is a Logarithmic Function of Atmospheric CO2 Concentrations"
 date: 2018-07-19
+use_math: true
 ---
 
 One of our basic assumptions about global warming is that the radiative forcing by CO$_2$ -- the outgoing longwave radiation absorbed by atmospheric CO$_2$ -- is a logarithmic function of the atmospheric CO$_2$ concentration: if the radiative forcing of doubling CO$_2$ is $F$, then the radiative forcing of quadrupling CO$_2$ is $2F$.
