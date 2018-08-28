@@ -31,7 +31,7 @@ Huang and Shahabadi argue that the Planck function in the longwave spectrum is r
 $$
 \Delta R \sim T(\tau = 1 / a) - T(\tau = 1).
 $$
-Going from $\tau$ co-ordinates to $z$ co-ordinates using the transform $\tau = c_1e^{c_2 z}$, and also assuming that the lapse-rate $\Gamma = dT/dz$ is affected by the increased CO$_2$, then  
+Going from $\tau$ co-ordinates to $z$ co-ordinates using the transform $\tau = c_1e^{c_2 z}$, and also assuming that the lapse-rate $\Gamma = dT/dz$ isn't affected by the increased CO$_2$, then  
 $$
 \Delta R \sim \Gamma (z(\tau = 1 / a) - z(\tau = 1)) = -\Gamma ln(a),
 $$
