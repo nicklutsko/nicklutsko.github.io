@@ -4,7 +4,7 @@ title: "Understanding the Regional Pattern of Surface Warming"
 date: 2018-10-10
 ---
 
-Among all the uncertainties about future climate change, one thing we do have confidence in is the pattern of surface warming. This is a very useful thing to know, for instance because we can use pattern scaling to get a good first-order estimate of regional warming: non-dimensionalizing the pattern by the change in global-mean surface temperature, local warming (T) = global-mean surface warming (T) x the pattern.  
+Among all the uncertainties about future climate change, one thing we do have confidence in is the pattern of surface warming. This is a very useful thing to know, for instance because we can use pattern scaling to get a reasonable first-order estimate of regional warming: non-dimensionalizing the pattern by the change in global-mean surface temperature, local warming in some scenario (T) = global-mean surface warming (T) x the pattern.  
 
 As an example, this is a figure from a review paper by <a href="https://www.nature.com/articles/nclimate2689.pdf">Xie et al. (2015)</a> on improving predictions of regional climate changes, and shows the CMIP5 model-mean changes in surface temperature (top) and precipitation (bottom) under the RCP4.5 scenario between 2081-2100 and 1986-2005:
 
