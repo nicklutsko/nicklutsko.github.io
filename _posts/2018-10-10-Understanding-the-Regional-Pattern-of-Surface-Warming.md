@@ -11,7 +11,7 @@ As an example, this is a figure from a review paper by <a href="https://www.natu
 <img src="http://nicklutsko.github.io/notes/images/Xie_et_al_warming.png" alt="Xie et al. Fig 1" style="position:absolute; left:250px; width:310px;height:392px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-Hatching indicates that the changes aren't robust across models, in the sense that the multimodel mean change is less than the natural variability. Clearly, there's a big difference between panel a, which doesn't have any hatching, and panel b, which has a lot of hatching. The pattern of warming is also pretty robust across emission scenarios and assumptions about climate sensitivity.
+Hatching indicates where the changes aren't robust across models, in the sense that the multimodel mean change is less than the natural variability. Clearly, there's a big difference between panel a, which doesn't have any hatching, and panel b, which has a lot of hatching. The pattern of warming is also pretty robust across emission scenarios and assumptions about climate sensitivity.
 
 Looking at panel a, some large-scale features stand out:
 <ul>
