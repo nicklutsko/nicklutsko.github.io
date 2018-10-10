@@ -9,7 +9,7 @@ Among all the uncertainties about future climate change, one thing we do have co
 As an example, this is a figure from a review paper by <a href="https://www.nature.com/articles/nclimate2689.pdf">Xie et al. (2015)</a> on improving predictions of regional climate changes, and shows the CMIP5 model-mean changes in surface temperature (top) and precipitation (bottom) under the RCP4.5 scenario between 2081-2100 and 1986-2005:
 
 <img src="http://nicklutsko.github.io/notes/images/Xie_et_al_warming.png" alt="Xie et al. Fig 1" style="position:absolute; left:250px; width:310px;height:392px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Hatching indicates that the changes aren't robust across models, in the sense of the models not all giving the same sign of response. This isn't a very stringent test, but it's enough to make a big difference between panel a, which doesn't have any hatching, and panel b, which has a lot of hatching. The pattern of warming is also pretty robust across emission scenarios and assumptions about climate sensitivity.
 
@@ -30,7 +30,7 @@ In addition to consistency across models, our confidence in the regional pattern
 A first-order explanation for why land warms more than ocean comes from a kind of quasi-equilibrium theory. Assume temperatures over land and over the oceans are moist adiabatic: they follow dry adiabats up to the lifting condensation level (LCL), and then moist adiabats higher up. The LCL is lower over the oceans, since the air over the oceans is moister. Next, assume that temperatures over land are the same as over the oceans at the height of the land’s LCL. Working back down, the land surface is warmer because of the difference in lapse-rates between the heights of the ocean’s LCL and the land’s LCL. 
 
 <img src="http://nicklutsko.github.io/notes/images/land_warming_example.png" alt="Land warming example" style="position:absolute; left:250px; width:266px;height:200px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 If the ocean surface warms, the moist adiabat over the ocean between these two heights is reduced, but the dry adiabatic lapse-rate over the land is fixed, creating a land-ocean contrast in warming. This is compounded by reductions in the relative humidity over land, which moves the LCL over land further up, further amplifying the difference in responses.
 
