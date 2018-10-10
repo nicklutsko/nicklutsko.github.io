@@ -9,7 +9,7 @@ Among all the uncertainties about future climate change, one thing we do have co
 As an example, this is a figure from a review paper by <a href="https://www.nature.com/articles/nclimate2689.pdf">Xie et al. (2015)</a> on improving predictions of regional climate changes, and shows the CMIP5 model-mean changes in surface temperature (top) and precipitation (bottom) under the RCP4.5 scenario between 2081-2100 and 1986-2005:
 
 <img src="http://nicklutsko.github.io/notes/images/Xie_et_al_warming.png" alt="Xie et al. Fig 1" style="position:absolute; left:250px; width:310px;height:392px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Hatching indicates that the changes aren't robust across models, in the sense of the models not all giving the same sign of response. This isn't a very stringent test, but it's enough to make a big difference between panel a, which doesn't have any hatching, and panel b, which has a lot of hatching. The pattern of warming is also pretty robust across emission scenarios and assumptions about climate sensitivity.
 
