@@ -27,7 +27,7 @@ In addition to consistency across models, our confidence in the regional pattern
 
 <h3>Greater warming over land than over the oceans</h3>
 
-A first-order explanation for why land warms more than ocean comes from a kind of quasi-equilibrium theory. Assume temperatures over land and over the oceans are moist adiabatic: they follow dry adiabats up to the lifting condensation level (LCL), and then moist adiabats higher up. The LCL is lower over the oceans, since the air over the oceans is moister. Next, assume that temperatures over land are the same as over the oceans at the height of the land’s LCL. Working back down, the land surface is warmer because of the difference in lapse-rates between the heights of the ocean’s LCL and the land’s LCL. 
+A first-order explanation for why land warms more than ocean comes from quasi-equilibrium theory. Assume temperatures over land and over the oceans are moist adiabatic: they follow dry adiabats up to the lifting condensation level (LCL), and then moist adiabats higher up. The LCL is lower over the oceans, since the air over the oceans is moister. Next, assume that temperatures over land are the same as over the oceans at the height of the land’s LCL. Working back down, the land surface is warmer because of the difference in lapse-rates between the heights of the ocean’s LCL and the land’s LCL. 
 
 <img src="http://nicklutsko.github.io/notes/images/land_warming_example.png" alt="Land warming example" style="position:absolute; left:250px; width:266px;height:200px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
