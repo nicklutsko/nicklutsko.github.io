@@ -27,39 +27,39 @@ In addition to consistency across models, our confidence in the regional pattern
 
 <h3>Greater warming over land than over the oceans</h3>
 
-A first-order explanation for why land warms more than ocean comes from quasi-equilibrium theory. Assume temperatures over land and over the oceans are moist adiabatic: they follow dry adiabats up to the lifting condensation level (LCL), and then moist adiabats higher up. The LCL is lower over the oceans, since the air over the oceans is moister. Next, assume that temperatures over land are the same as over the oceans at the height of the land’s LCL. Working back down, the land surface is warmer because of the difference in lapse-rates between the heights of the ocean’s LCL and the land’s LCL. 
+A first-order explanation for why land warms more than ocean comes from quasi-equilibrium theory. Assume temperatures over land and over the oceans are moist adiabatic: they follow dry adiabats up to the lifting condensation level (LCL), and then moist adiabats higher up. The LCL is lower over the oceans, since the air over the oceans is moister. Next, assume that temperatures over land are the same as over the oceans at the height of the land’s LCL. Working back down, the land surface is warmer because of the difference in lapse-rates between the heights of the ocean’s LCL and the land’s LCL (compare black lines in the schematic). 
 
 <img src="http://nicklutsko.github.io/notes/images/land_warming_example.png" alt="Land warming example" style="position:absolute; left:250px; width:266px;height:200px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-If the ocean surface warms, the moist adiabat over the ocean between these two heights is reduced, but the dry adiabatic lapse-rate over the land is fixed, creating a land-ocean contrast in warming. This is compounded by reductions in the relative humidity over land, which moves the LCL over land further up, further amplifying the difference in responses.
+If the ocean surface warms, the moist adiabat over the ocean between these two heights is reduced, but the dry adiabatic lapse-rate over the land is fixed, so the land warm up more than the ocean. This is compounded by a lowering of the LCL over the ocean, as well as a reduction in the relative humidity over land, which moves the LCL over land further up, both which further amplify the difference in responses.
 
-Some other important factors include differences in the responses of sensible and latent heat fluxes and differences in cloud cover changes. For instance, Joshi et al. (2008) suggest that reductions in relative humidity over land cause reductions in local cloud cover, which further amplify the land-ocean warming contrast. As with anything involving clouds however, this is a fairly uncertain mechanism.
+Some other important factors include differences in the responses of sensible and latent heat fluxes and differences in the responses of clouds. For instance, Joshi et al. (2008) suggest that the reduction in relative humidity over land cause reductions in local cloud cover, which further amplify the land-ocean warming contrast. As with anything involving clouds however, there is some an uncertainty about this mechanism.
 
 Some references:
 <ul>
-<li><a href="http://www.mit.edu/~pog/src/byrne_land_ocean_warming_contrast_2013.pdf">Byrne and O'Gorman (2013)</a> (and see follow-ups for similar theories for relative humidity differences).</li>
+<li><a href="http://www.mit.edu/~pog/src/byrne_land_ocean_warming_contrast_2013.pdf">Byrne and O'Gorman (2013)</a> and see follow-ups for similar theories for the different responses of relative humidity over land and ocean.</li>
 <li><a href="https://link.springer.com/article/10.1007/s00382-007-0306-1">Joshi et al. (2008)</a> for similar theory and also discussion of clouds.</li>
 </ul>
 
 <h3>Arctic amplification of warming</h3>
 
-Amplification of warming at high latitudes is seen in models ranging from highly idealized to comprehensive climate models. There are number of reasons for this, but first it’s worth noting that the forcing due to increasing CO2 is actually tropically-amplified, so in the absence of feedbacks there would be more warming in the tropics. Water vapor also promotes tropical amplification, because the water vapor feedback is largest there.
+Amplification of warming at high latitudes is seen in models ranging from highly idealized to comprehensive climate models. There are number of reasons for this, but first it’s worth noting that the forcing due to increasing atmospheric CO<sub>2</sub> is actually tropically-amplified, so in the absence of feedbacks there would be more warming in the tropics. Water vapor also promotes tropical amplification, because the water vapor feedback is largest there.
 
-In idealized models, these are countered by the Planck feedback (by T^4 colder regions have to warm up more), increases in poleward energy transport and differences in the lapse-rate feedback, which is positive at high latitudes and negative at low latitudes.  In comprehensive models a major additional factor in Arctic amplification is reductions in albedo due to reductions in snow cover and sea-ice. It’s less clear how clouds, surface fluxes and ocean transport contribute to polar amplification, but their effects seem to be minor.
+In idealized models, these are countered by the Planck feedback (by T<sup>4</sup> colder regions have to warm up more), increases in poleward energy transport and differences in the lapse-rate feedback, which is positive at high latitudes and negative at low latitudes.  In comprehensive models a major additional factor in Arctic amplification is reductions in albedo due to reductions in snow cover and sea-ice. It’s less clear how clouds, surface fluxes and ocean transport contribute to polar amplification, but their effects seem to be secondary.
 
 Some references:
 <ul>
 <li><a href="https://www.nature.com/articles/ngeo2071.pdf">Pithan and Mauritsen (2014)</a> for a CMIP5 model perspective.</li>
-<li><a href="http://www.meteo.mcgill.ca/~tmerlis/publications/henry_linear_rad.pdf">Henry and Merlis</a>, and <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0103.1">Lutsko and Popp (2018)</a>, for more idealized perspectives.</li>
-<li><a href="http://web.mit.edu/~twcronin/www/document/CroninJansen2015.pdf">Cronin and Jansen (2016)</a> for understanding lapse-rate changes.</li>
+<li><a href="http://www.meteo.mcgill.ca/~tmerlis/publications/henry_linear_rad.pdf">Henry and Merlis</a>, and <a href="https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0103.1">Lutsko and Popp (2018)</a> for more idealized perspectives.</li>
+<li><a href="http://web.mit.edu/~twcronin/www/document/CroninJansen2015.pdf">Cronin and Jansen (2016)</a> for understanding lapse-rate changes at high latitudes.</li>
 </ul>
 
 <h3>Relatively muted warming over Antarctica</h3>
 
 So why does Antarctica warm up less? Since idealized models show polar amplification, the answer must be in effects that aren't included in models without continents, realistic oceans, etc.
 
-The main factor is that the mid-latitude jet in the southern hemisphere tends to shift southwards in global warming simulations. This induces northwards Ekman flow in the Southern Ocean, which brings cool waters up to the surface around the Antarctic continent. These cold waters originally sank in the North Atlantic, so it takes centuries for them to “feel” the effects of climate change. Their presence also promotes sea-ice growth, which increases the albedo around Antarctica, while the northwards flow also advects extra energy taken up by the ocean to lower latitudes, away from the Antarctic continent.
+The main factor seems to be that the mid-latitude jet in the southern hemisphere tends to shift southwards in global warming simulations. This induces northwards Ekman flow in the Southern Ocean, which brings cool waters up to the surface around the Antarctic continent. These cold waters originally sank in the North Atlantic, so it takes centuries for them to “feel” the effects of climate change. The cold waters also promote sea-ice growth, which increases the albedo around Antarctica, and one more effect is that the northwards Ekman flow advects extra energy taken up by the ocean to lower latitudes, away from the Antarctic continent.
 
 In these ways, the Southern Ocean acts to insulate Antarctica from global warming. Cloud changes may also play a role in cooling the mid- to high-latitudes in the southern hemisphere, though this is less certain. 
 
@@ -71,9 +71,9 @@ Some references:
 
 <h3>Reduced warming over the North Atlantic</h3>
 
-Reduced warming over the North Atlantic, or even a warming “hole”, is seen in observations as well as in simulations of future warming. There are a few different factors at play, and as far as I can tell the jury is still out on how much each of these contributes.
+Reduced warming over the North Atlantic, or even a warming “hole”, is seen in observations as well as in simulations of future warming. There are a few different factors at play, and as far as I can tell the jury is still out on the exact contribution of each factor.
 
-First, the reduced warming is often said to be caused by a slow down of the AMOC. So less heat is transported northwards into the surface waters of the North Atlantic, which cool as a result. Melting of the Greenland ice sheet could also play a role, as the cold, fresh run-off flows into the North Atlantic (though since climate models have fixed ice sheets they can’t capture this effect). Similarly, changes in ocean circulation cause increased flow into the North Atlantic from the Arctic Ocean and from the Labrodor Sea, which also leads to cooling. Both of these effects also act to shut off the convection in the North Atlantic. This effectively moves heat upwards by bringing cold water down, and so reduced convection leads to further cooling of the North Atlantic, as well as to a slowdown of the AMOC.
+First, the reduced warming is often said to be caused by a slow down of the AMOC. So less heat is transported northwards into the surface waters of the North Atlantic, which cool as a result. Melting of the Greenland ice sheet could also play a role, as the cold, fresh run-off flows into the North Atlantic (though since climate models have fixed ice sheets they can’t capture this effect). Similarly, changes in ocean circulation cause increased flow of cold, fresh water into the North Atlantic from the Arctic Ocean and from the Labrodor Sea. Both of these effects also act to shut off the convection in the North Atlantic. Since this convection effectively moves heat upwards by bringing cold water down, the reduced convection leads to further cooling of the North Atlantic and to a further slowdown of the AMOC.
 
 Some references:
 <ul>
@@ -87,7 +87,7 @@ Some references:
 
 The enhanced equatorial warming is particularly noticeable in the Pacific ocean, and is mostly due to coupled atmosphere-ocean dynamics. As the tropical atmospheric circulation slows down, upwelling of cold water at the equator is reduced, inducing additional warming at the equator. Reduced evaporative cooling, because of near-surface increases in stability and relative humidity, may also play a role, though this seems to be less certain.
 
-Coupled dynamics are also responsible for the slower warming over the southeast Pacific, through a wind-evaporation-SST (WES) feedback: an increase in surface wind speed increases evaporation, and this cools SSTs locally, which in turn further increases surface wind speeds. The WES feedback has already been identified as playing a role in ENSO dynamics, and experiments suggest that CO2 forcing causes an initial cooling of SSTs in the southeast Pacific, kicking off the WES cycle.
+Coupled dynamics are also responsible for the slower warming over the southeast Pacific, through a wind-evaporation-SST (WES) feedback: an increase in surface wind speed increases evaporation and this cools SSTs locally, which in turn further increases surface wind speeds. The WES feedback has already been identified as playing a role in ENSO dynamics, and experiments suggest that CO<sub>2</sub> forcing causes an initial cooling of SSTs in the southeast Pacific, kicking off the WES cycle.
 
 <ul>
 <li><a href="https://journals.ametsoc.org/doi/pdf/10.1175/2009JCLI3329.1">Xie et al (2010)</a> is a useful reference for both these features.</li>
