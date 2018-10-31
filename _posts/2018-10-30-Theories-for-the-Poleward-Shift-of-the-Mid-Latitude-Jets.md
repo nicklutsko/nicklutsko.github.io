@@ -5,7 +5,7 @@ date: 2018-10-30
 use_math: true
 ---
 
-<p>A major open problem in atmospheric dynamics is what causes the eddy-driven mid-latitude jets to shift polewards under climate change and, conversely, to shift equatorwards during strong El Nino events. This is seen in idealized models and in comprehensive climate model simulations of future warming scenarios, though more clearly in the southern hemisphere than in the northern hemisphere (where there’s more land). Understanding these shifts is important scientifically and for society, especially as they affect the location and severity of extreme mid-latitude weather events.</p>
+<p>A major open problem in atmospheric dynamics is what causes the eddy-driven mid-latitude jets to shift polewards under climate change and, conversely, to shift equatorwards during strong El Nino events. This is seen in idealized models and in comprehensive climate model simulations of future warming scenarios, though more clearly in the southern hemisphere than in the northern hemisphere $($where there’s more land$)$. Understanding these shifts is important scientifically and for society, especially as they affect the location and severity of extreme mid-latitude weather events.</p>
 
 <p>A closely related question is what causes the tropical circulation to widen and contract in these scenarios $($see <a href="https://www.nature.com/articles/s41558-018-0246-2.pdf">here</a> for a recent review$)$. These two effects might be related, but I’m not going to get into that here, and only focus on the jet shifts.</p>
 
@@ -55,7 +55,7 @@ Kidston et al. then point out that the sink region on the poleward side of the j
 
 This might seem to contradict the Chen argument, but Kidston et al. argue that both can be true at the same time. The acceleration of the subtropical winds could cause the critical layer on the equatorward side of the jet to move polewards, while at the same time the deceleration of the eddies could cause the poleward critical layer to move to higher latitudes, so both sinks shift poleward.</li>
 
-<li>Related to the idea of eddy length-scales mattering, <a href="https://journals.ametsoc.org/doi/10.1175/2011JAS3641.1">Riviere $($2011$)$</a> focused on the nature of the individual eddies. Anti-cyclones tend to propagate equatorward, and produce a poleward eddy momentum flux when they break, while cyclones tend to propagate polewards and so flux momentum towards the equator. Since long wavelength eddies are more likely to break anti-cyclonically, an increase in eddy length-scales favors anti-cyclonic wave-breaking, which results in a poleward movement of the jet.</li>
+<li>Related to the idea of eddy length-scales mattering, <a href="https://journals.ametsoc.org/doi/10.1175/2011JAS3641.1">Rivi&#232re$($2011$)$</a> focused on the nature of the individual eddies. Anti-cyclones tend to propagate equatorward, and produce a poleward eddy momentum flux when they break, while cyclones tend to propagate polewards and so flux momentum towards the equator. Since long wavelength eddies are more likely to break anti-cyclonically, an increase in eddy length-scales favors anti-cyclonic wave-breaking, which results in a poleward movement of the jet.</li>
 </ul>
 
 <h3>Moving the source region</h3>
