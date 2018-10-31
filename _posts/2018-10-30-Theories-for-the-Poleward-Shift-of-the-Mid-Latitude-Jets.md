@@ -7,9 +7,9 @@ use_math: true
 
 <p>A major open problem in atmospheric dynamics is what causes the eddy-driven mid-latitude jets to shift polewards under climate change and, conversely, to shift equatorwards during strong El Nino events. This is seen in idealized models and in comprehensive climate model simulations of future warming scenarios, though more clearly in the southern hemisphere than in the northern hemisphere $($where there’s more land$)$. Understanding these shifts is important scientifically and for society, especially as they affect the location and severity of extreme mid-latitude weather events.</p>
 
-<p>A closely related question is what causes the tropical circulation to widen and contract in these scenarios $($see <a href="https://www.nature.com/articles/s41558-018-0246-2.pdf">here</a> for a recent review$)$. These two effects might be related, but I’m not going to get into that here, and only focus on the jet shifts.</p>
+<p>A closely related question is what causes the tropical circulation to widen and contract in these scenarios $($see <a href="https://www.nature.com/articles/s41558-018-0246-2.pdf">here</a> for a recent review$)$. These two phenomena might be related, but I’m not going to get into that here, and only focus on the jet shifts.</p>
 
-<p>There are several different theories for why jets shift, but no consensus. To put these together I find it useful to use this schematic:
+<p>There are several different theories for why jets shift, but no consensus. To put these together I find it useful to use this schematic of the mid-latitude upper troposphere:
 
 <img src="http://nicklutsko.github.io/notes/images/jet_schematic.png" alt="jet schematic" style="position:absolute; left:250px; width:450px;height:283px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -18,7 +18,7 @@ This is the classic picture of a baroclinically unstable source region – the j
 
 <h3>Background: the zonal-mean structure of global warming</h3>
 
-<p>The jets feel the effect of global warming through the structure of the temperature response in height and latitude. The latitudinal variations in the response are particularly important, since the zonal wind is connected to the meridional temperature gradient by the thermal wind relation:</p>
+<p>The jets feel the effect of global warming through the structure of the temperature response in height and latitude. The latitudinal variations in the response are particularly important, since the zonal wind is connected to the meridional temperature gradient by the thermal wind relation:
 $$
 \frac{\partial u}{\partial z} \sim \frac{\partial T}{\partial y}
 $$
