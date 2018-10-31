@@ -14,7 +14,7 @@ use_math: true
 <img src="http://nicklutsko.github.io/notes/images/jet_schematic.png" alt="jet schematic" style="position:absolute; left:250px; width:450px;height:283px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-This is the classic picture of a baroclinically unstable source region – the jet – where eddies are excited and then propagate away. The eddies break at lower and higher latitudes and flux momentum back into the jet. With this picture, jets could shift because of shifts of the source region or of the sink regions.</p>
+This is the classic picture of a baroclinically unstable source region – the jet – where eddies are excited and then propagate away. The eddies break at lower and higher latitudes and flux momentum back into the jet. With this picture, jets could shift because of shifts of the source region or of the sink regions, which in turn affect the eddy momentum fluxes which drive the jet.</p>
 
 <h3>Background: the zonal-mean structure of global warming</h3>
 
