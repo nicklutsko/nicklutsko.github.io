@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Theories for the Poleward Shift of the Mid-Latitude Jets"
+title: "Theories for the Poleward Shifts of the Mid-Latitude Jets"
 date: 2018-10-30
 use_math: true
 ---
