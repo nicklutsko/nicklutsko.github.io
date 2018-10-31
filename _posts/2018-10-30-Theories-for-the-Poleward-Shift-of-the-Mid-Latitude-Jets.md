@@ -42,19 +42,19 @@ with $u$ the zonal-mean wind, $c$ the phase speed of the wave, $\beta$ the merid
 
 <ul>
 <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GL031200">Chen and Held $($2007$)$</a> $($see also <a href="https://journals.ametsoc.org/doi/full/10.1175/2008JCLI2306.1">Chen et al. $($2008$)$</a>$)$ focus on the breaking region on the equatorward side of the jet. This seems like a good starting point because Earth's spherical geometry means that eddies preferentially propagate equatorward, and the largest eddy momentum fluxes are on this side of the jet.
-
+<br /><br />
 Chen and Held make a relatively simple argument: because the subtropical winds accelerate, the critical layer where $u = c$ moves polewards, so waves break closer to the jet. This effectively shifts the eddy momentum fluxes into the jet polewards and the jet shifts as well. </li>
-
+<br />
 <li><a href="https://journals.ametsoc.org/doi/pdf/10.1175/2010JCLI3738">Kidston et al. $($2010$)$</a> make an argument based on changes to eddies’ phase speeds. They focus on the $K$ term in the dispersion relation and suggest that, as a result of global warming, eddies get larger $($$K$ gets smaller$)$. If eddies’ size is set by the first baroclinic Rossby radius:
 $$
 \lambda_R = \frac{NH}{f}
 $$
 with $N$ the static stability, $H$ the height of the tropopause and $f$ the coriolis parameter; then since the tropopause rises under global warming $($see the Vallis et al. paper for an explanation of why this happens$)$, $\lambda_R$ increases and $K$ decreases. This slows down the eddies’ phase speeds, so eddies actually break further from the jet.
-
+<br /><br />
 Kidston et al. then point out that the sink region on the poleward side of the jet overlaps with the source region. Since eddies are able to propagate further in the presence of a global warming-like forcing, they break further from the jet and this overlap is reduced. So the eddy momentum fluxes increase on the poleward side of the jet, which is pushed poleward.
-
+<br /><br />
 This might seem to contradict the Chen argument, but Kidston et al. argue that both can be true at the same time. The acceleration of the subtropical winds could cause the critical layer on the equatorward side of the jet to move polewards, while at the same time the deceleration of the eddies could cause the poleward critical layer to move to higher latitudes, so both sinks shift poleward.</li>
-
+<br />
 <li>Related to the idea of eddy length-scales mattering, <a href="https://journals.ametsoc.org/doi/10.1175/2011JAS3641.1">Rivi&#232re$($2011$)$</a> focused on the nature of the individual eddies. Anti-cyclones tend to propagate equatorward, and produce a poleward eddy momentum flux when they break, while cyclones tend to propagate polewards and so flux momentum towards the equator. Since long wavelength eddies are more likely to break anti-cyclonically, an increase in eddy length-scales favors anti-cyclonic wave-breaking, which results in a poleward movement of the jet.</li>
 </ul>
 
