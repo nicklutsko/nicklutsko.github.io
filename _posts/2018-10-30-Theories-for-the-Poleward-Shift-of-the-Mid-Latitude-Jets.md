@@ -9,12 +9,12 @@ use_math: true
 
 <p>A closely related question is what causes the tropical circulation to widen and contract in these scenarios $($see <a href="https://www.nature.com/articles/s41558-018-0246-2.pdf">here</a> for a recent review$)$. These two phenomena might be related, but I’m not going to get into that here, and only focus on the jet shifts.</p>
 
-<p>There are several different theories for why jets shift, but no consensus. To put these together I find it useful to use this schematic of the mid-latitude upper troposphere:
+<p>There are several different theories for why jets shift, but no consensus. To put these together I find it useful to use this schematic of dynamics of the mid-latitude upper troposphere:
 
 <img src="http://nicklutsko.github.io/notes/images/jet_schematic.png" alt="jet schematic" style="position:absolute; left:250px; width:450px;height:283px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-This is the classic picture of a baroclinically unstable source region – the jet – where eddies are excited and then propagate away. The eddies break at lower and higher latitudes and flux momentum back into the jet. With this picture, jets could shift because of shifts of the source region or of the sink regions, which in turn affect the eddy momentum fluxes which drive the jet.</p>
+This is the classic picture of a baroclinically unstable source region – the jet – where eddies are excited and then propagate away. The eddies break at lower and higher latitudes and flux momentum back into the jet. With this picture, jets could shift because of shifts of the source region or of the sink regions, which affect the eddy momentum fluxes that drive the jet.</p>
 
 <h3>Background: the zonal-mean structure of global warming</h3>
 
@@ -24,7 +24,7 @@ $$
 $$
 <p>With global warming the largest warming is in the tropical upper troposphere and, in northern hemisphere winter, in the high latitude lower troposphere:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/warming_pattern.png" alt="warming pattern" style="position:absolute; left:250px; width:354px;height:145px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/warming_pattern.png" alt="warming pattern" style="position:absolute; left:300px; width:354px;height:145px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>$($Figure 6 from <a href="https://ore.exeter.ac.uk/repository/bitstream/handle/10871/19116/globwarm.pdf?sequence=1&isAllowed=y">Vallis et al. $($2015$)$</a>. Sorry for the jet colormap.$)$</p>
