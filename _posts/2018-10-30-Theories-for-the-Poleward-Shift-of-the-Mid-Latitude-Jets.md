@@ -5,16 +5,16 @@ date: 2018-10-30
 use_math: true
 ---
 
-<p>A major open problem in atmospheric dynamics is what causes the eddy-driven mid-latitude jets to shift polewards under climate change and, conversely, to shift equatorwards during strong El Nino events. This is seen in idealized models and in comprehensive climate model simulations of future warming scenarios, though more clearly in the southern hemisphere than in the northern hemisphere $($where there’s more land$)$. Understanding these shifts is important scientifically and for society, especially as they affect the location and severity of extreme mid-latitude weather events.</p>
+<p>A major open problem in atmospheric dynamics is what causes the eddy-driven mid-latitude jets to shift polewards under climate change and, conversely, to shift equatorwards during strong El Nino events. This is seen in idealized models and in comprehensive climate model simulations of future warming scenarios, though more clearly in the southern hemisphere than in the northern hemisphere $($where there’s more land$)$. Understanding these shifts is important scientifically and for society, especially as they affect the location and severity of extreme weather events in mid-latitudes.</p>
 
 <p>A closely related question is what causes the tropical circulation to widen and contract in these scenarios $($see <a href="https://www.nature.com/articles/s41558-018-0246-2.pdf">here</a> for a recent review$)$. These two phenomena might be related, but I’m not going to get into that here, and only focus on the jet shifts.</p>
 
-<p>There are several different theories for why jets shift, but no consensus. To put these together I find it useful to use this schematic of dynamics of the mid-latitude upper troposphere:
+<p>There are several different theories for why jets shift, but no consensus. To put these together I find it useful to use this schematic of the dynamics of the mid-latitude upper troposphere:
 
 <img src="http://nicklutsko.github.io/notes/images/jet_schematic.png" alt="jet schematic" style="position:absolute; left:250px; width:450px;height:283px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-This is the classic picture of a baroclinically unstable source region – the jet – where eddies are excited and then propagate away. The eddies break at lower and higher latitudes and flux momentum back into the jet. With this picture, jets could shift because of shifts of the source region or of the sink regions, which affect the eddy momentum fluxes that drive the jet.</p>
+This is the classic picture of a baroclinically unstable source region – the jet – where eddies $($Rossby waves$)$ are excited and then propagate away. The eddies break at lower and higher latitudes and flux momentum back into the jet. With this picture, jets could shift because of shifts of the source region or of the sink regions, which affect the eddy momentum fluxes that drive the jet.</p>
 
 <h3>Background: the zonal-mean structure of global warming</h3>
 
@@ -29,7 +29,7 @@ $$
 
 <p>$($Figure 6 from <a href="https://ore.exeter.ac.uk/repository/bitstream/handle/10871/19116/globwarm.pdf?sequence=1&isAllowed=y">Vallis et al. $($2015$)$</a>. Sorry for the jet colormap.$)$</p>
 
-<p>So the meridional temperature gradient in the upper troposphere increases and we expect the mean winds to accelerate in the upper troposphere/lower stratosphere. In the lower troposphere the meridional temperature gradient is reduced, resulting in a weakening of low level baroclinicity. During El Nino events there is also enhanced warming of the tropical upper troposphere, but over a narrower range of latitudes, and this difference is probably key to the opposing responses of the jet.</p>
+<p>In the upper troposphere the meridional temperature gradient increases because of the enhanced tropical warming, and we expect the mean winds to accelerate in the upper troposphere/lower stratosphere. In the lower troposphere the meridional temperature gradient is weakened because of the high-latitude warming, resulting in a reduction of low level baroclinicity. During El Nino events there is also enhanced warming of the tropical upper troposphere, but over a narrower range of latitudes, and this difference is probably key to the opposing responses of the jet.</p>
 
 
 <h3>Moving the sinks</h3>
@@ -43,7 +43,7 @@ with $u$ the zonal-mean zonal wind, $c$ the phase speed of the wave, $\beta$ the
 <ul>
 <li><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2007GL031200">Chen and Held $($2007$)$</a> $($see also <a href="https://journals.ametsoc.org/doi/full/10.1175/2008JCLI2306.1">Chen et al. $($2008$)$</a>$)$ focus on the breaking region on the equatorward side of the jet. This seems like a good starting point because Earth's spherical geometry means that eddies preferentially propagate equatorward, and the largest eddy momentum fluxes are on this side of the jet.
 <br /><br />
-Chen and Held make a relatively simple argument: because the subtropical winds accelerate, the equatorward critical layer $($where $u = c$$)$ moves polewards, so waves break closer to the jet. This effectively shifts the eddy momentum fluxes into the jet polewards and the jet shifts as well. </li>
+Chen and Held make a relatively simple argument: because the subtropical winds accelerate, the equatorward critical layer $($where $u = c$$)$ moves polewards, and waves break closer to the jet. This effectively shifts the eddy momentum fluxes into the jet polewards and the jet shifts as well. </li>
 <br />
 <li><a href="https://journals.ametsoc.org/doi/pdf/10.1175/2010JCLI3738">Kidston et al. $($2010$)$</a> make an argument based on changes to eddies’ phase speeds. They focus on the $K$ term in the dispersion relation and suggest that, as a result of global warming, eddies get larger $($$K$ gets smaller$)$. If eddies’ size is set by the first baroclinic Rossby radius:
 $$
@@ -51,13 +51,13 @@ $$
 $$
 with $N$ the static stability, $H$ the height of the tropopause and $f$ the coriolis parameter; then since the tropopause rises under global warming $($see the Vallis et al. paper for an explanation of why this happens$)$, $\lambda_R$ increases and, equivalently, $K$ decreases. This slows down the eddies’ phase speeds, so eddies actually break further from the jet.
 <br /><br />
-Kidston et al. then point out that the sink region on the poleward side of the jet overlaps with the source region. Since eddies are able to propagate further in a warmer world, they break further from the jet and this overlap is reduced. So the eddy momentum fluxes increase on the poleward side of the jet, which is pushed poleward.
+Kidston et al. then point out that the sink region on the poleward side of the jet overlaps with the source region. Since eddies are able to propagate further in a warmer world, they break further from the jet and this overlap is reduced. So the eddy momentum fluxes increase on the poleward side of the jet, which shifts poleward.
 <br /><br />
 This might seem to contradict the Chen mechanism, but Kidston et al. argue that both can be true at the same time. The acceleration of the subtropical winds could cause the critical layer on the equatorward side of the jet to move polewards, while at the same time the deceleration of the eddies could cause the poleward critical layer to move to higher latitudes, so both sinks shift poleward.</li>
 <br />
-<li>Related to the idea of eddy length-scales mattering, <a href="https://journals.ametsoc.org/doi/10.1175/2011JAS3641.1">Riviere $($2011$)$</a> focused on the nature of the individual eddies. Eddies which break anti-cyclonically tend to propagate equatorward, producing a poleward eddy momentum flux, while eddies which break cyclonically tend to propagate polewards and flux momentum towards the equator. Since long-wavelength eddies are more likely to break anti-cyclonically, an increase in eddy length-scales could increase anti-cyclonic wave-breaking, which would result in a poleward movement of the jet.</li>
+<li>Related to the idea of eddy length-scales mattering, <a href="https://journals.ametsoc.org/doi/10.1175/2011JAS3641.1">Riviere $($2011$)$</a> focused on how individual eddies break. Eddies which break anti-cyclonically tend to propagate equatorward, producing a poleward eddy momentum flux, while eddies which break cyclonically tend to propagate polewards and flux momentum towards the equator. Since long-wavelength eddies are more likely to break anti-cyclonically, an increase in eddy length-scales could increase anti-cyclonic wave-breaking, which would result in a poleward movement of the jet.</li>
 <br />
-<li>A different perspective is to focus on wave reflection. This happens when $\beta / K^2$ is larger than $u$ and so $c$ changes sign. Several studies suggested than in a warmer world, particularly because the mid-latitude jet speeds up, there is increased wave reflection on the poleward side of the jet (see <a href="https://journals.ametsoc.org/doi/10.1175/JAS-D-11-0188.1">Simpson et al. $($2012$)$</a> and <a href="https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-11-0300.1">Kidston and Vallis $($2012$)$</a>). This means there are more equatorward propagating waves and a larger net poleward momentum flux across the jet.</li>
+<li>A different perspective is to focus on waves which are reflected. This happens when $\beta / K^2$ is larger than $u$ and so $c$ changes sign. Several studies have suggested than in a warmer world, particularly because the mid-latitude jet speeds up, there is increased wave reflection on the poleward side of the jet (see <a href="https://journals.ametsoc.org/doi/10.1175/JAS-D-11-0188.1">Simpson et al. $($2012$)$</a> and <a href="https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-11-0300.1">Kidston and Vallis $($2012$)$</a>). This means there are more equatorward propagating waves and a larger net poleward momentum flux across the jet.</li>
 </ul>
 
 
