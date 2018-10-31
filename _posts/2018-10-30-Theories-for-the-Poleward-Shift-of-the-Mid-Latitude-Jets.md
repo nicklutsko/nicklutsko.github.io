@@ -49,7 +49,7 @@ Chen and Held make a relatively simple argument: because the subtropical winds a
 $$
 \lambda_R = \frac{NH}{f}
 $$
-with $N$ the static stability, $H$ the height of the tropopause and $f$ the coriolis parameter; then since the tropopause rises under global warming $($see the Vallis et al. paper for an explanation of why this happens$)$, $\lambda_R$ increases and $K$ decreases. This slows down the eddies’ phase speeds, so eddies actually break further from the jet.
+with $N$ the static stability, $H$ the height of the tropopause and $f$ the coriolis parameter; then since the tropopause rises under global warming $($see the Vallis et al. paper for an explanation of why this happens$)$, $\lambda_R$ increases and, equivalently, $K$ decreases. This slows down the eddies’ phase speeds, so eddies actually break further from the jet.
 <br /><br />
 Kidston et al. then point out that the sink region on the poleward side of the jet overlaps with the source region. Since eddies are able to propagate further in the presence of a global warming-like forcing, they break further from the jet and this overlap is reduced. So the eddy momentum fluxes increase on the poleward side of the jet, which is pushed poleward.
 <br /><br />
