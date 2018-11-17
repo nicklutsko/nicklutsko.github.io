@@ -34,11 +34,11 @@ where $\Gamma_{e, s}$ is the potential temperature lapse-rate $\partial \theta /
 $$
 f_l = \frac{1}{l}\left(\frac{\partial l}{\partial T} \right)_{z_1, z_2} = \frac{1}{\Gamma_{\theta_{e, s}}}\frac{\partial \Gamma_{\theta, {e, s}}}{\partial T}.
 $$
-$f_l$ is always less than or equal to the Clausius-Clapeyron scaling of 7%K$^{-1}$, and the difference between this scaling and the CC scaling increases as the temperature increases. In other words, $f_l$ is smaller at warmer temperature. The dependence on pressure is more complex, but for a cloud base at 800hPa and a temperature of 278.15K, $f_l$ is 4.1%K$^{-1}$.</p>
+$f_l$ is always less than or equal to the Clausius-Clapeyron scaling of 7%K$^{-1}$, and the difference between this scaling and the CC scaling increases as the temperature increases. In other words, the fractional increase in cloud density is smaller at warmer temperature. The dependence on pressure is more complex, but to give a number, for a cloud base at 800hPa and a temperature of 278.15K,  $f_l$ is 4.1%K$^{-1}$.</p>
 
 <h3>Adding in Entrainment</h3>
 
-<p>An assumption in this derivation is that the rising air in the cloud doesn't mix with its environment, that there's no entrainment or detrainment. But we know that <a href="https://journals.ametsoc.org/doi/10.1175/2009JAS3184.1">this isn't the case in reality</a>, and that entrainment and detrainment play important roles in cloud processes. Most obviously, mixing takes condensed water out of the cloud, and entrainment/detrainment also affects the temperature of the rising air, so we can't just assume the temperature in the cloud follows a moist adiabat.</p>
+<p>An assumption in this derivation is that the rising air in the cloud doesn't mix with its environment, that there's no entrainment or detrainment. But we know that <a href="https://journals.ametsoc.org/doi/10.1175/2009JAS3184.1">this isn't the case in reality</a>, and that entrainment and detrainment play important roles in cloud processes. Most obviously, mixing takes condensed water out of the cloud, but entrainment/detrainment also affects the temperature of the rising air, so we can't just assume the temperature in the cloud follows a moist adiabat.</p>
 
 <p><a href="http://www.mit.edu/~pog/src/singh_entrainment_2013.pdf">Singh and O'Gorman</a> gave a way of calculating the temperature of an entraining plume, starting from the zero-buoyancy assumption. This sets the temperature of the rising air to be the same as the environment, so that the difference between the air in the cloud and the environment is just that the cloudy air has more water vapor.</p>
 
@@ -58,13 +58,11 @@ where $RH$ is the relative humidity and $\Gamma_e$ is the environmental temperat
 $$
 \frac{d q_t}{dz} = \frac{d(q_{v, e}^* + q_c)}{dz} = -\varepsilon(q_c + (1 - RH)q_{v,e}^*),
 $$
-where $q_c$ is the condensed water in the plume and I'm assuming that no precipitation falls out. The term on the right hand side is mixing out of water by detrainment.</p>
-
-<p>Substituting for $\frac{dq_{v, e}^*}{dz}$ and re-arranging then gives
+where $q_c$ is the condensed water in the plume and I'm assuming that no precipitation falls out. The term on the right hand side is mixing out of water by detrainment. Substituting for $\frac{dq_{v, e}^*}{dz}$ and re-arranging then gives
 $$
 \frac{dq_c}{dz} = \frac{c_p}{L_v}\Gamma_e + \frac{g}{L_v} - \varepsilon q_c.
 $$
-This equation can be solved by multiplying across by the integrating factor $e^{\int \varepsilon dz}$ and integrating to give
+This equation can be solved by multiplying across by the integrating factor $e^{\int \varepsilon dz}$ and integrating to give an expression for the condensed water at a height $z' > z_1$.
 $$
 q_c(z') = \frac{1}{e^{\int_{z_1}^{z'} \varepsilon dz}} \left[\int_{z_1}^{z'} \left(\frac{c_p}{L_v}\Gamma_e + \frac{g}{L_v}\right)e^{\int_{z_1}^{z'} \varepsilon dz}dz\right].
 $$
@@ -72,7 +70,7 @@ $($Note that in addition to appearing explicitly in this equation, $\varepsilon$
 
 <p>Now we can look at how cloud density varies as a function of temperature, pressure and entrainment $($if $\varepsilon = 0$ we get back the Betts and Harshvardhan scaling$)$. Some examples are plotted here:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/simple_model.png" alt="cloud density results" style="position:absolute; left:250px; width:400px;height:320px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/simple_model.png" alt="cloud density results" style="position:absolute; left:250px; width:500px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>Panel a shows cloud condensate mixing ratios for plumes starting at 900hPa with an environmental relative humidity of 80% and with various cloud-base temperatures. I've parameterized $\varepsilon$ as a decreasing function of height: $\varepsilon = \hat{\varepsilon} / z$, and then also varied $\hat{\varepsilon}$.</p> 
@@ -81,7 +79,7 @@ $($Note that in addition to appearing explicitly in this equation, $\varepsilon$
 
 <p>Panel b shows the fractional changes with temperature. These get smaller for warmer cloud-base temperatures, again in line with the undilute model, and also get smaller with increasing entrainment. In other words, assuming entrainment is constant with warming, the increase in density of an entraining plume with temperature is less than for an undilute plume.</p> 
 
-<p>So clouds get denser for the reason identified by Betts and Harshvardhan, but this increase in density is reduced by entrainment. A caveat is that we've assumed that all the condensed water stays in the cloud, i.e., that none of it forms rain and falls out. The rate at which condensed water rains out is often taken to be proportional to the cloud density, so accounting for precipitation is tricky. Maybe it's better to say we can expect the total condensed water $($cloud + precipitation$)$ to increase in a warmer world.</p>
+<p>So clouds get denser for the reason identified by Betts and Harshvardhan, but this increase in density is reduced by entrainment. A caveat is that we've assumed that all the condensed water stays in the cloud, i.e., that none of it forms rain and falls out. The rate at which condensed water rains out is often taken to be proportional to the cloud density, so accounting for precipitation is tricky. Maybe it's better to say then that we can expect the total condensed water $($cloud + precipitation$)$ to increase in a warmer world.</p>
 
  
 
