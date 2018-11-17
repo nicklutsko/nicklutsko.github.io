@@ -7,7 +7,7 @@ use_math: true
 
 <p>How clouds change in a warmer world is one of the most important uncertainties in climate change projections. We're especially focused on how cloud cover changes, particularly low cloud cover, because even small changes in low clouds would have a big impact on how much Earth warms up in the near future.</p>
 
-<p>One thing we do expect is that clouds will get denser in a warmer world, that they'll have more condensed water. <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JD092iD07p08483">Betts and Harshvardhan $($1987$)$</a> gave an explanation for why this happens, and Tim Cronin and I recently extended their explanation for more realistic assumptions in our paper on <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018MS001482?af=R">precipitation efficiency</a>.</p>
+<p>One thing we can expect is that clouds will get denser in a warmer world, that they'll have more condensed water. <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JD092iD07p08483">Betts and Harshvardhan $($1987$)$</a> gave an explanation for why this happens, and Tim Cronin and I recently extended their explanation for more realistic assumptions in our paper on <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018MS001482?af=R">precipitation efficiency</a>.</p>
 
 <h3>Clouds and the Saturated Moist Adiabat</h3>
 
