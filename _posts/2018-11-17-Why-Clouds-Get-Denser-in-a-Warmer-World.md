@@ -34,7 +34,7 @@ where $\Gamma_{e, s} = \partial \theta / \partial z$ on the moist adiabat.
 
 <p>The fractional change in $l$ as a function of temperature is then
 $$
-f_l = \frac{1}{l}\left(\frac{\partial l}{\partial T} \right)_{z_1, z_2} = \frac{1}{\Gamma_{\theta_{e, s}}\frac{\partial \Gamma_{\theta, {e, s}}}{\partial T}.
+f_l = \frac{1}{l}\left(\frac{\partial l}{\partial T} \right)_{z_1, z_2} = \frac{1}{\Gamma_{\theta_{e, s}}}\frac{\partial \Gamma_{\theta, {e, s}}}{\partial T}.
 $$
 $f_l$ is always less than or equal to the Clausius-Clapeyron scaling of 7%K-1, and the difference between this scaling and the CC scaling increases as the temperature increases. In other words, $f_l$ is smaller at warmer temperature. The dependence on pressure is more complex, but for a cloud base at 800hPa and a temperature of 278.15K, $f_l$ is 4.1%K$^-1$.</p>
 
