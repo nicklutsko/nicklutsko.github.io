@@ -14,7 +14,7 @@ use_math: true
 <p>The first reason why you might expect clouds to get denser in warmer climates is Clausius-Clapeyron: as air warms it can hold more water vapor, at about 7%K$^{-1}$. But Betts and Harshvardhan explain that this isn't the right way of thinking about this. Instead, take a cloud that exists between two heights, $z_1$ $($the base of the cloud$)$ and $z_2$ $($the top of the cloud$)$. The base of the cloud is where rising air becomes saturated, so water condenses out as the air rises above $z_1$. The total amount that condenses out is equal to the difference in how much water vapor the air can hold at the base of the cloud compared to how much it can hold at the top of the cloud $($where the air is colder and so can hold less water vapor$)$:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/cloud_density_schematic.png" alt="jet schematic" style="position:absolute; left:250px; width:380px;height:145px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br />
 
 <p>Mathematically, if we assume that the air is rising along a moist adiabat, then the condensed liquid water in the cloud $(l)$ is the difference in saturation mixing ratio between $z_1$ and $z_2$:
 $$
@@ -22,7 +22,7 @@ l \approx \left<\left(\frac{\partial q_v^*}{\partial z}\right)_{\theta_{e,s}}\ri
 $$
 where $q_v^*$ is the saturation mixing ratio along the moist adiabat, $\theta_{e, s}$ is the saturated equivalent potential temperature along the moist adiabat and $\Delta z = z_2 - z_1$. The triangle brackets denote an average over $\Delta z$.</p>
 
-Along a moist adiabat $\theta_{e, s}$ is constant, so
+<p>Along a moist adiabat $\theta_{e, s}$ is constant, so
 $$
 \partial\theta_{e,s} = 0 = \frac{\partial \theta}{\theta} + \frac{L}{c_p T}\partial q_v^*,
 $$
