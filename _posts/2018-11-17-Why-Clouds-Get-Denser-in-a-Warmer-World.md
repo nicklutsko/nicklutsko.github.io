@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Why Clouds Get Denser in a Warmer World"
 date: 2018-11-17
@@ -73,7 +74,7 @@ Note that in addition to appearing explicitly in this equation, $\varepsilon$ al
 
 <p>Now we can look at how cloud density varies as a function of temperature, pressure and entrainment $($if $\varepsilon = 0$ we get back the Betts and Harshvardhan scaling$)$. Some examples are plotted here:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/simple_model.png" alt="jet schematic" style="position:absolute; left:250px; width:310px;height:392px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/simple_model.png" alt="cloud density results" style="position:absolute; left:250px; width:310px;height:392px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>Panel a shows cloud condensate mixing ratios for plumes starting at 900hPa with an environmental relative humidity of 80% and with various different initial temperatures. I've parameterized $\varepsilon$ as a decreasing function of height: $\varepsilon = \hat{\varepsilon} / z$, and then also varied $\hat{\varepsilon}$.</p> 
