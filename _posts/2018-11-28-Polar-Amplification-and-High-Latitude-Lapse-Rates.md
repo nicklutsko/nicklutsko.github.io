@@ -16,8 +16,8 @@ Tim Cronin and Malte Jansen showed that the high latitude troposphere is in radi
 
 So local processes must be important for the high latitude lapse-rate feedback. We can bring in some other information: we know that polar amplification is mostly localized near the surface and that it mostly happens in the wintertime. Also, in winter there is a near-surface inversion in Arctic temperature profiles. You can see this in the black line in panel a of the Figure, which shows temperatures averaged over 65&#176;N from a pre-industrial simulation with GFDL's CM3 model.
 
-<img src="http://nicklutsko.github.io/notes/images/arctic_temperatures_comp.png" alt="jet schematic" style="position:absolute; left:150px; width:550px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/arctic_temperatures_comp.png" alt="jet schematic" style="position:absolute; left:200px; width:550px;height:400px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 How is this inversion set-up? In winter the high latitudes don't get any insolation, so apart from some downwelling long-wave radiation from the atmosphere, there's nothing to heat the surface. But the surface does emit radiation, so it can cool rapidly. Over the ocean temperatures are pinned to the freezing temperature, but over ice they can get very low. Higher up, the atmosphere is optically thin, so it cools more slowly, resulting in an inversion (<a href="https://link.springer.com/article/10.1007/s00382-013-1964-9">ref</a>).
 
