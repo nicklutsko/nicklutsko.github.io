@@ -27,7 +27,7 @@ If there's less sea-ice then the Arctic-averaged temperature profile will look m
 
 <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2012GL051598">Screen et al. (2012)</a> did experiments which isolated the role of reduced sea-ice with two different climate models, in which they kept greenhouse gas concentrations fixed, but forced the models with observed monthly Arctic sea-ice and SSTs from 1979 to 2008. This produced a strong wintertime warming, localized to the near-surface. This warming was probably partly due to the ice-albedo feedback, but the reduction in the relative fraction of sea-ice compared to ocean water probably also played an important role.
 
-High latitude lapse-rates are sensitive to other things, like the radiative forcing, surface warming and atmospheric energy transport. But the erosion of the inversion because of reductions in sea-ice is likely a big part of the positive high latitude lapse-rate feedback seen in climate models. This also shows that the conventional ways of estimating feedbacks can be deceptive for understanding what's actually happening.
+High latitude lapse-rates are sensitive to other things, like the radiative forcing, surface warming and atmospheric energy transport. But the erosion of the inversion because of reductions in sea-ice is likely a big part of the positive high latitude lapse-rate feedback diagnosed in climate models. This also shows how the conventional ways of estimating feedbacks can be deceptive for understanding what's actually happening.
 
 (Thanks to Daniel Koll for helping me understand high latitude inversions)
 
