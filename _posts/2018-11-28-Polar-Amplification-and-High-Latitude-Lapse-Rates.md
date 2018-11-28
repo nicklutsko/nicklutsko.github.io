@@ -1,5 +1,6 @@
+---
 layout: post
-title: "Polar Amplification and the High Latitude Lapse-Rate"
+title: "Polar Amplification and High Latitude Lapse-Rates"
 date: 2018-11-28
 ---
 
