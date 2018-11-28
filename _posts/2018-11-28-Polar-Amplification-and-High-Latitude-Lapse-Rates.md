@@ -29,7 +29,7 @@ If there's less sea-ice then the Arctic-averaged temperature profile will look m
 
 High latitude lapse-rates are sensitive to other things, like the radiative forcing, surface warming and atmospheric energy transport. But the effect of eroding the inversion by melting sea-ice could be a big part of the positive high latitude lapse-rate feedback diagnosed in climate models, and shows that the conventional ways of estimating feedbacks can be deceptive for understanding what's actually happening.
 
-
+(Thanks to Daniel Koll for helping me understand high latitude inversions)
 
 
 
