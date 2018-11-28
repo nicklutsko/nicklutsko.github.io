@@ -4,7 +4,7 @@ title: "Polar Amplification and High Latitude Lapse-Rates"
 date: 2018-11-28
 ---
 
-The Arctic warms faster than anywhere else on Earth in response to increased CO<sub>2</sub> concentrations. This is seen in observations, comprehensive climate models and in idealized models, but we still don't have a great understanding of what causes this polar amplification of warming. One reason why it's hard to understand is that different processes are responsible for polar amplification in idealized models than in more realistic model, so it's hard to build "simple" models of polar amplification.
+The Arctic warms faster than anywhere else on Earth in response to increased CO<sub>2</sub> concentrations. This is seen in observations, comprehensive climate models and in idealized models, but we still don't have a great understanding of what causes this polar (or arctic) amplification of warming. One reason why it's hard to understand is that different processes are responsible for polar amplification in idealized models than in more realistic model, so it's hard to build "simple" models of polar amplification.
 
 Two obvious candidates for causing arctic amplification are the ice-albedo feedback and the Planck feedback. The ice-albedo feedback is just that sea-ice cools the high latitudes by reflecting incoming solar radiation, so if sea-ice melts because of global warming high latitude warming is enhanced. The Planck feedback comes from the fact that black bodies emit radiation as temperature to the fourth power (T<sup>4</sup>). If we approximate the Earth as a black body, then colder regions have to warm up more than hotter regions to compensate for the same forcing.
 
