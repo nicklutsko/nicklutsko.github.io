@@ -20,7 +20,7 @@ use_math: true
 <p>A major reason for this is the "pattern effect": the diagnosed feedback is sensitive to the pattern of warming. So the strength of $\lambda$ changes over time as SST patterns change over time.</p> 
 
 <p>To understand this, consider a two box model of Earth's climate, with energy transport parameterized based on the temperature difference between the two boxes. The TOA radiation budget for this system can be written as</p>
-\begin{align}
+$$
 \begin{bmatrix}
     R_1 \\
     R_2
@@ -44,7 +44,7 @@ use_math: true
     F_{r, 1} \\
     F_{r, 2}
 \end{bmatrix},
-\end{align}
+$$
 <p>where $T_i$ is the temperature in box $i$, $\lambda_i$ is the local radiative feedback in box $i$, $F_i$ is the CO$_2$ forcing in box $i$, $F_{r, i}$ is the non-CO$_2$ forcing in box $i$ and $c$ is the anomalous heat transport between the two boxes. We can write this using matrix notation as</p>
 \begin{align}
 \begin{bmatrix}
