@@ -35,19 +35,13 @@ $$
 
 <p>The inferred, ``true" global-mean feedback parameter in this system is</p> 
 $$
-\lambda_g = \left(\sum\Lambda \begin{bmatrix}
-    T_{F, 1} \\
-    T_{F, 2}
-\end{bmatrix}\right) / (T_{F, 1} + T_{F, 2})
+\lambda_g = \sum\lambda_i T_{F, i} / \sumi T_{F, i}
 $$
 <p>So, even if nothing else is going on, the global-mean climate sensitivity changes over time as $T_{F, 1}$ and $T_{F, 2}$ changed. If box 1 had a high sensitivity (small $\lambda_1$) and box 2 had a low sensitivity (large $\lambda_2$) but for some reason box 2 warmed up faster than box 1, then the observed climate sensitivity would increase on long time-scales as the warming in box 1 caught up. Differences in ocean heat uptake could create this evolution.</p>
 
 <p>With the residual, the effective climate sensitivity becomes</p>
 $$
-\lambda_g = \left(\sum\Lambda \begin{bmatrix}
-    T_{F, 1} + T_{r, 1} \\
-    T_{F, 2} + T_{r, 2}
-\end{bmatrix}\right) / $($T_{F, 1} + T_{F, 2} + T_{r, 1} + T_{r, 2})
+\lambda_g = \sum \lambda_i (T_{F, i} + T_{r, i}) / \sum (T_{F, i} + T_{r, i})
 $$
 <p>So the residual temperature patterns -- here just made up of internal variability -- could cause large changes in the inferred climate sensitivity.</p>
 
