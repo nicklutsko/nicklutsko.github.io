@@ -10,7 +10,7 @@ use_math: true
 <p>One issue which has gotten attention recently is that the inferred climate sensitivity changes over time:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/changing_sensitivity.png" alt="Changing Sensitivity" style="position:absolute; left:250px; width:468px;height:321px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <p>$($From <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL078887">Andrews et al. (2018)</a>; $\lambda$ is calculated by regressing $R$ against $T$ over sliding 30 year windows for simulations of the historical record with eight different climate models.$)$</p>
 
 <p>The climate feedback parameter $\lambda$ was small between about 1920 and 1960 $($implying a high climate sensitivity$)$ and has been increasing since then $($implying a lower sensitivity$)$. To calculate this, an assumption is made about the forcing, $F$, and then the global-mean surface temperature $($$T$$)$ is regressed against the net TOA flux $R$, using $R = F - \lambda T$. Alternatively, you can also calculate $\lambda$ directly as the derivative $\partial R / \partial T$. Either way, observations and models give a consistent picture of $\lambda$ changing over the historical record.</p>
@@ -23,6 +23,7 @@ use_math: true
 $$
 R_1(t) = F_1(t) - \lambda_1 T_1(t) - c(T_1(t) - T_2(t)) \\
 R_2(t) = F_2(t) - \lambda_2 T_2(t) + c(T_1(t) - T_2(t))
+$$
 <p>where $T_i$ is the temperature in box $i$, $\lambda_i$ is the local radiative feedback in box $i$, $F_i$ is the CO$_2$ forcing in box $i$, $F_{r, i}$ is the non-CO$_2$ forcing in box $i$ and $c$ is the anomalous heat transport between the two boxes. We can write this using matrix notation as</p>
 $$
 \begin{bmatrix}
