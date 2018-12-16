@@ -5,7 +5,7 @@ date: 2018-12-16
 use_math: true
 ---
 
-<p>The best constraint we have on climate sensitivity is the historical record. Intuitively, it seems like we should be able to use this to say something about Earth's climate sensitivity, but this turns out to be pretty tricky.</p>
+<p>The best constraint we have on climate sensitivity is the historical record. Intuitively, it seems like we should be able to use this to say something about Earth's climate sensitivity, but this turns out to be pretty subtle.</p>
 
 <p>One issue which has gotten attention recently is that the inferred climate sensitivity changes over time:
 
