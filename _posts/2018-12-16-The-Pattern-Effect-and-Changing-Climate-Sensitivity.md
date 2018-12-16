@@ -19,7 +19,7 @@ use_math: true
 
 <p>One way to explain this is through the "pattern effect": the feedback at a particular time is partly determined by the pattern of warming. So the strength of $\lambda$ changes over time as anomalous SST patterns change over time.</p> 
 
-<p>To see how this works, take a two box model of Earth's climate, with energy transport parameterized based on the temperature difference between the two boxes. You can think of this as a high latitude box and a low latitude box. The TOA radiation budget for this system can be written as
+<p>To see how this works, take a two box model of Earth's climate, with energy transport parameterized based on the temperature difference between the two boxes. You can think of these as a high latitude box and a low latitude box, or an east Pacific box and a west Pacific box,... The TOA radiation budget for this system can be written as
 $$
 R_1(t) = F_1(t) - \lambda_1 T_1(t) - c(T_1(t) - T_2(t)),\\
 R_2(t) = F_2(t) - \lambda_2 T_2(t) + c(T_1(t) - T_2(t)),
