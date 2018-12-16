@@ -21,18 +21,14 @@ use_math: true
 
 <p>To see how this work, take a two box model of Earth's climate, with energy transport parameterized based on the temperature difference between the two boxes. You can think of this as a high latitude box and a low latitude box. The TOA radiation budget for this system can be written as</p>
 $$
-R_1(t) = F_1(t) - \lambda_1 T_1(t) - c(T_1(t) - T_2(t))
-$$
-$$
+R_1(t) = F_1(t) - \lambda_1 T_1(t) - c(T_1(t) - T_2(t))\\
 R_2(t) = F_2(t) - \lambda_2 T_2(t) + c(T_1(t) - T_2(t))
 $$
 <p>where $T_i$ is the temperature in box $i$, $\lambda_i$ is the "local" radiative feedback in box $i$, $F_i$ is the CO$_2$ forcing in box $i$, $F_{r, i}$ is the non-CO$_2$ forcing in box $i$ and $c$ is the rate of anomalous heat transport between the two boxes. 
 
-<p>These can then be divided up into components due to the CO$_2$ forcing $($subscript $F$$)$ and residuals, which include the internal variability, aerosols, etc. $($subscript $r$$)$</p>
+<p>These can then be divided up into components due to the CO$_2$ forcing $($subscript $F$$)$ and residuals, which include the internal variability, aerosols, etc. $($subscript $r$$)$
 $$
-R_{F, 1}(t) + R_{r, 1}(t) = F_1(t) - \lambda_1 (T_{F, 1}(t) + T_{r, 1}(t)) - c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) - T_{r, 2}(t)) 
-$$
-$$
+R_{F, 1}(t) + R_{r, 1}(t) = F_1(t) - \lambda_1 (T_{F, 1}(t) + T_{r, 1}(t)) - c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) - T_{r, 2}(t)) \\
 R_{F, 2}(t) + R_{r, 2}(t) = F_2(t) - \lambda_2 (T_{F, 2}(t) + T_{r, 2}(t)) + c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) - T_{r, 2}(t))
 $$
 <p>For simplicity, I'm assuming that the $\lambda$'s and $c$ don't change over time, and also that they take the same values for the forced components as for the residuals. To make things even easier, I'm also taking out any residual forcing, like aerosols, so there's just internal variability.</p> 
