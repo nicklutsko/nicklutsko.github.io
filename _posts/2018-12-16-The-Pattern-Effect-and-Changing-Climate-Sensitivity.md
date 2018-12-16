@@ -27,10 +27,10 @@ $$
 <p>where $T_i$ is the temperature in box $i$, $\lambda_i$ is the "local" radiative feedback in box $i$, $F_i$ is the CO$_2$ forcing in box $i$, $F_{r, i}$ is the non-CO$_2$ forcing in box $i$ and $c$ is the rate of anomalous heat transport between the two boxes. 
 
 <p>These can then be divided up into components due to the CO$_2$ forcing $($subscript $F$$)$ and residuals, which include the internal variability, aerosols, etc. $($subscript $r$$)$</p>
-$$
+<math>
 R_{F, 1}(t) + R_{r, 1}(t) = F_1(t) - \lambda_1 (T_{F, 1}(t) + T_{r, 1}(t)) - c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) - T_{r, 2}(t)) \\
 R_{F, 2}(t) + R_{r, 2}(t) = F_2(t) - \lambda_2 (T_{F, 2}(t) + T_{r, 2}(t)) + c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) - T_{r, 2}(t))
-$$
+</math>
 <p>For simplicity, I'm assuming that the $\lambda$'s and $c$ don't change over time, and also that they take the same values for the forced components as for the residuals. To make things even easier, I'm also taking out the residual forcing, so there's just internal variability. 
 
 <p>In this system, changes in the climate sensitivity are entirely due to changes in the pattern of warming, since the $\lambda$'s are constant over time and don't change for different forcings or for internal variability. The global-mean feedback parameter in this system at a particular time $t$ is</p> 
