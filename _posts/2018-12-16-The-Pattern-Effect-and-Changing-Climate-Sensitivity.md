@@ -7,10 +7,10 @@ use_math: true
 
 <p>The best constraint we have on climate sensitivity is the historical record. Intuitively, it seems like we should be able to use this to say something about Earth's climate sensitivity, but this turns out to be pretty subtle.</p>
 
-<p>One issue which has gotten attention recently is that the inferred climate sensitivity changes over time:
+<p>One issue which has gotten attention recently is that the inferred climate sensitivity changes over time:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/changing_sensitivity.png" alt="Changing Sensitivity" style="position:absolute; left:250px; width:468px;height:321px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <p>$($From Andrews et al. (2018); $\lambda$ calculated for simulations of the historical record with eight different climate models. $\lambda$ is calculated by regressing $R$ against $T$ over sliding 30 year windows.$)$</p>
 
 <p>The climate feedback parameter $\lambda$ was small between about 1920 and 1960 $($implying a high climate sensitivity$)$ and has been increasing since then $($implying a lower sensitivity$)$. To calculate this, an assumption is made about the forcing, $F$, and then the global-mean surface temperature $($$T$$)$ is regressed against the net TOA flux $R$, using $R = F - \lambda T$. Alternatively, you can also calculate $\lambda$ directly as the derivative $\partial R / \partial T$. Either way, observations and models give a consistent picture of $\lambda$ changing over the historical record.</p>
