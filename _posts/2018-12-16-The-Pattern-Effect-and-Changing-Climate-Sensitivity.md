@@ -19,7 +19,7 @@ use_math: true
 
 <p>One way to explain this is through the "pattern effect": the feedback at a particular time is partly determined by the pattern of warming. So the strength of $\lambda$ changes over time as anomalous SST patterns change over time.</p> 
 
-<p>To see how this work, take a two box model of Earth's climate, with energy transport parameterized based on the temperature difference between the two boxes. You can think of this as a high latitude box and a low latitude box. The TOA radiation budget for this system can be written as</p>
+<p>To see how this work, take a two box model of Earth's climate, with energy transport parameterized based on the temperature difference between the two boxes. You can think of this as a high latitude box and a low latitude box. The TOA radiation budget for this system can be written as
 $$
 R_1(t) = F_1(t) - \lambda_1 T_1(t) - c(T_1(t) - T_2(t))\\
 R_2(t) = F_2(t) - \lambda_2 T_2(t) + c(T_1(t) - T_2(t))
@@ -33,19 +33,19 @@ R_{F, 2}(t) + R_{r, 2}(t) = F_2(t) - \lambda_2 (T_{F, 2}(t) + T_{r, 2}(t)) + c(T
 $$
 <p>For simplicity, I'm assuming that the $\lambda$'s and $c$ don't change over time, and also that they take the same values for the forced components as for the residuals. To make things even easier, I'm also taking out any residual forcing, like aerosols, so there's just internal variability.</p> 
 
-<p>In this system, changes in the climate sensitivity are entirely due to changes in the pattern of warming, since the $\lambda$'s are constant over time and don't change for different forcings or for internal variability. The global-mean feedback parameter in this system at a particular time $t$ is</p> 
+<p>In this system, changes in the climate sensitivity are entirely due to changes in the pattern of warming, since the $\lambda$'s are constant over time and don't change for different forcings or for internal variability. The global-mean feedback parameter in this system at a particular time $t$ is
 $$
 \lambda_g(t) = \sum\lambda_i T_{F, i}(t) / \sum T_{F, i}(t)
 $$
 <p>So, even if nothing else happens, $\lambda_g$ changes over time as $T_{F, 1}$ and $T_{F, 2}$ change. If box 1 has a high sensitivity $($small $\lambda_1)$ and box 2 has a low sensitivity $($large $\lambda_2)$, but for some reason box 2 warms up faster than box 1, then the observed climate sensitivity will increase over time as the warming in box 1 catches up. $($Differences in ocean heat uptake could cause these different rates of warming.$)$. Andrews et al. attribute the decreasing sensitivity over the historical record to an SST pattern that gives rise to more negative cloud and clear-sky longwave feedbacks.</p>
 
-<p>Adding in the residual, the inferred feedback parameter becomes</p>
+<p>Adding in the residual, the inferred feedback parameter becomes
 $$
 \lambda_{g, in}(t) = \sum \lambda_i (T_{F, i}(t) + T_{r, i}(t)) / \sum (T_{F, i}(t) + T_{r, i}(t))
 $$
 <p>The residual temperature patterns -- here just made up of internal variability -- can cause large changes in the inferred climate sensitivity, and have to be taken out to accurately estimate $\lambda_g$.</p>
 
-<p>In summary, although the local feedbacks are constant, the inferred global-mean feedback parameter changes over time both because the pattern of the forced response changes and because of internal variability. In equilibrium, the global-mean feedback is</p> 
+<p>In summary, although the local feedbacks are constant, the inferred global-mean feedback parameter changes over time both because the pattern of the forced response changes and because of internal variability. In equilibrium, the global-mean feedback is
 $$
 \lambda_{e, g} = \sum\lambda_i T_{F, i, e} / \sum T_{F, i, e}
 $$
