@@ -24,53 +24,21 @@ $$
 R_1(t) = F_1(t) - \lambda_1 T_1(t) - c(T_1(t) - T_2(t)) \\
 R_2(t) = F_2(t) - \lambda_2 T_2(t) + c(T_1(t) - T_2(t))
 $$
-<p>where $T_i$ is the temperature in box $i$, $\lambda_i$ is the local radiative feedback in box $i$, $F_i$ is the CO$_2$ forcing in box $i$, $F_{r, i}$ is the non-CO$_2$ forcing in box $i$ and $c$ is the anomalous heat transport between the two boxes. We can write this using matrix notation as</p>
+<p>where $T_i$ is the temperature in box $i$, $\lambda_i$ is the "local" radiative feedback in box $i$, $F_i$ is the CO$_2$ forcing in box $i$, $F_{r, i}$ is the non-CO$_2$ forcing in box $i$ and $c$ is the rate of anomalous heat transport between the two boxes. 
+
+<p>These can then be divided up into components due to the CO$_2$ forcing $($subscript $F$$)$ and residuals, which includes the internal variability, aerosols, etc. $($subscript $r$$)$</p>
 $$
-\begin{bmatrix}
-    R_1 \\
-    R_2
-\end{bmatrix}(t)
-=
-\begin{bmatrix}
-    F_1 \\
-    F_2
-\end{bmatrix}(t)
--
-\Lambda
-\begin{bmatrix}
-    T_1 \\
-    T_2
-\end{bmatrix}(t).
+R_{F, 1}(t) + R_{r, 1}(t) = F_1(t) - \lambda_1 (T_{F, 1}(t) + T_{r, 1}(t)) - c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) + T_{r, 2}(t)) \\
+R_{F, 2}(t) + R_{r, 2}(t) = F_2(t) - \lambda_2 (T_{F, 2}(t) + T_{r, 2}(t)) + c(T_{F, 1}(t) + T_{r, 1}(t) - T_{F, 2}(t) + T_{r, 2}(t))
 $$
-<p>where $\Lambda = \begin{bmatrix}
-    \lambda_1 - c & +c\\
-    +c  &\lambda_2 - c
-\end{bmatrix}$. This can then be divided up into the component due to the CO$_2$ forcing $($subscript $F$$)$ and a residual, which includes internal variability, aerosols, etc. $($subscript $r$$)$</p>
-$$
-\begin{bmatrix}
-    R_{F, 1} + R_{r, 1} \\
-    R_{F, 2} + R_{r, 2}
-\end{bmatrix}
-=
-\begin{bmatrix}
-    F_1 \\
-    F_2
-\end{bmatrix}
--
-\Lambda
-\begin{bmatrix}
-    T_{F, 1} + T_{r, 1} \\
-    T_{F, 2} + T_{r, 2}
-\end{bmatrix}.
-$$
-<p>For simplicity, I'm assuming that $\Lambda$ doesn't change over time and also that it is the same for the forced component and the residual. To make things even easier, I'm also taking out the residual forcing, so there's just internal variability. In this system, changes in the climate sensitivity are entirely due to changes in the pattern of warming, since the $\Lambda$'s are constant over time and don't change for different forcings or for internal variability.</p>
+<p>For simplicity, I'm assuming that the $\lambda$'s and $c$ don't change over time, and also that they take the same values for the forced components as for the residuals. To make things even easier, I'm also taking out the residual forcing, so there's just internal variability. In this system, changes in the climate sensitivity are entirely due to changes in the pattern of warming, since the $\lambda$'s are constant over time and don't change for different forcings or for internal variability.</p>
 
 <p>The inferred, ``true" global-mean feedback parameter in this system is</p> 
 $$
-\lambda_g = \left$($\sum\Lambda \begin{bmatrix}
+\lambda_g = \left(\sum\Lambda \begin{bmatrix}
     T_{F, 1} \\
     T_{F, 2}
-\end{bmatrix}\right$)$ / $($T_{F, 1} + T_{F, 2}$)
+\end{bmatrix}\right) / (T_{F, 1} + T_{F, 2})
 $$
 <p>So, even if nothing else is going on, the global-mean climate sensitivity changes over time as $T_{F, 1}$ and $T_{F, 2}$ changed. If box 1 had a high sensitivity (small $\lambda_1$) and box 2 had a low sensitivity (large $\lambda_2$) but for some reason box 2 warmed up faster than box 1, then the observed climate sensitivity would increase on long time-scales as the warming in box 1 caught up. Differences in ocean heat uptake could create this evolution.</p>
 
