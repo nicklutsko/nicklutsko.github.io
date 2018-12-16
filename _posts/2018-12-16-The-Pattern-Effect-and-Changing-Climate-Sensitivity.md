@@ -35,7 +35,7 @@ $$
 
 <p>The inferred, ``true" global-mean feedback parameter in this system is</p> 
 $$
-\lambda_g = \sum\lambda_i T_{F, i} / \sumi T_{F, i}
+\lambda_g = \sum\lambda_i T_{F, i} / \sum T_{F, i}
 $$
 <p>So, even if nothing else is going on, the global-mean climate sensitivity changes over time as $T_{F, 1}$ and $T_{F, 2}$ changed. If box 1 had a high sensitivity (small $\lambda_1$) and box 2 had a low sensitivity (large $\lambda_2$) but for some reason box 2 warmed up faster than box 1, then the observed climate sensitivity would increase on long time-scales as the warming in box 1 caught up. Differences in ocean heat uptake could create this evolution.</p>
 
@@ -47,10 +47,7 @@ $$
 
 <p>In summary, even though the local feedbacks are constant, the inferred global-mean feedback parameter will change over time both because the pattern of the forced response changes and because of internal variability. In equilibrium, the global-mean feedback is</p> 
 $$
-\lambda_{e, g} = \left(\sum\Lambda \begin{bmatrix}
-    T_{e, F, 1} \\
-    T_{e, F, 2}
-\end{bmatrix}\right) / (T_{e, F, 1} + T_{e, F, 2})
+\lambda_{e, g} = \sum\lambda_i T_{F, i, e} / \sum T_{F, i, e}
 $$
 <p>where the subscript $e$ denotes an equilibrium quantity. So even if we know $\lambda_g$ and $\Lambda$ at some point in time-- if we could subtract out the residual and have accurate measurements of the temperature and radiative flux in each box -- we don't know the equilibrium climate sensitivity because we don't know the equilibrated temperature response $T_e$; we'd just have $T$ at some time $t$, which is a transient response.</p>
 
