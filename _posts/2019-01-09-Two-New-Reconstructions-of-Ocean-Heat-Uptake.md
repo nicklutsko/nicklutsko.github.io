@@ -15,8 +15,8 @@ use_math: true
 
 <p>Zanna et al focused on changes in OHC since 1871, and found that this was relatively stable between 1871 and about 1920, then increased until about 1955, when it was flat for a while, then picked up again around 1980.</p> 
 
-<img src="http://nicklutsko.github.io/notes/images/ocean_heat_content.png" alt="ocean heat content" style="position:absolute; left:250px; width:199px;height:355px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/ocean_heat_content.png" alt="ocean heat content" style="position:absolute; left:250px; width:355px;height:199px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>Adapted versions of Figure 1 from Zanna et al. $($left$)$ and Figure 1 from Gebbie and Huybers $($right$)$.</p>
 
