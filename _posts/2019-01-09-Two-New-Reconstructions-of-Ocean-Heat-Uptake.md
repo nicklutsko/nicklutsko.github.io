@@ -15,6 +15,11 @@ use_math: true
 
 <p>Zanna et al focused on changes in OHC since 1871, and found that this was relatively stable between 1871 and about 1920, then increased until about 1955, when it was flat for a while, then picked up again around 1980.</p> 
 
+<img src="http://nicklutsko.github.io/notes/images/ocean_heat_content.png" alt="ocean heat content" style="position:absolute; left:250px; width:199px;height:355px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<p>Adapted versions of Figure 1 from Zanna et al. $($left$)$ and Figure 1 from Gebbie and Huybers $($right$)$</p>
+
 <p>Gebbie and Huybers were interested in even longer term trends, though their results are fairly similar from 1871 onwards $($there's actually a jump in their reconstruction between about 1850 and 1871 – maybe because the HADISST data starts being assimilated?$)$. The main punchline is that there was global ocean cooling between the Medieval Warm Period $($~950 to 1250CE$)$ and the Little Ice Age which followed and that, because the ocean takes hundreds to thousands of years to come into equilibrium, the effects of this cooling are still being felt. Surface waters and the deep Atlantic have adjusted to this cooling, but the deep Pacific is still responding: although the surface waters of the Pacific are warming, below about 2000m the Pacific is cooling. This effect is pretty small $($1/100s of K$)$, but integrated over the whole Pacific it offsets about 25% of the increase in OHC since 1750 $($Zanna et al. have a plot of the deep Pacific's OHC in the supplementary material, but it’s hard to see if there’s a trend$)$.</p>
 
 <p>A caveat to both results is changes in ocean circulation. Zanna et al. addressed this by comparing with direct reconstructions, which in-fill 3D ocean temperature observations and go back to 1955. This showed that the effects of circulation changes averaged over individual basins are small, but that these do affect regional patterns of ocean heat uptake. For instance, up to 50% of the warming in the Atlantic between 20 and 50$^\circ$N came from changes in ocean circulation.</p> 
