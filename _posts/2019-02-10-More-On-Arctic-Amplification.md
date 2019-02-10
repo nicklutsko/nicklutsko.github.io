@@ -27,7 +27,7 @@ use_math: true
 <p>This produced a strong warming over the Arctic Ocean and the surrounding continents, and Deser et al calculated heat budgets to understand why this was happening. They found that over the Arctic ocean, the air mainly warmed because of increased heat transfer from the warmer ocean waters. Over land, the air mainly warmed because of horizontal advection of relatively warm air from over the oceans:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Deser_budget.png" alt="Deser budget" style="position:absolute; left:200px; width:573px;height:564px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The strongest warming was in the winter months $($NDJF$)$, even though the largest sea-ice reductions were in the fall months $($September and October$)$. But the largest air-surface temperature contrasts are in the winter months, leading to the most warming.</p> 
 
@@ -43,9 +43,9 @@ use_math: true
 
 <p>To get an intuitive feel for why CO$_2$ forcing is strongest in summer, consider the sensitivity of surface temperature to an increase in the optical depth for a gray ideal gas in radiative-advective equilibrium $($equation 19 of Cronin and Jansen$)$:</p>
 $$
-\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta}F_s + (\frac{2b}{b + 1) - \betaF_A}{4\sigma t_s^3(2 + \beta\tau_0)^2}
+\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta}F_s + (\frac{2b}{b + 1} - \betaF_A}{4\sigma t_s^3(2 + \beta\tau_0)^2}
 $$
-<p>Without going into the details, the sensitivity is directly proportional to $F_s$ -- the amount of insolation reaching the surface. This is zero at high latitudes during winter, drastically reducing the sensitivity to the forcing.</p>
+<p>Without going into the details, the sensitivity is directly proportional to $F_s$ -- to the amount of insolation reaching the surface. This is zero at high latitudes during winter, and so the sensitivity to forcing is weak.</p>
 
 <h3>Wrap-up</h3>
 
