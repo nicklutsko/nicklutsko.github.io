@@ -8,20 +8,19 @@ use_math: true
 <p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO$_2$ concentrations are increased. The top panels of this plot show DJF temperature profiles over land regions, ocean regions and ice regions north of 65$^\circ$N for an RCP8.5 scenario simulation with the GFDL-CM3 model.  $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/GFDL-CM3_polar_warming_breakdown.png" alt="GFDL warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-<p>The bottom panels show time series of sea-ice fraction, sea-ice thickness and surface temperatures over the three surfaces. Temperatures over ice and over land warm rapidly, while the ocean warms much more slowly. The same plot for HadGEM2-CC gives a similar picture, though there is more warming over the ocean.</p> 
+<p>The bottom panels show time series of sea-ice fraction, sea-ice thickness and surface temperatures over the three surfaces. Temperatures over ice and over land warm rapidly, while the ocean warms much more slowly. The same plot for HadGEM2-CC gives a similar picture, though there is more warming over the ocean:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/HadGEM2-CC_polar_warming_breakdown.png" alt="HadGEM warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>I think this is because the sea-ice is more “binary” in the GFDL model – grid-boxes tend to be with all ice or all ocean – whereas the HadGEM model has more intermediate values of sea-ice fraction. Since I average by doing 1 – sea-ice fraction, etc. there might be more aliasing of open ocean temperatures and sea-ice temperatures in this model.</p> 
+<p>I think this is because the sea-ice is more “binary” in the GFDL model – grid-boxes tend to have all ice or all ocean – whereas the HadGEM model has more intermediate values of sea-ice fraction. Since I average by multiplying by $($1 – sea-ice fraction$)$ etc. there might be more aliasing of open ocean temperatures and sea-ice temperatures in this model.</p> 
 
-<p>In any case, both simulations suggest that diminishing sea-ice cover is an important component of Arctic amplification. Interestingly, the sea-ice fraction collapses in both models around 2060 and this corresponds to a rapid warming of land temperatures in the HadGEM model, whereas the collapse doesn’t show up in the temperature time-series of the GFDL model.</p>
+<p>In any case, both simulations suggest that diminishing sea-ice cover is an important component of Arctic amplification. Interestingly, the sea-ice fraction collapses in both models around 2060, and this corresponds to a rapid warming of land temperatures in the HadGEM model, but there doesn't seem to be any changes to the trends in the GFDL model.</p>
 
 <h3>Some other Studies</h3>
-Some Other Studies
 
 <p>In a 2009 paper, <a href="https://journals.ametsoc.org/doi/pdf/10.1175/2009JCLI3053.1">Deser et al. </a> compared a control simulation with CAM3 with an ensemble of simulations in which sea-ice concentrations were set to those at the end of the 21st century. $($These sea-ice concentrations came from a coupled model RCP8.5 simulation$)$. SSTs at locations without sea-ice were pinned to the freezing temperature.</p>
 
@@ -44,7 +43,7 @@ Some Other Studies
 
 <p>To get an intuitive feel for why CO$_2$ forcing is strongest in summer, consider the sensitivity of surface temperature to an increase in the optical depth for a gray ideal gas in radiative-advective equilibrium $($equation 19 of Cronin and Jansen$)$:</p>
 $$
-\frac{\delta T_s}{\delta \tau_0} = \frac{2$($1 - \beta}F_s + (\frac{2b}{b + 1) - \betaF_A}{4\sigma t_s^3$($2 + \beta\tau_0)^2}
+\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta}F_s + (\frac{2b}{b + 1) - \betaF_A}{4\sigma t_s^3(2 + \beta\tau_0)^2}
 $$
 <p>Without going into the details, the sensitivity is directly proportional to $F_s$ -- the amount of insolation reaching the surface. This is zero at high latitudes during winter, drastically reducing the sensitivity to the forcing.</p>
 
