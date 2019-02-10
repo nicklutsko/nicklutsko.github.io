@@ -5,7 +5,7 @@ date: 2019-02-10
 use_math: true
 ---
 
-<p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO2 concentrations are increased. The top panels of this plot show DJF temperature profiles over land regions, ocean regions and ice regions north of 65N for an RCP8.5 scenario simulation with the GFDL-CM3 model.  $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
+<p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO$_2$ concentrations are increased. The top panels of this plot show DJF temperature profiles over land regions, ocean regions and ice regions north of 65$^\circ$N for an RCP8.5 scenario simulation with the GFDL-CM3 model.  $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/GFDL-CM3_polar_warming_breakdown.png" alt="GFDL warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -32,7 +32,7 @@ Some Other Studies
 
 <p>The strongest warming was in the winter months $($NDJF$)$, even though the largest sea-ice reductions were in the fall months $($September and October$)$. But the largest air-surface temperature contrasts are in the winter months, leading to the most warming.</p> 
 
-<p>Another paper demonstrating the importance of sea-ice is <a href="https://www.nature.com/articles/s41467-018-07954-9">Dai et al. $($2018$)$</a>. They managed to eliminate the Arctic amplification in a simulation with the CESM model with CO2 increasing by 1%/year by keeping sea-ice fixed.</p> 
+<p>Another paper demonstrating the importance of sea-ice is <a href="https://www.nature.com/articles/s41467-018-07954-9">Dai et al. $($2018$)$</a>. They managed to eliminate the Arctic amplification in a simulation with the CESM model with CO$_2$ increasing by 1%/year by keeping sea-ice fixed.</p> 
 
 <h3>What About the Radiative Forcing?</h3>
 
@@ -42,7 +42,7 @@ Some Other Studies
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-<p>To get an intuitive feel for why CO2 forcing is strongest in summer, consider the sensitivity of surface temperature to an increase in the optical depth for a gray ideal gas in radiative-advective equilibrium $($equation 19 of Cronin and Jansen$)$:</p>
+<p>To get an intuitive feel for why CO$_2$ forcing is strongest in summer, consider the sensitivity of surface temperature to an increase in the optical depth for a gray ideal gas in radiative-advective equilibrium $($equation 19 of Cronin and Jansen$)$:</p>
 $$
 \frac{\delta T_s}{\delta \tau_0} = \frac{2$($1 - \beta}F_s + (\frac{2b}{b + 1) - \betaF_A}{4\sigma t_s^3$($2 + \beta\tau_0)^2}
 $$
