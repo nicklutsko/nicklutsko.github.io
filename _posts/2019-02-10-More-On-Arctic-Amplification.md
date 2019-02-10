@@ -34,7 +34,7 @@ use_math: true
 
 <h3>What About the Radiative Forcing?</h3>
 
-<p>In the radiative-advective model, which we think is a good representation of the high latitude atmosphere, radiative forcing causes the kind of surface-amplified warming seen in the first two plots of this post. Radiative forcing also causes the stratosphere to cool, which is seen in those plots as well. But <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2012GL051598">Screen et al. $($2012$)$</a> found that, comparing an simulation with increased CO$_2$ concentrations with one in which sea-ice and SST concentrations were changed by greenhouse gas concentrations were fixed, the strongest response to the direct radiative forcing is in summer $($their Figure 4$)$:</p> 
+<p>In the radiative-advective model, which we think is a good representation of the high latitude atmosphere, radiative forcing causes the kind of surface-amplified warming seen in the first two plots of this post. Radiative forcing also causes the stratosphere to cool, which is seen in those plots as well. But <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2012GL051598">Screen et al. $($2012$)$</a> found that, comparing a simulation of the period 1979-2008 $($"ALL"$)$ with a simulation with fixed greenhouse gas concentrations but with observed sea-ice and SST concentrations $($"GLB"$)$, the strongest response to the direct radiative forcing is in summer $($their Figure 4$)$:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/Screen_DRF.png" alt="Screen DRF" style="position:absolute; left:200px; width:364px;height:230px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
