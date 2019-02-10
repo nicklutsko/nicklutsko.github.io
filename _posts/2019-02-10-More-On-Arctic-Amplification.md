@@ -1,3 +1,4 @@
+---
 layout: post
 title: "More on Arctic Amplification"
 date: 2019-02-10
