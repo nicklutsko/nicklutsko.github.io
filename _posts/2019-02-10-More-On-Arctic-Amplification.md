@@ -5,26 +5,26 @@ date: 2019-02-10
 use_math: true
 ---
 
-<p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO$_2$ concentrations are increased. The top panels of this plot show DJF temperature profiles over land regions, ocean regions and ice regions north of 65$^\circ$N for an RCP8.5 scenario simulation with the GFDL-CM3 model.  $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
+<p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO$_2$ concentrations are increased. The top panels of this plot show average December-January-February $($DJF$)$ temperature profiles over land, ocean and ice regions north of 65$^\circ$N for simulation with the GFDL-CM3 model under the RCP8.5 scenario.  $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/GFDL-CM3_polar_warming_breakdown.png" alt="GFDL warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-<p>The bottom panels show time series of sea-ice fraction, sea-ice thickness and surface temperatures over the three surfaces. Temperatures over ice and over land warm rapidly, while the ocean warms much more slowly. The same plot for HadGEM2-CC gives a similar picture, though there is more warming over the ocean:</p> 
+<p>The bottom panels show time series of sea-ice fraction, sea-ice thickness and of surface temperatures over the three surfaces. Temperatures over ice and over land warm rapidly, while the ocean warms much more slowly. The same plot for the HadGEM2-CC model gives a similar picture, though there is more warming over the ocean:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/HadGEM2-CC_polar_warming_breakdown.png" alt="HadGEM warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>I think this is because the sea-ice is more “binary” in the GFDL model – grid-boxes tend to have all ice or all ocean – whereas the HadGEM model has more intermediate values of sea-ice fraction. Since I average by multiplying by $($1 – sea-ice fraction$)$ etc. there might be more aliasing of open ocean temperatures and sea-ice temperatures in this model.</p> 
+<p>I think this is because the sea-ice is more “binary” in the GFDL model – grid-boxes tend to have all ice or all ocean – whereas the HadGEM model has more intermediate values of sea-ice fraction. Since I average by multiplying by $($1 – sea-ice fraction$)$, etc. there may be more aliasing of open ocean temperatures and sea-ice temperatures in the calculations for this model.</p> 
 
-<p>In any case, both simulations suggest that diminishing sea-ice cover is an important component of Arctic amplification. Interestingly, the sea-ice fraction collapses in both models around 2060, and this corresponds to a rapid warming of land temperatures in the HadGEM model, but there doesn't seem to be any changes to the trends in the GFDL model.</p>
+<p>In any case, both simulations suggest that diminishing sea-ice cover is an important component of Arctic amplification. Interestingly, the sea-ice fraction collapses in both models around 2060, and this corresponds to a rapid warming of land temperatures in the HadGEM model, but there don't seem to be any changes to the trends in the GFDL model.</p>
 
 <h3>Some other Studies</h3>
 
-<p>In a 2009 paper, <a href="https://journals.ametsoc.org/doi/pdf/10.1175/2009JCLI3053.1">Deser et al. </a> compared a control simulation with CAM3 with an ensemble of simulations in which sea-ice concentrations were set to those at the end of the 21st century. $($These sea-ice concentrations came from a coupled model RCP8.5 simulation$)$. SSTs at locations without sea-ice were pinned to the freezing temperature.</p>
+<p>In a 2009 paper, <a href="https://journals.ametsoc.org/doi/pdf/10.1175/2009JCLI3053.1">Deser et al. </a> compared a control simulation with CAM3 $($an atmosphere-only model$)$ with a simulation in which sea-ice concentrations were set to those at the end of the 21st century. Nothing else was changed in this simulation, and SSTs at locations without sea-ice were set to the freezing temperature. The 21st century sea-ice concentrations came from a coupled model simulation run under the A1B scenario for the 21st century.</p>
 
-<p>This produced a strong warming over the Arctic Ocean and the surrounding continents, and Deser et al calculated heat budgets to understand why this was happening. They found that over the Arctic ocean, the air mainly warmed because of increased heat transfer from the warmer ocean waters. Over land, the air mainly warmed because of horizontal advection of relatively warm air from over the oceans:</p>
+<p>This sea-ice change produced a strong warming over the Arctic Ocean and the surrounding continents, and Deser et al. calculated heat budgets to understand why this was happening. They found that over the Arctic ocean the air mainly warmed because of increased heat transfer from the ocean to the boundary layer, while over land the warming was mostly due to horizontal advection of warm air from over the ocean:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Deser_budget.png" alt="Deser budget" style="position:absolute; left:200px; width:573px;height:564px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
