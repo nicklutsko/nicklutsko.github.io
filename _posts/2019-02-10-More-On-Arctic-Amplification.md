@@ -42,7 +42,7 @@ In the radiative-advective model, which we think is a good representation of the
 
 <p>We can get an intuitive feel for why CO$_2$ forcing is strongest in summer by considering the sensitivity of surface temperature to optical depth changes in a gray atmosphere in radiative-advective equilibrium $($equation 19 of <a href="http://web.mit.edu/~twcronin/www/document/CroninJansen2015.pdf">Cronin and Jansen</a>$)$:</p>
 $$
-\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta)F_s + (\frac{2b}{b + 1} - \betaF_A}{4\sigma t_s^3(2 + \beta\tau_0)^2}
+\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta)F_s + (\frac{2b}{b + 1} - \beta F_A}){4\sigma t_s^3(2 + \beta\tau_0)^2}
 $$
 <p>Without going into the details, the sensitivity is directly proportional to $F_s$ -- to the amount of insolation reaching the surface. This is zero at high latitudes during winter, and so the sensitivity to radiative forcing is weak then.</p>
 
