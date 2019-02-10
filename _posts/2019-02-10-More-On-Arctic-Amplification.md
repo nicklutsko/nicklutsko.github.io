@@ -8,13 +8,12 @@ use_math: true
 <p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO$_2$ concentrations are increased. The top panels of this plot show average December-January-February $($DJF$)$ temperature profiles over land, ocean and ice regions north of 65$^\circ$N for simulation with the GFDL-CM3 model under the RCP8.5 scenario.  $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/GFDL-CM3_polar_warming_breakdown.png" alt="GFDL warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The bottom panels show time series of sea-ice fraction, sea-ice thickness and of surface temperatures over the three surfaces. Temperatures over ice and over land warm rapidly, while the ocean warms much more slowly. The same plot for the HadGEM2-CC model gives a similar picture, though there is more warming over the ocean:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/HadGEM2-CC_polar_warming_breakdown.png" alt="HadGEM warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>I think this is because the sea-ice is more “binary” in the GFDL model – grid-boxes tend to have all ice or all ocean – whereas the HadGEM model has more intermediate values of sea-ice fraction. Since I average by multiplying by $($1 – sea-ice fraction$)$, etc. there may be more aliasing of open ocean temperatures and sea-ice temperatures in the calculations for this model.</p> 
 
@@ -24,12 +23,12 @@ use_math: true
 
 <p>In a 2009 paper, <a href="https://journals.ametsoc.org/doi/pdf/10.1175/2009JCLI3053.1">Deser et al. </a> compared a control simulation with CAM3 $($an atmosphere-only model$)$ with a simulation in which sea-ice concentrations were set to those at the end of the 21st century. Nothing else was changed in this simulation, and SSTs at locations without sea-ice were set to the freezing temperature. The 21st century sea-ice concentrations came from a coupled model simulation run under the A1B scenario for the 21st century.</p>
 
-<p>This sea-ice change produced a strong warming over the Arctic Ocean and the surrounding continents, and Deser et al. calculated heat budgets to understand why this was happening. They found that over the Arctic ocean the air mainly warmed because of increased heat transfer from the ocean to the boundary layer, while over land the warming was mostly due to horizontal advection of warm air from over the ocean:</p>
+<p>This sea-ice change produced a strong warming over the Arctic Ocean and the surrounding continents and Deser et al. calculated heat budgets to understand why this was happening. They found that over the Arctic ocean the air mainly warmed because of increased heat transfer from the ocean to the boundary layer, while over land the warming was mostly due to horizontal advection of warm air from over the ocean $($"V + H Diff" is the change in the surface fluxes$)$:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Deser_budget.png" alt="Deser budget" style="position:absolute; left:200px; width:573px;height:564px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>The strongest warming was in the winter months $($NDJF$)$, even though the largest sea-ice reductions were in the fall months $($September and October$)$. But the largest air-surface temperature contrasts are in the winter months, leading to the most warming.</p> 
+<p>The strongest warming was in the winter months $($NDJF$)$, even though the largest sea-ice reductions were in the fall months $($September and October$)$. Deser et al. argue that this is because the surface energy flux is strongest in winter, when the air-sea temperature difference is largest.</p> 
 
 <p>Another paper demonstrating the importance of sea-ice is <a href="https://www.nature.com/articles/s41467-018-07954-9">Dai et al. $($2018$)$</a>. They managed to eliminate the Arctic amplification in a simulation with the CESM model with CO$_2$ increasing by 1%/year by keeping sea-ice fixed.</p> 
 
@@ -38,12 +37,12 @@ use_math: true
 <p><a href="http://web.mit.edu/~twcronin/www/document/CroninJansen2015.pdf">Cronin and Jansen</a> showed that in the radiative-advective model for a gray ideal gas, radiative forcing can cause the kind of surface-amplified warming seen in the first two figures of this post. The cooling of the stratosphere is also a response to radiative forcing. But <a href="https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2012GL051598">Screen et al. $($2012$)$</a> found that, in a simulation with fixed sea-ice, etc., the strongest response to the direct radiative forcing is in summer $($their Figure 4$)$:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/Screen_DRF.png" alt="Screen DRF" style="position:absolute; left:200px; width:364px;height:230px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 <p>To get an intuitive feel for why CO$_2$ forcing is strongest in summer, consider the sensitivity of surface temperature to an increase in the optical depth for a gray ideal gas in radiative-advective equilibrium $($equation 19 of Cronin and Jansen$)$:</p>
 $$
-\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta}F_s + (\frac{2b}{b + 1} - \betaF_A}{4\sigma t_s^3(2 + \beta\tau_0)^2}
+\frac{\delta T_s}{\delta \tau_0} = \frac{2(1 - \beta)F_s + (\frac{2b}{b + 1} - \betaF_A}{4\sigma t_s^3(2 + \beta\tau_0)^2}
 $$
 <p>Without going into the details, the sensitivity is directly proportional to $F_s$ -- to the amount of insolation reaching the surface. This is zero at high latitudes during winter, and so the sensitivity to forcing is weak.</p>
 
