@@ -25,12 +25,11 @@ title: Code
 			<p><font size=3><a href="eddy_co_spectra.py">eddy_co_spectra.py</a></font></p>
 
 
-			<h3>"1-Dimensional" 2-layer QG Model</h3>
-			<p><font size=3>Stand-alone Python script for a "1-dimensional" 2-layer quasi-geostrophic model described in <a href="http://www.gfdl.noaa.gov/bibliography/related_files/rlp8801.pdf">Panetta and Held (1988)</a>. The model is truncated in wavenumber space to retain only the zonal-mean flow and one non-zero zonal wavenumber (the default set-up retains the most unstable wave) and can be quickly run on a laptop. Non-linear terms are de-aliased using the Orszag (1971) "two-thirds" rule. The domain is doubly-periodic and the model is forced by an unstable meridional temperature gradient and by lower-layer Ekman friction. Note that all variables are non-dimensionalized.</font></p>
-
-			<p><font size=3><a href="Trunc_2l_QG.py">Trunc_2l_QG.py</a></font></p>
+			<h3> 2-layer QG Model</h3>
+			<p><font size=3>Stand-alone, parallelized Python script for a 2-layer quasi-geostrophic model. Out of the box, the model is forced by interacting with a zonally-uniform mean-flow, as well as by surface friction and radiative damping, following <a href="http://www.gfdl.noaa.gov/bibliography/related_files/rlp8801.pdf">Panetta and Held (1988)</a>, but this can be easily changed. Non-linear terms are de-aliased using the Orszag (1971) "two-thirds" rule. The domain is doubly-periodic and the model is forced by an unstable meridional temperature gradient and non-linear terms are de-aliased using the Orszag (1971) "two-thirds" rule. Note that all variables are non-dimensionalized.
+			<p><font size=3><a href="parallel_full_QG.py">Trunc_2l_QG.py</a></font></p>
 			<figure>
-			<img src="http://nicklutsko.github.io/code/images/Hovmuller.png" alt="Hovmuller diagram"  style="width:250px;height:200px;"align="center">
-			<figcaption>Hovmuller diagram of the upper layer streamfunction from a simulation with the model.</figcaption>
+			<img src="http://nicklutsko.github.io/code/images/Growth_rates_streamfunction.png" alt="Growth rates and streamfunction"  style="width:250px;height:250px;"align="center">
+			<figcaption>Growth rates and upper level streamfunction at t = 500.</figcaption>
 			</figure>
 		</div>
