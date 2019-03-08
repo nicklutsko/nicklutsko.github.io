@@ -14,7 +14,7 @@ import scipy.signal as ss
 import scipy.interpolate as si
 
 
-def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
+def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4., windows = 8, NFFT = 256 ):
 	"""
 	Calculate space-time co-spectra, following method of Hayashi (1971)
 
@@ -24,6 +24,8 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
 	  Fs - sampling frequency
 	  smooth - 1 = apply Gaussian smoothing
           width - width of Gaussian smoothing
+          windows - number of windows in cross-spectra calculations
+          NFFT - length of FFT in cross-spectra calculations
 
 	Output:
 	  K_p - spectra for positive frequencies
@@ -31,6 +33,9 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
 	  lon_freqs - inverse wavenumbers
 	  om - frequencies 
 	  K_combine - spectra for all frequencies 
+
+
+	Note: the calculations will fail if the time dimension is larger than windows * NFFT (2048      	currently)
 	"""
 	t, l = np.shape( a )
 	lf = l / 2 + 1
@@ -52,10 +57,10 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
 	#Cross-spectra
 	for i in range( lf ):
 		window = np.hamming( len(CFa[:, i]) / 8)
-		om, csd_CaCb = ss.csd( CFa[:, i], CFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / 8, nfft = 256 )
-		om, csd_SaSb = ss.csd( SFa[:, i], SFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / 8, nfft = 256 )
-		om, csd_CaSb = ss.csd( CFa[:, i], SFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / 8, nfft = 256 )
-		om, csd_SaCb = ss.csd( SFa[:, i], CFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / 8, nfft = 256)
+		om, csd_CaCb = ss.csd( CFa[:, i], CFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT )
+		om, csd_SaSb = ss.csd( SFa[:, i], SFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT )
+		om, csd_CaSb = ss.csd( CFa[:, i], SFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT )
+		om, csd_SaCb = ss.csd( SFa[:, i], CFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT)
 
 		K_p[:, i] = csd_CaCb.real + csd_SaSb.real + csd_CaSb.imag - csd_SaCb.imag
 		K_n[:, i] = csd_CaCb.real + csd_SaSb.real - csd_CaSb.imag + csd_SaCb.imag
