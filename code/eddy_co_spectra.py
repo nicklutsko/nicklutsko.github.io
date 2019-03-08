@@ -14,7 +14,7 @@ import scipy.interpolate as si
 
 def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
 	"""
-	Calculate space-time co-spectra, following method of Hayashi (1974)
+	Calculate space-time co-spectra, following method of Hayashi (1971)
 
 	Input:
 	  a - variable 1, dimensions = (time, lon)
@@ -83,7 +83,7 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4. ):
 
 def calc_phase_speed_spec( P_p, P_n, f_lon, om, lon_unit, time_unit, nps, i1 = 1, i2 = 50 ):
 	"""
-	Calculate space-time co-spectra, following method of Hayashi (1974)
+	Calculate space-time co-spectra, following method of Hayashi (1971)
 
 	Input:
 	  P_p - spectra for positive phase speeds
@@ -139,13 +139,13 @@ def calc_phase_speed_spec( P_p, P_n, f_lon, om, lon_unit, time_unit, nps, i1 = 1
 
 def calc_co_spectra( x, y, dx, dt, nps = 100 ):
 	"""
-	Calculate eddy phase speed co-spectra, following method of Hayashi (1974)
+	Calculate eddy phase speed co-spectra, following method of Hayashi (1971)
 
 	Input:
 	  x - variable 1, dimensions = (time, lat, lon)
 	  y - variable 2, dimensions = (time, lat, lon)
 	  dx - spacing of longitude
-	  dt - sampling interval
+	  dt - sampling frequency
 	  nps - grid of phase speeds
 
 	Output:
