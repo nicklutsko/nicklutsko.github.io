@@ -5,7 +5,9 @@ Functions for calculating eddy flux co-spectra. Script follows technique of Haya
 
 Includes functions to calculate space-time cross-spectra and phase-speed cross-spectrum.
 
-Last updated -- May 30th 2018 (fixed bug pointed out by Ben Toms)
+Updated May 30th 2018 -- fixed bug pointed out by Ben Toms
+
+Updated March 8th 2019 -- fixed documentation errors pointed out by Neil Lewis
 """
 import numpy as np
 import scipy.signal as ss
