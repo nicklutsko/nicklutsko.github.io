@@ -112,10 +112,10 @@ def calPhaseSpeedSpectrum( P_p, P_n, f_lon, om, cmax, nps, i1 = 1, i2 = 50 ):
 	if i2 < i1:
 		print "WARNING: highest wavenumber smaller than lowest wavenumber"
 
-	#Make phase speed grid
 	j = len( f_lon )
 	t = len( om )
-	
+
+	#Make phase speed grid	
 	C = np.linspace(0., cmax, nps)
 
 	#K_n,c arrays
