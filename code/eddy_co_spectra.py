@@ -7,21 +7,24 @@ Includes functions to calculate space-time cross-spectra and phase-speed cross-s
 
 Updated May 30th 2018 -- fixed bug pointed out by Ben Toms
 
-Updated March 8th 2019 -- fixed documentation errors pointed out by Neil Lewis
+Updated March 14th 2019 -- fixed several errors pointed out by Neil Lewis
+
+Tested using Python 2.7.12
 """
 import numpy as np
 import scipy.signal as ss
 import scipy.interpolate as si
 
 
-def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4., windows = 8, NFFT = 256 ):
+def calc_spacetime_cross_spec( a, b, ts = 1., smooth = 1, width = 15., windows = 8, NFFT = 256 ):
 	"""
 	Calculate space-time co-spectra, following method of Hayashi (1971)
 
 	Input:
-	  a - variable 1, dimensions = (time, lon)
-	  b - variable 2, dimensions = (time, lon)
-	  Fs - sampling frequency
+	  a - variable 1, dimensions = (time, space)
+	  b - variable 2, dimensions = (time, space)
+	  dx - x-grid spacing (unit = space)
+	  ts - sampling interval (unit = time)
 	  smooth - 1 = apply Gaussian smoothing
           width - width of Gaussian smoothing
           windows - number of windows in cross-spectra calculations
@@ -30,52 +33,52 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4., windows = 
 	Output:
 	  K_p - spectra for positive frequencies
 	  K_n - spectra for negative frequencies
-	  lon_freqs - inverse wavenumbers
+	  lon_freqs - wavenumbers
 	  om - frequencies 
-	  K_combine - spectra for all frequencies 
 
-
-	Note: the calculations will fail if the time dimension is larger than windows * NFFT (2048      	currently)
+	Note: the csd calculations will fail if the time dimension is larger than windows * NFFT     		(2048 currently)
 	"""
 	t, l = np.shape( a )
-	lf = l / 2 + 1
-	tf = 129
-	lon_freq = 2. * np.pi * np.linspace(0., 0.5, lf)
-	
-	#Calculate spatial ffts
-	Fa = np.fft.fft( a, axis = 1 )
-	Fb = np.fft.fft( b, axis = 1 )
+	lf = l / 2 
 
-	CFa = Fa[:, :l/2 + 1].real
-	SFa = -Fa[:, :l/2 + 1].imag
-	CFb = Fb[:, :l/2 + 1].real
-	SFb = -Fb[:, :l/2 + 1].imag
+	#Calculate spatial ffts. 
+	Fa = np.fft.fft( a, axis = 1 ) / float( l  ) #normalize as in Randel and Held 1991
+	Fb = np.fft.fft( b, axis = 1 ) / float( l  ) #normalize as in Randel and Held 1991
 
+	#Only keep positive wavenumbers
+	lon_freq = np.fft.fftfreq( l, d = dx )[:lf] #=n / a cos\phi in Randel Held 
+
+	CFa = Fa[:, :lf].real
+	SFa = Fa[:, :lf].imag
+	CFb = Fb[:, :lf].real
+	SFb = Fb[:, :lf].imag
+
+	tf = NFFT / 2 + 1
+
+	#K_n,w arrays
 	K_p = np.zeros( ( tf, lf ) )
 	K_n = np.zeros( ( tf, lf ) )
 	
 	#Cross-spectra
 	for i in range( lf ):
-		window = np.hamming( len(CFa[:, i]) / 8)
-		om, csd_CaCb = ss.csd( CFa[:, i], CFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT )
-		om, csd_SaSb = ss.csd( SFa[:, i], SFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT )
-		om, csd_CaSb = ss.csd( CFa[:, i], SFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT )
-		om, csd_SaCb = ss.csd( SFa[:, i], CFb[:, i], fs = Fs * 2. * np.pi, window = window, nperseg = len(CFa[:, i]) / windows, nfft = NFT)
-
+		window = np.hamming( len(CFa[:, i]) / windows)
+		csd_CaCb, om = mm.csd( CFa[:, i], CFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning)
+		csd_SaSb, om = mm.csd( SFa[:, i], SFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning) 
+		csd_CaSb, om = mm.csd( CFa[:, i], SFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning) 
+		csd_SaCb, om = mm.csd( SFa[:, i], CFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning)
 		K_p[:, i] = csd_CaCb.real + csd_SaSb.real + csd_CaSb.imag - csd_SaCb.imag
 		K_n[:, i] = csd_CaCb.real + csd_SaSb.real - csd_CaSb.imag + csd_SaCb.imag
+		#Don't need factor 4 from Hayashi eq4.11, since Fourier co-efficients are 1/2 as large due to only retaining positive wavenumbers
 
 	#Combine
-	K_combine = np.zeros( ( tf * 2, lf ) )
-	K_combine[:tf, :] = K_n[::-1, :]
-	K_combine[tf:, :] = K_p[:, :]
+	K_combine = np.zeros( ( tf * 2, lf ) ) 
+	K_combine[:tf, :] = K_n[::-1, :]   #for the convolution
+	K_combine[tf:, :] = K_p[:, :]  
 
-	#Apply smoothing
+
 	if smooth == 1.:
-		f_size = len(K_p[:, 0])
-		sigma = 1. / width / np.pi * tf
 		x = np.linspace( -tf / 2, tf / 2., tf )
-		gauss_filter = np.exp( -x ** 2 / (2. * sigma ** 2 ) )
+		gauss_filter = np.exp( -x ** 2 / (2. * width ** 2 ) )
 		gauss_filter /= sum( gauss_filter )
  		for i in range( lf ):
 			K_combine[:, i] = np.convolve( K_combine[:, i], gauss_filter, 'same' )
@@ -85,20 +88,18 @@ def calc_spacetime_cross_spec( a, b, Fs = 1., smooth = 1, width = 4., windows = 
 	K_p = K_combine[tf:, :]
 	K_n = K_n[::-1, :]
 
-	return K_p, K_n, lon_freq, om 
+	return K_p , K_n, lon_freq, om 
 
-
-def calc_phase_speed_spec( P_p, P_n, f_lon, om, lon_unit, time_unit, nps, i1 = 1, i2 = 50 ):
+def calPhaseSpeedSpectrum( P_p, P_n, f_lon, om, cmax, nps, i1 = 1, i2 = 50 ):
 	"""
 	Calculate space-time co-spectra, following method of Hayashi (1971)
 
 	Input:
 	  P_p - spectra for positive phase speeds
 	  P_n - spectra for negative phase speeds
-	  f_lon - inverse wavenumbers
+	  f_lon - wavenumbers
 	  om - frequencies 
-	  lon_unit - spacing of longitude
-	  time_unit - sampling interval
+	  cmax - maximum phase speed
 	  nps - size of phase speed grid
 	  i1 - lowest wave number to sum over
           i2 - highest wave number to sum over
@@ -111,48 +112,55 @@ def calc_phase_speed_spec( P_p, P_n, f_lon, om, lon_unit, time_unit, nps, i1 = 1
 	if i2 < i1:
 		print "WARNING: highest wavenumber smaller than lowest wavenumber"
 
-	#Make non-dimensional phase speed grid
+	#Make phase speed grid
 	j = len( f_lon )
 	t = len( om )
-	C = np.linspace( om[1] / f_lon[j / 6], om[t - 1] / f_lon[1], nps )
+	
+	C = np.linspace(0., cmax, nps)
 
-	P_cp = np.zeros( nps )
-	P_cn = np.zeros( nps )
+	#K_n,c arrays
+	P_cp = np.zeros( ( nps, j ) )
+	P_cn = np.zeros( ( nps, j ) )
 
 	#Interpolate
-	for i in range( i1+4, i2 ):
-		f1 = si.interp1d(om, P_p[:, i], 'linear' )
-		f2 = si.interp1d(om, P_n[:, i], 'linear' )
+	for i in range( i1, i2 ):
+		#Make interpolation functions c = omega / k
+		f1 = si.interp1d(om / f_lon[i], P_p[:, i], 'linear' )
+		f2 = si.interp1d(om / f_lon[i], P_n[:, i], 'linear' )
 
 		#interp1d doesn't handle requested points outside data range well, so just zero out these points
 		k = -1
 		for j in range( len(C) ):
-			if C[j] * f_lon[i] > max(om):
+			if C[j] > max(om) / f_lon[i]:
 				k = j
 				break
 		if k == -1:
-			k = len( C )			
-		ad1 = np.zeros( 100 )
-		ad1[:k] =  f1( C[:k] * f_lon[i] )
-		ad2 = np.zeros( 100 )
-		ad2[:k] =  f2( C[:k] * f_lon[i] )
+			k = len( C )	
+		
+		ad1 = np.zeros( nps )
+		ad1[:k] =  f1( C[:k]  )
+		ad2 = np.zeros( nps )
+		ad2[:k] =  f2( C[:k] )
 
 		#Interpolate
-		P_cp = P_cp + i * ad1
-		P_cn = P_cn + i * ad2
+		P_cp[:, i] = ad1 * f_lon[i] 
+		P_cn[:, i] = ad2 * f_lon[i] 
 
-	return P_cp, P_cn, C * lon_unit / time_unit
+ 	#Sum over all wavenumbers
+	return np.sum(P_cp, axis = 1), np.sum(P_cn, axis = 1), C
 
-
-def calc_co_spectra( x, y, dx, dt, nps = 100 ):
+def calc_co_spectra( x, y, dx, lat, dt, cmax = 50, nps = 50 ):
 	"""
-	Calculate eddy phase speed co-spectra, following method of Hayashi (1971)
+	Calculate eddy phase speed co-spectra, following method of Hayashi (1974)
 
 	Input:
 	  x - variable 1, dimensions = (time, lat, lon)
 	  y - variable 2, dimensions = (time, lat, lon)
-	  dx - spacing of longitude
-	  dt - sampling frequency
+	  dx - spacing of spatial points (unit = m)
+	  lat - latitudes -> note that if working in spherical co-ordinates dx must be scaled by 
+		a * cos(lat)
+	  dt - sampling interval (unit = s)
+	  cmax - maximum phase speed 
 	  nps - grid of phase speeds
 
 	Output:
@@ -173,10 +181,10 @@ def calc_co_spectra( x, y, dx, dt, nps = 100 ):
 	#Cycle through latitudes
 	for i in range( l ):
 		print "Doing: ", i
-		#First calculate space - time cross-spectra
-		K_p, K_n, lon_freq, om = calc_spacetime_cross_spec( x[:, i, :], y[:, i, :], Fs = dt )
+		#Calculate space - time cross-spectra
+		K_p, K_n, lon_freq, om = spaceTimeCrossSpec( x[:, i, :], y[:, i, :], dx = dx, ts = dt )
 		#Convert to phase speed spectra
-		P_Cp, P_Cn, cp = calc_phase_speed_spec(K_p, K_n, lon_freq, om, dx, dt, nps, 1, nps / 2 );
+		P_Cp, P_Cn, cp = calPhaseSpeedSpectrum(K_p, K_n, lon_freq, om, cmax, nps, 1, nps / 2 );
 		
 		p_spec[i, :nps] = P_Cn[::-1] #negative phase speeds
 		p_spec[i, nps:] = P_Cp[:] #positive phase speeds
@@ -184,7 +192,6 @@ def calc_co_spectra( x, y, dx, dt, nps = 100 ):
 	ncps = np.zeros( 2 * nps ) #full array of phase speeds 
 	ncps[:100] = -1. * cp[::-1] 
 	ncps[100:] = cp[:] 
-
 	return p_spec, ncps
 
 
