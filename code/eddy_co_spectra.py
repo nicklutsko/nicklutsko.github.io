@@ -5,9 +5,9 @@ Functions for calculating eddy flux co-spectra. Script follows technique of Haya
 
 Includes functions to calculate space-time cross-spectra and phase-speed cross-spectrum.
 
-Updated May 30th 2018 -- fixed bug pointed out by Ben Toms
+Updated May 30th 2018 -- fixed bug identified by Ben Toms
 
-Updated March 14th 2019 -- fixed several errors pointed out by Neil Lewis
+Updated March 14th 2019 -- fixed several errors identified by Neil Lewis
 
 Tested using Python 2.7.12
 """
@@ -16,7 +16,7 @@ import scipy.signal as ss
 import scipy.interpolate as si
 
 
-def calc_spacetime_cross_spec( a, b, ts = 1., smooth = 1, width = 15., windows = 8, NFFT = 256 ):
+def calc_spacetime_cross_spec( a, b, ts = 1., smooth = 1, width = 15., NFFT = 256 ):
 	"""
 	Calculate space-time co-spectra, following method of Hayashi (1971)
 
@@ -27,16 +27,13 @@ def calc_spacetime_cross_spec( a, b, ts = 1., smooth = 1, width = 15., windows =
 	  ts - sampling interval (unit = time)
 	  smooth - 1 = apply Gaussian smoothing
           width - width of Gaussian smoothing
-          windows - number of windows in cross-spectra calculations
-          NFFT - length of FFT in cross-spectra calculations
+          NFFT - length of FFT in cross-spectra calculations, sets the size of the 
 
 	Output:
 	  K_p - spectra for positive frequencies
 	  K_n - spectra for negative frequencies
 	  lon_freqs - wavenumbers
 	  om - frequencies 
-
-	Note: the csd calculations will fail if the time dimension is larger than windows * NFFT     		(2048 currently)
 	"""
 	t, l = np.shape( a )
 	lf = l / 2 
@@ -61,7 +58,7 @@ def calc_spacetime_cross_spec( a, b, ts = 1., smooth = 1, width = 15., windows =
 	
 	#Cross-spectra
 	for i in range( lf ):
-		window = np.hamming( len(CFa[:, i]) / windows)
+		window = np.hamming( NFFT )
 		csd_CaCb, om = mm.csd( CFa[:, i], CFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning)
 		csd_SaSb, om = mm.csd( SFa[:, i], SFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning) 
 		csd_CaSb, om = mm.csd( CFa[:, i], SFb[:, i], Fs = 1. / ts, NFFT = NFFT, scale_by_freq = True, window=mm.window_hanning) 
