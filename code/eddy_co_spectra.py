@@ -189,6 +189,7 @@ def calc_co_spectra( x, y, dx, lat, dt, cmax = 50, nps = 50 ):
 	ncps = np.zeros( 2 * nps ) #full array of phase speeds 
 	ncps[:100] = -1. * cp[::-1] 
 	ncps[100:] = cp[:] 
+
 	return p_spec, ncps
 
 
