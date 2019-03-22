@@ -5,7 +5,7 @@ date: 2019-03-22
 use_math: true
 ---
 
-<p>One of the most important potential impacts of future climate change is on the water supply: will future climates be wetter or drier? Clearly, this has major implications for human life and for ecosystems, and a particular worry is that warmer climates will experience more droughts $($or even <a href="https://en.wikipedia.org/wiki/Megadrought">mega droughts</a>$)$.</p>
+<p>One of the most important potential impacts of future climate change is on the water supply: will future climates be wetter or drier? Clearly, this has major implications for human life and for terrestrial ecosystems, and a particular worry is that warmer climates will experience more droughts $($or even <a href="https://en.wikipedia.org/wiki/Megadrought">mega droughts</a>$)$.</p>
 
 <p>It turns out that the answer depends on what we mean by "wetter" and "drier". For instance, one way to quantify these is with indices which measure the severity of droughts or which give some more general measure of how "arid" $($dry and dusty$)$ a climate is. Two commonly used indices are the Palmer Drought Severity Index $($<a href="https://en.wikipedia.org/wiki/Palmer_drought_index">PDSI</a>$)$ and the ratio of precipitation $($P$)$ to "potential evapotranspiration" $($<a href="https://en.wikipedia.org/wiki/Potential_evaporation">PET</a>$)$. We can also measure water availability and its impacts directly, through things like precipitation minus evaporation $($P-E, equal to the river runoff$)$ and net primary productivity $($NPP$)$. These correspond more closely to what we actually care about: river levels and plant growth.</p>
 
