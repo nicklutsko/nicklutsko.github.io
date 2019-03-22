@@ -25,9 +25,9 @@ use_math: true
 $$
 RH_{land} = \gamma RH_{ocean} \times T_{ocean} / T_{land},
 $$
-where $\gamma$ is a constant of proportionality. Assuming the changes in $RH_{ocean}$ and $\gamma$ are negligible, the change in $RH_{land}$ comes from the ratio of ocean warming to land warming. Since we also expect land to warm more than the ocean surface $($<a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-12-00262.1">Byrne and O’Gorman</a> again$)$, this ratio decreases, and $RH_{land}$ decreases.</p>
+where $\gamma$ is a constant of proportionality. Assuming the changes in $RH_{ocean}$ and $\gamma$ are negligible, the change in $RH_{land}$ comes from the ratio of ocean warming to land warming. Since we also expect land to warm more than the surface ocean $($<a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-12-00262.1">Byrne and O’Gorman</a> again$)$, this ratio decreases, and $RH_{land}$ decreases.</p>
 
-<p>Finally, the indices don’t seem to account for the effects of warming, and higher CO2 levels, on plants. At higher CO2 levels plants’ stomatal conductance decreases -- they lose less water to the atmosphere – and so plants retain more water, making the overall land surface moister. Plants are also “fertilized” by higher CO2 concentrations: they need CO2 to grow, so higher CO2 levels encourage more plant growth $($An important caveat is that these effects vary by plant-type, and plant growth can also be limited by other nutrients, like iron$)$.</p>
+<p>Finally, the indices don’t seem to account for the effects of warming, and higher CO$_2$ levels, on plants. At higher CO$_2$ levels plants’ stomatal conductance decreases -- they lose less water to the atmosphere – and so plants retain more water, making the overall land surface moister. Plants are also “fertilized” by higher CO$_2$ concentrations: they need CO$_2$ to grow, so higher CO$_2$ levels encourage more plant growth $($An important caveat is that these effects vary by plant-type, and plant growth can also be limited by other nutrients, like iron$)$.</p>
 
 <p>This also effects the runoff, P - E. As you can see from the figures, there are regions of drying, like the Amazon and in the subtropics/mid-latitudes, and moistening, like over equatorial Africa and at high latitudes. Part of this response comes from changes in plants, but we can also understand them physically.</p>
 
