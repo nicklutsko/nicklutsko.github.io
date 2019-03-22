@@ -23,7 +23,7 @@ use_math: true
 
 <p>Another factor is that we expect relative humidity to decrease over land. All else equal, lower relative humidities results in more evaporation, making land drier. <a href="http://www.mit.edu/~pog/src/byrne_land_relative_humidity_decrease_2016.pdf">Byrne and O'Gorman (2016)</a> give a simple explanation for this reduction in relative humidity: suppose the specific humidity is set by the specific humidity over the ocean $($where most evaporation happens$)$. Relative humidity over land is then proportional to the relative humidity over  ocean times the ratio of land temperature to ocean temperature:
 $$
-RH_{land} = \gamma RH_{ocean} * T_{ocean} / T_{land},
+RH_{land} = \gamma RH_{ocean} \times T_{ocean} / T_{land},
 $$
 where $\gamma$ is a constant of proportionality. Assuming the changes in $RH_{ocean}$ and $\gamma$ are negligible, the change in $RH_{land}$ comes from the ratio of ocean warming to land warming. Since we also expect land to warm more than the ocean surface $($<a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-12-00262.1">Byrne and O’Gorman</a> again$)$, this ratio decreases, and $RH_{land}$ decreases.</p>
 
