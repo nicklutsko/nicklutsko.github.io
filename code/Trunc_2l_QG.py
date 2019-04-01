@@ -255,16 +255,17 @@ y = np.linspace( 0., L, 256 )
 v = np.linspace( -5., 5., 100 )
 
 fig = plt.figure( figsize = (10, 8) )
-plt.subplots_adjust( left = 0.1, right = 0.9, bottom = 0.1, top = 0.95 )
+plt.subplots_adjust( left = 0.1, right = 0.95, bottom = 0.1, top = 0.9 )
 
 ax = plt.subplot( 1, 1, 1 )
+plt.title("Hovmuller plot of upper level streamfunction", fontsize = 16)
 
 plt.contourf( time, y, np.swapaxes( psi_1, 0, 1), v, cmap = plt.cm.RdBu_r )
 cbar = plt.colorbar(ticks = [-5., -2.5, 0., 2.5, 5.])
-cbar.set_label(r"$\psi_1$", fontsize = 20 )
+cbar.set_label(r"$\psi_1$", fontsize = 16 )
 
-plt.xlabel("Time")
-plt.ylabel("Y")
+plt.xlabel("Time", fontsize = 16)
+plt.ylabel("Y", fontsize = 16)
 ax.tick_params(axis = 'x', which = 'both', direction = 'out', top = 'off')
 ax.tick_params(axis = 'y', which = 'both', direction = 'out', right = 'off')
 
@@ -273,5 +274,6 @@ plt.xlim([100., 250.])
 ax.patch.set_facecolor('k')
 ax.patch.set_alpha(0.25)
 
+plt.savefig("images/upper_level_streamfunction.png")
 plt.show()
 

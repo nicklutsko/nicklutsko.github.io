@@ -25,11 +25,10 @@ title: Code
 			<p><font size=3><a href="eddy_co_spectra.py">eddy_co_spectra.py</a></font></p>
 
 
-			<h3> 2-layer QG Model</h3>
-			<p><font size=3>Stand-alone, parallelized Python script for a pseudo-spectral 2-layer quasi-geostrophic model. The domain is doubly-periodic and, out of the box, the model is forced by interacting with a zonally-uniform mean-flow, as well as by surface friction and radiative damping, following <a href="http://www.gfdl.noaa.gov/bibliography/related_files/rlp8801.pdf">Panetta and Held (1988)</a>, but this can be easily changed. Non-linear terms are de-aliased using the Orszag (1971) "two-thirds" rule and note that all variables are non-dimensionalized.
-			<p><font size=3><a href="parallel_full_QG.py">parallel_full_QG.py</a></font></p>
+			<h3> "1-dimensional" 2-layer QG Model</h3>
+			<p><font size=3>Python script for a 2-layer quasi-geostrophic model in which only the most unstable zonal wavenumber is retained, as described in <a href="http://www.gfdl.noaa.gov/bibliography/related_files/rlp8801.pdf">Panetta and Held (1988)</a>. The domain is doubly-periodic and, out of the box, the model is forced by interacting with a zonally-uniform mean-flow, as well as by surface friction and radiative damping, but this can be easily changed. Non-linear terms are de-aliased using the Orszag (1971) "two-thirds" rule and note that all variables are non-dimensionalized.
+			<p><font size=3><a href="Trunc_2l_QG.py">Trunc_2l_QG.py</a></font></p>
 			<figure>
-			<img src="http://nicklutsko.github.io/code/images/Growth_rates_streamfunction.png" alt="Growth rates and streamfunction"  style="width:400px;height:400px;"align="center">
+			<img src="http://nicklutsko.github.io/code/images/upper_level_streamfunction.png" alt="Growth rates and streamfunction"  style="width:400px;height:400px;"align="center">
 			</figure>
-			<p>Growth rates and upper level streamfunction after 200 time-steps.</p>
 		</div>

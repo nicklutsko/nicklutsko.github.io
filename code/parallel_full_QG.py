@@ -29,11 +29,11 @@ from random import random
 #######################################################
 #  Declare some parameters, arrays, etc.
 
-opt = 3 # 1 = just the linear parts, 2 = just the nonlinear parts, 3 = full model
+opt = 1 # 1 = just the linear parts, 2 = just the nonlinear parts, 3 = full model
 
 dt = 0.025 #Timestep
-ts = int( 500 / dt ) #Total timesteps
-lim = int( 400 / dt) #Start taking averages from her
+ts = 1000#int( 500 / dt ) #Total timesteps
+lim = 500#int( 400 / dt) #Start taking averages from her
 
 N = 128 #total zonal wavenumbers
 N2 = 128 #total meridional wavenumbers
