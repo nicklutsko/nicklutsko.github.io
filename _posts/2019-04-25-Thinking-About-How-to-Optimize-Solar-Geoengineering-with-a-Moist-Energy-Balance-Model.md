@@ -19,10 +19,10 @@ C \frac{\partial T (\phi)}{\partial t} = \frac{1}{4}QS(\phi)a(\phi) - (A + BT(\p
 $$
 where $C$ is the heat capacity of the ocean mixed-layer, $T$ is temperature, $\phi$ is latitude, $t$ is time, $\frac{1}{4}QS(\phi)a(\phi)$ is the incoming radiation as a function of latitude, $A + BT(\phi)$ approximates the radiative feedbacks, $\nabla\cdot\mathbf{H}(\phi)$ is the diffusion of moist static energy $(h)$ and $F$ is some radiative forcing, like that due to increasing CO$_2$ concentrations. I've used the same parameter values as Merlis and Henry, and the script for the calculations is <a href="http://nicklutsko.github.io/code/moist_EBM.py">here</a>.</p>
 
+<p>As a control, I integrated the moist EBM to equilibrium with $F = 0$, giving a surface temperature profile that compares reasonably well with what we see on Earth $($panel b of the Figure$)$. The temperature response to a uniform forcing of 4Wm$^{-2}$ is shown by the blue curve in panel e. This also looks like a typical global warming response, with the warming amplified at high latitudes. I then did two more experiments with the solar constant $($$Q$$)$ reduced uniformly by 2Wm$^{-2}$ and with $Q$ reduced by 1\% $($see panel d for the changes in insolation$)$.</p>
+
 <img src="http://nicklutsko.github.io/notes/images/moist_EBM_geoengineering.png" alt="moist EBM geoeng" style="position:absolute; left:150px; width:700px;height:350px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-<p>First, I integrated the moist EBM to equilibrium with $F = 0$, giving a surface temperature profile that compares reasonably well with what we see on Earth $($panel b of the Figure$)$. The temperature response to a uniform forcing of 4Wm$^{-2}$ is shown by the blue curve in panel e. This also looks like a typical global warming response, with the warming amplified at high latitudes. I then did two more experiments with the solar constant $($$Q$$)$ reduced uniformly by 2Wm$^{-2}$ and with $Q$ reduced by 1\% $($see panel d for the changes in insolation$)$.</p>
 
 <p>The temperature responses in these two cases $($orange and red lines in bottom left panel$)$ confirm that the equator-to-pole temperature gradient increases more when $Q$ is reduced by 1% compared to a uniform reduction in $Q$. </p>
 
