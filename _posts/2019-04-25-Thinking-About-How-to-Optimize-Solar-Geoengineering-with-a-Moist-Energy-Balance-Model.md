@@ -15,7 +15,7 @@ use_math: true
 
 <p>To test these two options, I did some calculations with a simple moist energy balance model $($EBM -- see <a href="http://www.meteo.mcgill.ca/~tmerlis/publications/merlis_ebm_pa.pdf">Merlis and Henry</a> for details$)$. This consists of a single equation:
 $$
-C \frac{\partial T $($\phi$)$}{\partial t} = \frac{1}{4}QS$($\phi$)$a$($\phi$)$ - [A + BT$($\phi$)$] - \nabla\cdot\mathbf{H}$($\phi$)$ + F 
+C \frac{\partial T (\phi)}{\partial t} = \frac{1}{4}QS(\phi)a(\phi) - (A + BT(\phi)) - \nabla\cdot\mathbf{H}(\phi) + F 
 $$
 where $C$ is the heat capacity of the ocean mixed-layer, $T$ is temperature, $\phi$ is latitude, $t$ is time, $\frac{1}{4}QS$($\phi$)$a$($\phi$)$$ is the incoming radiation as a function of latitude, $A + BT$($\phi$)$$ approximates the radiative feedbacks, $\nabla\cdot\mathbf{H}$($\phi$)$$ is the diffusion of moist static energy $($h$)$ and $F$ is some radiative forcing, like that due to increasing CO2 concentrations. I've used the same parameter values as Merlis and Henry, and the script for the calculations is <a href="http://nicklutsko.github.io/code/moist_EBM.py">here</a>.</p>
 
