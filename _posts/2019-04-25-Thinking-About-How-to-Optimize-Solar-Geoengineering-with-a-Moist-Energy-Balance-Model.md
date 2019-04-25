@@ -5,7 +5,7 @@ date: 2019-04-25
 use_math: true
 ---
 
-<p>Solar geoengineering, or solar radiation management $($SRM$)$, is is often proposed as a way of counteracting the global warming effects of increased CO2 concentrations. The idea is that by reducing the amount of incoming solar radiation reaching Earth's surface, we can reduce some of the warming from CO2. The main proposed way of doing this is through injecting aerosols $($small particles$)$ into the stratosphere, where they reflect sunlight back to space $($wikipedia page <a href="https://en.wikipedia.org/wiki/Solar_radiation_management">here</a>$)$.</p>
+<p>Solar geoengineering, or solar radiation management $($SRM$)$, is is often proposed as a way of counteracting the global warming effects of increased CO$_2$ concentrations. The idea is that by reducing the amount of incoming solar radiation reaching Earth's surface, we can $($partially$)$ compensate for some of the extra heat trapped by CO$_2$. The main proposed way of doing this is injecting aerosols $($small particles$)$ into the stratosphere, where they would reflect sunlight back to space $($wikipedia page <a href="https://en.wikipedia.org/wiki/Solar_radiation_management">here</a>$)$.</p>
 
 <p>There are a lot of questions, political and scientific, about SRM. One thing which has interested me is how to optimize SRM. That is: how can we implement SRM to best counteract the effects of global warming?</p>
 
@@ -17,7 +17,7 @@ use_math: true
 $$
 C \frac{\partial T (\phi)}{\partial t} = \frac{1}{4}QS(\phi)a(\phi) - (A + BT(\phi)) - \nabla\cdot\mathbf{H}(\phi) + F 
 $$
-where $C$ is the heat capacity of the ocean mixed-layer, $T$ is temperature, $\phi$ is latitude, $t$ is time, $\frac{1}{4}QS(\phi)a(\phi)$ is the incoming radiation as a function of latitude, $A + BT(\phi)$ approximates the radiative feedbacks, $\nabla\cdot\mathbf{H}(\phi)$ is the diffusion of moist static energy $(h)$ and $F$ is some radiative forcing, like that due to increasing CO2 concentrations. I've used the same parameter values as Merlis and Henry, and the script for the calculations is <a href="http://nicklutsko.github.io/code/moist_EBM.py">here</a>.</p>
+where $C$ is the heat capacity of the ocean mixed-layer, $T$ is temperature, $\phi$ is latitude, $t$ is time, $\frac{1}{4}QS(\phi)a(\phi)$ is the incoming radiation as a function of latitude, $A + BT(\phi)$ approximates the radiative feedbacks, $\nabla\cdot\mathbf{H}(\phi)$ is the diffusion of moist static energy $(h)$ and $F$ is some radiative forcing, like that due to increasing CO$_2$ concentrations. I've used the same parameter values as Merlis and Henry, and the script for the calculations is <a href="http://nicklutsko.github.io/code/moist_EBM.py">here</a>.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/moist_EBM_geoengineering.png" alt="moist EBM geoeng" style="position:absolute; left:150px; width:700px;height:350px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
