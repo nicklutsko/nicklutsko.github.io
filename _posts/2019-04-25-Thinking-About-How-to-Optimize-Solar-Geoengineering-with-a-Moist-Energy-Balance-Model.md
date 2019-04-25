@@ -17,7 +17,7 @@ use_math: true
 $$
 C \frac{\partial T (\phi)}{\partial t} = \frac{1}{4}QS(\phi)a(\phi) - (A + BT(\phi)) - \nabla\cdot\mathbf{H}(\phi) + F 
 $$
-where $C$ is the heat capacity of the ocean mixed-layer, $T$ is temperature, $\phi$ is latitude, $t$ is time, $\frac{1}{4}QS$($\phi$)$a$($\phi$)$$ is the incoming radiation as a function of latitude, $A + BT$($\phi$)$$ approximates the radiative feedbacks, $\nabla\cdot\mathbf{H}$($\phi$)$$ is the diffusion of moist static energy $($h$)$ and $F$ is some radiative forcing, like that due to increasing CO2 concentrations. I've used the same parameter values as Merlis and Henry, and the script for the calculations is <a href="http://nicklutsko.github.io/code/moist_EBM.py">here</a>.</p>
+where $C$ is the heat capacity of the ocean mixed-layer, $T$ is temperature, $\phi$ is latitude, $t$ is time, $\frac{1}{4}QS(\phi)a(\phi)$ is the incoming radiation as a function of latitude, $A + BT(\phi)$ approximates the radiative feedbacks, $\nabla\cdot\mathbf{H}(\phi)$ is the diffusion of moist static energy $(h)$ and $F$ is some radiative forcing, like that due to increasing CO2 concentrations. I've used the same parameter values as Merlis and Henry, and the script for the calculations is <a href="http://nicklutsko.github.io/code/moist_EBM.py">here</a>.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/moist_EBM_geoengineering.png" alt="moist EBM geoeng" style="position:absolute; left:150px; width:700px;height:350px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
