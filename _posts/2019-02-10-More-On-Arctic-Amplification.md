@@ -26,7 +26,7 @@ use_math: true
 <p>These sea-ice changes produced strong warming over the Arctic Ocean and the surrounding continents, and Deser et al. calculated heat budgets to understand why this was happening. They found that over the Arctic ocean the air mainly warmed because of increased heat transfer from the ocean to the boundary layer, while over land the warming was mostly due to horizontal advection of warm air from over the ocean $($“V + H Diff” is the change in the surface fluxes between the two simulations$)$:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Deser_budget.png" alt="Deser budget" style="position:absolute; left:200px; width:573px;height:564px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The heat transfer increased over the Arctic Ocean because there was more exposed ocean and less sea-ice, and the strongest warming was in the winter months $($NDJF$)$, even though the largest sea-ice reductions were in the fall months $($September and October$)$. Deser et al. argued that this is because the surface energy fluxes are strongest in winter, when the air-sea temperature difference is largest.</p> 
 
