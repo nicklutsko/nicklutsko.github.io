@@ -12,7 +12,7 @@ date: 2016-06-15
 
 <p>A carbon tax and cap-and-trade are both ways of reducing emissions by implementing a Pigouvian tax, which is a tax on an economic activity that generates a negative externality.</p>
 
-<center><img src="http://nicklutsko.github.io/notes/images/marg_ben.png" alt="Marginal Benefit" style="width:400px;height:333px;" class="center"></center>
+<div class=figure><p><img src="http://nicklutsko.github.io/notes/images/marg_ben.png" alt="Marginal Benefit" width="400px" height = "333px;" class="center"><p>marginal benefit versus cost</div>
 
 <p>To take a concrete example, imagine a graph of the <i>marginal benefit</i> you get each month from driving your car versus how many hours per month you spend driving your car. The diagonal line in the figure gives an example in which these are linearly related, with the marginal benefit decreasing for each additional hour. Intuitively, it makes sense that driving two hours a month provides a lot more benefit than not driving at all, but driving 16 hours a month doesn’t get you much more than driving 14 hours a month. So the marginal benefit is much bigger going from 0 hours to 2 hours than going from 14 hours to 16 hours.</p>
 
