@@ -12,12 +12,12 @@ use_math: true
 <p>Climate models give different answers depending on whether we use indices or direct measurements. Models robustly project "drier" future climates in the sense of larger PDSI and smaller P/PET ratios. Going the other way, to cooler climates, they also suggest that the Last Glacial Maximum $($LGM, hopefully the last acronym$)$ was wetter than today: PDSI was lower and P/PEI was higher. But P-E is more ambiguous, and NPP is projected to increase in future climates $($Earth will get greener$)$ and likely decreased in colder climates $($Earth was browner$)$ . <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-16-0854.1">Scheff et al. $($2017$)$</a> did a very thorough analysis of these, and you can see the differences between indices and direct measurements in model simulations of future warming $($their Figure 1$)$:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Scheff_rcp_proj.png" alt="RCP85 projections" style="position:absolute; left:150px; width:672px;height:603px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>and of the LGM $($their Figure 2$)$:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/Scheff_LGM.png" alt="LGM simulations" style="position:absolute; left:150px; width:657px;height:591px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>There are several reasons why the indices predict drying at warmer temperatures. First, they have drying with warming "baked in" to them because of the intuition that warmer, sunnier conditions tend to enhance evaporation. So the indices are quite sensitive to temperature, and taking out this temperature dependence makes the wetting/drying signals weaker $($<a href="https://www.nature.com/articles/nclimate3046">Milly and Dunne $($2016$)$</a>; see also <a href="https://pages.uncc.edu/hcl/wp-content/uploads/sites/1187/2018/08/Scheff-2018-Indices-Impacts.pdf">this review</a>$)$.</p> 
 
