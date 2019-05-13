@@ -8,12 +8,12 @@ use_math: true
 <p>I’m still trying to understand Arctic amplification – why the Arctic warms up faster than anywhere else when CO$_2$ concentrations are increased $($see previous post <a href="http://nicklutsko.github.io/blog/2018/11/28/Polar-Amplification-and-High-Latitude-Lapse-Rates">here</a>$)$. The top panels of this plot show average December-January-February $($DJF$)$ temperature profiles over land, ocean and ice regions north of 65$^\circ$N for a simulation with the GFDL-CM3 model under the RCP8.5 scenario $($Arctic amplification is mainly seen in Northern Hemisphere winter$)$. The profiles are averaged over each decade of the 21st century, going from 2006-2015 $($blue$)$ to 2086-2095 $($red$)$.</p>
 
 <img src="http://nicklutsko.github.io/notes/images/GFDL-CM3_polar_warming_breakdown.png" alt="GFDL warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The bottom panels show time series of sea-ice fraction, sea-ice thickness and of surface temperatures over the three surfaces. Temperatures over ice and over land warm rapidly, while the ocean warms more slowly. The same plot for the HadGEM2-CC model gives a similar picture, though the ocean warms more quickly:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/HadGEM2-CC_polar_warming_breakdown.png" alt="HadGEM warming" style="position:absolute; left:200px; width:600px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>I think this is because the sea-ice is more “binary” in the GFDL model – grid-boxes tend to have either all ice or all ocean – whereas the HadGEM model has more intermediate sea-ice fractions. Since I average by multiplying by $($1 – sea-ice fraction$)$, etc. there is more aliasing of open ocean temperatures and sea-ice temperatures in the calculations for this model.</p> 
 
