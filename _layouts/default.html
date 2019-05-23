@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 	<html>
+<!-- Mathjax Support -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		        {% if page.use_math %}
-		         {% include mathjax_support %}
-		        {% endif %}
 		</head>
 		<body>
 			<nav>
-	    		<ul width: 850px;>
+	    		<ul width: 900px;>
 	        		<li><font size="7">Nick Lutsko</font></li>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/research">Research and Publications</a></li>
@@ -32,7 +33,7 @@
 	        		<li><a href="https://twitter.com/Fylo_104">twitter</a></li>
 				</ul>
 			</footer>
-    			{% include mathjax.html %}
+    			<!--{% include mathjax.html %} -->
     			{% include analytics.html %}
 		</body>
 	</html>
