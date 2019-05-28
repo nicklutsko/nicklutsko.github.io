@@ -15,13 +15,11 @@ date: 2019-05-29
 $$
 R = F - \lambda T
 $$
-where \(R\) is the anomalous TOA radiative flux (positive for flux out of the system), \(F\) is some radiative forcing, like an increase in CO\(_2\) concentrations, \(\lambda\) is a radiative restoring co-efficient and \(T\) is the anomalous global-mean surface temperature.</p> 
-
-<p>After a doubling of CO\(_2\) concentrations this system equilibrates so that
+where \(R\) is the anomalous TOA radiative flux (positive for flux out of the system), \(F\) is some radiative forcing, like an increase in CO\(_2\) concentrations, \(\lambda\) is a radiative restoring co-efficient and \(T\) is the anomalous global-mean surface temperature. After a doubling of CO\(_2\) concentrations this system equilibrates so that
 $$
-T_{eq} = ECS = F / \lambda
+T_{eq} = ECS = F / \lambda.
 $$ 
-Most of the uncertainty in ECS comes from \(\lambda\), specifically from clouds. \(\lambda\) is a sum of partial derivatives:
+Most of the uncertainty in ECS comes from the feedback parameter \(\lambda\), which is itself a sum of partial derivatives:
 $$
 \lambda = -\sum_i\frac{\partial R}{\partial X_i}\frac{\partial X_i}{\partial T},
 $$
@@ -29,9 +27,9 @@ with one of the \(X_i\)'s being clouds:
 $$
 \lambda_C = -\frac{\partial R}{\partial C}\frac{\partial C}{\partial T}.
 $$
-where \(C\) denotes cloud cover. \(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low clouds, whether these increase or decrease with warming.</p>
+where \(C\) is cloud cover. \(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low clouds, whether these increase or decrease with warming.</p>
 
-<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing R and so \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T} $<$ 0\)) then clouds act as a positive feedback on warming (\(\lambda_C\), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
+<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing R and so \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}  &lt 0\)) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
 
 <h3>The Atmospheric Energy Budget</h3>
 
