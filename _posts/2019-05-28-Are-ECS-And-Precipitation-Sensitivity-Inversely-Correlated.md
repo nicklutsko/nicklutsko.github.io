@@ -29,7 +29,7 @@ $$
 $$
 \(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low cloud cover, whether this increases or decreases with warming.</p>
 
-<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing R and so \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}\)  &lt; 0) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
+<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing \(R\) so that \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}\)  &lt; 0) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
 
 <h3>The Atmospheric Energy Budget</h3>
 
