@@ -78,7 +78,7 @@ $$</p>
 <p>(Figure 2b from DeAngelis et al.)</p>
 
 
-<p>Much of this spread comes from models using different radiation schemes, and DeAngelis show it could be improved if more models used good (correlated-\(k\)) radiation schemes. So potentially the spread in precipitation sensitivity due to shortwave absorption could be reduced, which might lead to a clearer inverse relationship between ECS and precipitation sensitivity. It will be interesting to check this once the data from the CMIP6 models is available.</p>
+<p>Much of the spread in \(\partial SWA_{cl} / \partial T\) comes from models using different radiation schemes, and DeAngelis show it could be improved if more models used good (correlated-\(k\)) radiation schemes. So potentially the spread in precipitation sensitivity due to shortwave absorption could be reduced, which might lead to a clearer inverse relationship between ECS and precipitation sensitivity. It will be interesting to check this once the data from the CMIP6 models is available.</p>
 
 
 
