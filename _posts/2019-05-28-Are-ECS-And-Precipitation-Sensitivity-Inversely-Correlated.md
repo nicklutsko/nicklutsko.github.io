@@ -62,15 +62,13 @@ $$</p>
 
 <p>If low clouds are the main source of uncertainty in ECS and in precipitation sensitivity, then this argument says that ECS and precipitation sensitivity should be inversely related in models: a model with a large reduction in low clouds under warming will have a high ECS and a low precipitation efficiency.</p> 
 
-<p>Watanabe et al looked into this using a set of model ensembles. First, they did an ensemble of simulations with the MIROC5 model in which they multiplied the surface latent heat flux (the evaporation) by a fraction \(\beta\). Increasing \(\beta\) increases the ECS and decreases precipitation sensitivity, giving them exactly the relationship they were looking for (\(r \< \)-0.9).</p>
-
-<p>(Note, it's unclear to me why \(\beta\) has this effect. One guess is that larger surface latent heat fluxes enhance subcloud turbulence, which promotes stratocumulus break-up, as in <a href="https://www.nature.com/articles/s41561-019-0310-1.pdf">Schneider et al (2019)</a>).</p>
-
-<p>Next, Watanabe et al compared the sensitivities across a perturbed physics ensemble with MIROC5, in which 10 different parameters, mostly related to the convection scheme, were varied. The correlation is not so strong in this set of experiments, but they still found a correlation (\(r\) = -0.58. Finally, they looked at the CMIP5 data, where they only got a correlation (\(r\) = -0.2.</p>
+<p>Watanabe et al looked into this in three ensembles of model simulations. First, they did an ensemble of simulations with the MIROC5 model in which they multiplied the surface latent heat flux (the evaporation) by a fraction \(\beta\). Increasing \(\beta\) increases the ECS and decreases the precipitation sensitivity, giving them exactly the relationship they were looking for (\(r > \)-0.9).</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Watanabe_fig.png" alt="Watanabe scatter" style="position:absolute; left:200px; width:411px;height:372px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<p>(Figure 2b from Watanabe et al.)</p>
+<p>(Figure 2b from Watanabe et al. Note, it's unclear to me why \(\beta\) has this effect. One guess is that larger surface latent heat fluxes enhance subcloud turbulence, which promotes stratocumulus break-up, as in <a href="https://www.nature.com/articles/s41561-019-0310-1.pdf">Schneider et al (2019)</a>).</p>
+
+<p>Next, Watanabe et al compared the sensitivities across a perturbed physics ensemble with MIROC5, in which 10 different parameters, (in convection scheme, surface fluxes, etc.), were varied. The correlation is not so strong in this set of experiments, but they still found a correlation (\r\) = -0.58. Finally, they looked at the CMIP5 data, where they only got a correlation (\r\) = -0.2.</p>
 
 
 <p>So this argument seems to work in a single model with varied parameters, but doesn't work across models. This is probably because low clouds aren't the most important source of uncertainty in precipitation sensitivity across models, or at least because other factors are also important. For instance, <a href="https://www.nature.com/articles/nature15770">DeAngelis et al (2015)</a> showed that there is a strong relationship across models between precipitation sensitivity and the sensitivity of clear-sky short-wave absorption to warming. I.e., \(\partial SWA_{cl} / \partial T\) is responsible for a lot of the spread:</p>
