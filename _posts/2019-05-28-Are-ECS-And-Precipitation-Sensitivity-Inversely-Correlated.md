@@ -7,7 +7,7 @@ date: 2019-05-29
 
 <p>Equilibrium climate sensitivity (ECS) is the equilibrated warming of global-mean surface temperature in response to a doubling of CO\(_2\) concentrations. This important number is still quite uncertain, with a typical "likely" range being 2-4.5\(^\circ\)C. At the same time, we know that global-mean precipitation P increases by 1-3%\(^\circ\)C\(^{-1}\): if ECS = 4\(^\circ\)C, P increases by 4 - 12% after a doubling of CO\(_2\). So the precipitation sensitivity is the percentage increase in global-mean precipitation per degree of global warming.</p>
 
-<p>Recently, <a href="https://www.nature.com/articles/s41558-018-0272-0">Watanabe et al. (2018) </a> suggested that there is an inverse relationship between ECS and precipitation sensitivity: models with a larger ECS should have smaller fractional changes in precipitation, and vice versa. Their reasoning is that low clouds -- which are the largest source of uncertainty in ECS -- have the opposite effect on the warming of surface temperature as they do on precipitation.</p>
+<p>Recently, <a href="https://www.nature.com/articles/s41558-018-0272-0">Watanabe et al. (2018) </a> suggested that there is an inverse relationship between ECS and precipitation sensitivity: models with a larger ECS (say 4\(^\circ\)C) should have smaller fractional changes in precipitation (say 1%), and vice versa. Their reasoning is that low clouds -- which are the largest source of uncertainty in ECS -- have the opposite effect on the warming of surface temperature as they do on precipitation.</p>
 
 <h3>The TOA Energy Budget</h3>
 
