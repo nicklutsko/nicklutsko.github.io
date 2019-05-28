@@ -29,7 +29,7 @@ $$
 $$
 where \(C\) is cloud cover. \(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low clouds, whether these increase or decrease with warming.</p>
 
-<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing R and so \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}  &lt 0\)) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
+<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing R and so \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}\)  &lt 0) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
 
 <h3>The Atmospheric Energy Budget</h3>
 
@@ -37,7 +37,7 @@ where \(C\) is cloud cover. \(\lambda_C\) is the largest source of uncertainty i
 $$
 LWC = LH + SH + SWA,
 $$
-where \(LWC\) is the long-wave cooling of the atmosphere to space and to the surface, \(LH\) and \(SH\) are the latent and sensible heat fluxes, and \(SWA\)  is absorption of short-wave radiation by the atmosphere. The latent heat flux is approximately equal to \(LP\), where \(L\) is the latent heat of vaporization of water. The change in precipitation is then roughly:
+where \(LWC\) is the long-wave cooling of the atmosphere to space and to the surface, \(LH\) and \(SH\) are the latent and sensible heat fluxes, and \(SWA\)  is absorption of short-wave radiation by the atmosphere. The latent heat flux is approximately equal to \(LP\), where \(L\) is the latent heat of vaporization of water and the change in precipitation is roughly given by:
 $$
 \Delta P \approx (\Delta LWC - \Delta SWA) / L = \Delta Q / L,
 $$
