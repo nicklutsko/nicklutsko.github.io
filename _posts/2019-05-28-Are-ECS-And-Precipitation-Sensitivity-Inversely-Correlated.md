@@ -21,15 +21,15 @@ T_{eq} = ECS = F / \lambda.
 $$ 
 Most of the uncertainty in ECS comes from the feedback parameter \(\lambda\), which represents a sum of partial derivatives:
 $$
-\lambda = -\sum_i\frac{\partial R}{\partial X_i}\frac{\partial X_i}{\partial T},
+\lambda = \sum_i\frac{\partial R}{\partial X_i}\frac{\partial X_i}{\partial T},
 $$
 with one of the \(X_i\)'s being cloud cover (\(C\)):
 $$
-\lambda_C = -\frac{\partial R}{\partial C}\frac{\partial C}{\partial T}.
+\lambda_C = \frac{\partial R}{\partial C}\frac{\partial C}{\partial T}.
 $$
 \(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low cloud cover, whether this increases or decreases with warming.</p>
 
-<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing \(R\) so that \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}\)  &lt; 0) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
+<p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing \(R\) so that \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}\)  &lt; 0) then clouds act as a positive feedback on warming (\(\lambda_C\)  &lt; 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
 
 <h3>The Atmospheric Energy Budget</h3>
 
