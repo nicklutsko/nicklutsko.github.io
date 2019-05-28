@@ -41,7 +41,7 @@ LWC = LH + SH + SWA,
 $$
 where \(LWC\) is the long-wave cooling of the atmosphere to space and to the surface, \(LH\) and \(SH\) are the latent and sensible heat fluxes, and \(SWA\)  is absorption of short-wave radiation by the atmosphere. The latent heat flux is approximately equal to \(LP\), where \(L\) is the latent heat of vaporization of water. The change in precipitation is then roughly:
 $$
-\Delta P \approx (\Delta LWC - \Delta SWA) / L = \DeltaQ / L,
+\Delta P \approx (\Delta LWC - \Delta SWA) / L = \Delta Q / L,
 $$
 as changes in the sensible heat flux are small, and with \(\Delta Q\) the net radiative cooling of the atmosphere.</p>
 
@@ -70,15 +70,15 @@ $$</p>
 
 <p>Next, Watanabe et al compared the sensitivities across a perturbed physics ensemble with MIROC5, in which 10 different parameters, mostly related to the convection scheme, were varied. The correlation is not so strong in this set of experiments, but they still found a correlation (\r\) = -0.58. Finally, they looked at the CMIP5 data, where they only got a correlation (\r\) = -0.2.</p>
 
-<img src="http://nicklutsko.github.io/notes/images/Watanabe_fig.png" alt="Watanabe scatter" style="position:absolute; left:150px; width:411px;height:372px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/Watanabe_fig.png" alt="Watanabe scatter" style="position:absolute; left:200px; width:411px;height:372px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <p>(Figure 2b from Watanabe et al.)</p>
 
 
 <p>So this argument seems to work in a single model with varied parameters, but doesn't work across models. This is probably because low clouds aren't the most important source of uncertainty in precipitation sensitivity across models, or at least because other factors are also important. For instance, <a href="https://www.nature.com/articles/nature15770">DeAngelis et al (2015)</a> showed that there is a strong relationship across models between precipitation sensitivity and the sensitivity of clear-sky short-wave absorption to warming. I.e., \(\partial SWA_cl / \partial T\) is responsible for a lot of the spread:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/DeAngelis_fig.png" alt="DeAngelis scatter" style="position:absolute; left:150px; width:327px;height:297px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/DeAngelis_fig.png" alt="DeAngelis scatter" style="position:absolute; left:200px; width:327px;height:297px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <p>(Figure 2b from Watanabe et al.)</p>
 
 
