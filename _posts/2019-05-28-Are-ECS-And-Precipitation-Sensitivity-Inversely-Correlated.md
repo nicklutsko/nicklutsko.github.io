@@ -51,7 +51,7 @@ as changes in the sensible heat flux are small, and with \(\Delta Q\) the net ra
 $$
 \eta_C = \frac{\partial LWC}{\partial C} > 0,
 $$
-and a reduction in low cloud cover with warming would lead to a reduction in precipitation \(\eta_C\frac{\partial C}{\partial T_s} > 0\).</p>
+and a reduction in low cloud cover with warming would lead to a reduction in precipitation \(\Delta Q_{cl} = \eta_C\frac{\partial C}{\partial T_s} > 0\).</p>
 
 <p>So low clouds have the opposite effect on precipitation as on warming: a decrease in low clouds leads to a decrease in precipitation, and vice-versa.</p>
 
@@ -74,7 +74,7 @@ and a reduction in low cloud cover with warming would lead to a reduction in pre
 <p>(Figure 2b from DeAngelis et al.)</p>
 
 
-<p>Much of the spread in \(\partial SWA_{cl} / \partial T\) comes from models using different radiation schemes, and DeAngelis showed that this spread could be reduced if more models used good (correlated-\(k\)) radiation schemes. So potentially the spread in precipitation sensitivity due to shortwave absorption could be reduced, which might lead to a clearer inverse relationship between ECS and precipitation sensitivity. It will be interesting to check this once the data from the CMIP6 models is available.</p>
+<p>Much of the spread in \(\partial SWA_{cl} / \partial T\) comes from models using different radiation schemes, and DeAngelis showed that this could be improved if more models used good (correlated-\(k\)) radiation schemes. So potentially the spread in precipitation sensitivity due to shortwave absorption could be reduced, which might lead to a clearer inverse relationship between ECS and precipitation sensitivity. It will be interesting to check this once the data from the CMIP6 models is available.</p>
 
 
 
