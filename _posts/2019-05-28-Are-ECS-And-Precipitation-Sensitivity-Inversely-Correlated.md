@@ -9,7 +9,7 @@ date: 2019-05-29
 
 <p>Recently, <a href="https://www.nature.com/articles/s41558-018-0272-0">Watanabe et al. (2018) </a> suggested that there is an inverse relationship between ECS and precipitation sensitivity: models with a larger ECS should have smaller fractional changes in precipitation, and vice versa. Their reasoning is that low clouds -- which are the largest source of uncertainty in ECS -- have the opposite effect on the warming of surface temperature as they do on precipitation.</p>
 
-<h3>The TOA energy budget</h3>
+<h3>The TOA Energy Budget</h3>
 
 <p>To understand this, let's think about the top-of-atmosphere (TOA) radiation budget and the atmospheric radiation budget. We can write a (linearized) version of the TOA budget as
 $$
@@ -58,7 +58,7 @@ $$</p>
 
 <p> So low clouds have the opposite effect on precipitation as on warming: a decrease in low clouds leads to a decrease in precipitation, and vice-versa.</p>
 
-<h3>Is there an inverse relationsip?</h3>
+<h3>Is There An Inverse Relationsip?</h3>
 
 <p>If low clouds are the main source of uncertainty in ECS and in precipitation sensitivity, then this argument says that ECS and precipitation sensitivity should be inversely related in models: a model with a large reduction in low clouds under warming will have a high ECS and a low precipitation sensitivity.</p> 
 
