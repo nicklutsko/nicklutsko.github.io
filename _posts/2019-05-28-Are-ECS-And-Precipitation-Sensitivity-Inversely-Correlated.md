@@ -27,7 +27,7 @@ with one of the \(X_i\)'s being cloud cover (\(C\)):
 $$
 \lambda_C = -\frac{\partial R}{\partial C}\frac{\partial C}{\partial T}.
 $$
-\(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low clouds, whether these increase or decrease with warming.</p>
+\(\lambda_C\) is the largest source of uncertainty in \(\lambda\), and hence in ECS, and most of this uncertainty comes from low cloud cover, whether this increases or decreases with warming.</p>
 
 <p>From the TOA perspective the main effect of low clouds is to reflect solar radiation, increasing R and so \(\frac{\partial R}{\partial C} > 0\). If low cloud cover is reduced in a warmer world (\(\frac{\partial C}{\partial T}\)  &lt; 0) then clouds act as a positive feedback on warming (\(\lambda_C\)  > 0), whereas clouds are a negative feedback if low cloud cover increases with warming.</p>
 
