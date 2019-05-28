@@ -60,7 +60,7 @@ $$</p>
 
 <h3>Is there an inverse relationsip?</h3>
 
-<p>If low clouds are the main source of uncertainty in ECS and in precipitation sensitivity, then this argument says that ECS and precipitation sensitivity should be inversely related in models: a model with a large reduction in low clouds under warming will have a high ECS and a low precipitation efficiency.</p> 
+<p>If low clouds are the main source of uncertainty in ECS and in precipitation sensitivity, then this argument says that ECS and precipitation sensitivity should be inversely related in models: a model with a large reduction in low clouds under warming will have a high ECS and a low precipitation sensitivity.</p> 
 
 <p>Watanabe et al looked into this in three ensembles of model simulations. First, they did an ensemble of simulations with the MIROC5 model in which they multiplied the surface latent heat flux (the evaporation) by a fraction \(\beta\). Increasing \(\beta\) increases the ECS and decreases the precipitation sensitivity, giving them exactly the relationship they were looking for (\(r > \)-0.9).</p>
 
@@ -71,14 +71,14 @@ $$</p>
 <p>Next, Watanabe et al compared the sensitivities across a perturbed physics ensemble with MIROC5, in which 10 different parameters, (in convection scheme, surface fluxes, etc.), were varied. The correlation is not so strong in this set of experiments, but they still found a correlation (\r\) = -0.58. Finally, they looked at the CMIP5 data, where they only got a correlation (\r\) = -0.2.</p>
 
 
-<p>So this argument seems to work in a single model with varied parameters, but doesn't work across models. This is probably because low clouds aren't the most important source of uncertainty in precipitation sensitivity across models, or at least because other factors are also important. For instance, <a href="https://www.nature.com/articles/nature15770">DeAngelis et al (2015)</a> showed that there is a strong relationship across models between precipitation sensitivity and the sensitivity of clear-sky short-wave absorption to warming. I.e., \(\partial SWA_{cl} / \partial T\) is responsible for a lot of the spread:</p>
+<p>So this argument seems to work in a single model with varied parameters, but doesn't work across models. This is probably because low clouds aren't the most important source of uncertainty in precipitation sensitivity across models, or at least because other factors are also important. For instance, <a href="https://www.nature.com/articles/nature15770">DeAngelis et al (2015)</a> showed that there is a strong relationship across models between precipitation sensitivity and the sensitivity of clear-sky short-wave absorption to warming. I.e., \(\partial SWA_{cl} / \partial T\) is responsible for a lot of the spread in precipitation sensitivity:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/DeAngelis_fig.png" alt="DeAngelis scatter" style="position:absolute; left:230px; width:327px;height:297px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<p>(Figure 2b from Watanabe et al.)</p>
+<p>(Figure 2b from DeAngelis et al.)</p>
 
 
-<p>Much of this spread comes from models using different radiation schemes, especially using bad radiation schemes. So potentially the spread due to shortwave absorption could be reduced, which might lead to a clearer inverse relationship between ECS and precipitation sensitivity. It will be interesting to check this once the data from the CMIP6 models is available.</p>
+<p>Much of this spread comes from models using different radiation schemes, and DeAngelis show it could be improved if more models used good (correlated-\(k\)) radiation schemes. So potentially the spread in precipitation sensitivity due to shortwave absorption could be reduced, which might lead to a clearer inverse relationship between ECS and precipitation sensitivity. It will be interesting to check this once the data from the CMIP6 models is available.</p>
 
 
 
