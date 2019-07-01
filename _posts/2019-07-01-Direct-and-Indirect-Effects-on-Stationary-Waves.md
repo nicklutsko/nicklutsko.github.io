@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Direct and Indirect Effects of CO2 Forcing on Atmospheric Stationary Waves"
+title: "Direct and Indirect Effects of CO2 Forcing on Summer Stationary Waves"
 date: 2019-07-01
 ---
 
