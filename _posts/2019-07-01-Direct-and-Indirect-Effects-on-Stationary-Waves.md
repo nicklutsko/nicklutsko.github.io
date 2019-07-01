@@ -33,7 +33,7 @@ date: 2019-07-01
 <p>Putting these together, the direct and indirect effects have two opposing impacts on convection, and hence on summer stationary waves: they have the opposite effect on land-sea contrasts, and the opposite effect on atmospheric stability. These two impacts also oppose each other: the direct effect increases land-sea contrast (leading to stronger convection), while also stabilizing the atmosphere (which weakens convection). And vice versa for the indirect effect:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/stationary_wave_schematic.jpg" alt="stationary wave schematic" style="position:absolute; left:200px; width:445px;height:200px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>Looking at the plots of \(\theta_E\), there also seem to be important regional effects that aren’t explained by either of these, like the strong dipole in warming/cooling along the border of the Sahara and the Sahel. Another potentially important (and related) effect is differences in how the ITCZ responds to the direct and indirect effects. The ITCZ will shift north in response to the direct effect, since the northern hemisphere has more land and hence warms up more. But this won’t be canceled out by the indirect effect, since the land is still free to respond when SSTs increase. It’s unclear how to relate zonal-mean ITCZ shifts to the regional-scale, but ITCZ shifts would also affect the pattern of convection in the tropics.</p> 
 
