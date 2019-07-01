@@ -11,7 +11,7 @@ date: 2019-07-01
 <p>Surprisingly, when doing this kind of decomposition for summer stationary waves, the direct and indirect effects seem to produce opposing responses:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Shaw_Voigt_Stationary.png" alt="Shaw and Voigt stationary wave response" style="position:absolute; left:100px; width:725px;height:195px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>(Adapted from Figure 2 of <a href="https://www.nature.com/articles/ngeo2449.pdf">Shaw and Voigt (2015)</a>. The shading shows the responses of the 200hPa stationary eddy streamfunction and the contours show the climatological 200hPa stationary eddy streamfunction.)</p> 
 
@@ -21,8 +21,8 @@ date: 2019-07-01
 
 <p><a href="https://link.springer.com/content/pdf/10.1007%2Fs00382-019-04786-1.pdf">Baker et al. (2019)</a> provide some plots of the changes in \(\theta_E\) (~MSE) in a GHG simulation (+100ppm) and an SST simulation (2005-2015 averaged SSTs):</p> 
 
-<img src="http://nicklutsko.github.io/notes/images/Baker_et_al_theta_e.png" alt="Baker et al theta e" style="position:absolute; left:100px; width:684px;height:148px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/Baker_et_al_theta_e.png" alt="Baker et al theta e" style="position:absolute; left:120px; width:684px;height:148px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>(Figure 8 from Baker et al. (2019). Differences in \(\theta_E\) between a +100ppm CO\(_2\) simulation and a control simulation (a) and between a simulation with 2005-2015 averaged SSTs and the control simulation.)</p> 
 
