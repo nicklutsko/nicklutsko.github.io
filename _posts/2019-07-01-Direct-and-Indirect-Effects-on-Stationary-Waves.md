@@ -8,7 +8,7 @@ date: 2019-07-01
 
 <p>People often separate out the “direct” and “indirect” effects of increasing CO\(_2\) concentrations. The direct effect refers to the system’s response to the radiative forcing from increased CO\(_2\), independent of changes in sea surface temperatures (SSTs), i.e., to the extra atmospheric heating from higher CO\(_2\). The indirect effect is the response to the warmer SSTs, independent of the radiative forcing. In both cases, land temperatures are allowed to evolve freely. The idea behind this decomposition is that the climate system adjusts quickly to the direct effect, whereas the oceans take a while to warm up. The total response is usually pretty close to the linear addition of the responses to the two effects, and you can also think of this as separating out the “fast” response and the “slow” response.</p>
 
-<p>Surprisingly, when doing this kind of decomposition for summer stationary waves, the direct and indirect effects produce the opposite responses, so that the net effect is the residual of a "tug of war":</p>
+<p>Surprisingly, when doing this kind of decomposition for summer stationary waves, the direct and indirect effects produce the opposite responses, so that the net effect is the residual of a “tug of war”:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Shaw_Voigt_Stationary.png" alt="Shaw and Voigt stationary wave response" style="position:absolute; left:100px; width:725px;height:195px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
