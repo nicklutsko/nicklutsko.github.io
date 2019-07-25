@@ -12,7 +12,7 @@ date: 2019-07-25
 
 <p>As an example, imagine we had a weather model and observations that were accurate down to 10km resolution, and we said the model became unusable once the errors reached a scale of 100km. If we improved the resolution down to 5km, any initial errors would grow so quickly that we’d only get a small increase in the forecast lead time compared to the 10km model and observations:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/predictability_example.png" alt="Predictability example" style="position:absolute; left:100px; width:678px;height:240px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/predictability_example.png" alt="Predictability example" style="position:absolute; left:100px; width:978px;height:228px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The “finite” predictability of the atmosphere, caused by the rapid doubling times at small scales, was first shown by Ed Lorenz in a <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2153-3490.1969.tb00444.x">1969 paper</a>. Plugging in some numbers, Lorenz did a back-of-the-envelope calculation to estimate that the predictability of the atmosphere is limited to about 2 weeks at most.</p> 
@@ -51,7 +51,7 @@ $$
 <p>To get back to the 2 week predictability barrier, Rotunno and Snyder noted that observations show that on scales smaller than about 1000km, the atmosphere roughly follows \(k^{-5/3}\) scaling:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/Gage_Nostrom_spectra.png" alt="Atmospheric spectra" style="position:absolute; left:230px; width:454px;height:448px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>(Figure 1 from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%282003%29060%3C0824%3ATKAKES%3E2.0.CO%3B2">Tung and Orlando (2003)</a>, note that the meridional wind and potential temperature data have been offset by a constant factor so they can all be plotted on the same figure.)</p> 
 
