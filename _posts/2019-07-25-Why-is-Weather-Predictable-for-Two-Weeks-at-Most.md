@@ -8,7 +8,7 @@ date: 2019-07-25
 
 <p>As part of this conversation it came up that, even with a perfect weather model, tiny errors in the observed state of the atmosphere mean that we’d only be able to get accurate forecasts for up to about two weeks. For longer lead-times the model would lose all skill, until we asked about seasonal time-scales: we can safely predict that summer will be warmer than winter.</p>
 
-<p>The reason for this is that errors – either problems with the model or with the observations used to initialize the model -- grow faster at smaller scales than they do at larger scales. This can be quantified through doubling times: error takes much longer to grow from some scale \(x\) to \(2x\) than from \(x/2\) to \(x\). This puts a limit on the atmosphere’s predictability, since at a certain point the improvements from increasing resolution and improving data quality are negligible.</p>
+<p>The reason for this is that errors – either problems with the model or with the observations used to initialize the model – grow faster at smaller scales than they do at larger scales. This can be quantified through doubling times: error takes much longer to grow from some scale \(x\) to \(2x\) than from \(x/2\) to \(x\). This puts a limit on the atmosphere’s predictability, since at a certain point the improvements from increasing resolution and improving data quality are negligible.</p>
 
 <p>As an example, imagine we had a weather model and observations that were accurate down to 10km resolution, and we said the model became unusable once the errors reached a scale of 100km. If we improved the resolution down to 5km, any initial errors would grow so quickly that we’d only get a small increase in the forecast lead time compared to the 10km model and observations:</p>
 
@@ -51,7 +51,7 @@ $$
 <p>To get back to the 2 week predictability barrier, Rotunno and Snyder noted that observations show that on scales smaller than about 1000km, the atmosphere roughly follows \(k^{-5/3}\) scaling:</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/Gage_Nostrom_spectra.png" alt="Atmospheric spectra" style="position:absolute; left:230px; width:454px;height:448px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>(Figure 1 from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%282003%29060%3C0824%3ATKAKES%3E2.0.CO%3B2">Tung and Orlando (2003)</a>, note that the meridional wind and potential temperature data have been offset by a constant factor so they can all be plotted on the same figure.)</p> 
 
