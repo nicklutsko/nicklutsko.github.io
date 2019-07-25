@@ -87,7 +87,7 @@ $$
 
 <p>So one way of thinking about predictability is that it depends on how quickly errors diffuse to larger scales. In 2D turbulence the diffusivity grows as distance \(l^2\), which is fast enough that the doubling time is roughly constant as a function of scale, but for 3D turbulence and SQG, which are a better match for the observed atmosphere, the diffusivity grows more slowly, proportional to \(l^{4/3}\), and so the doubling time increases for larger scales.</p> 
 
-<p>(Thanks to Chris Lutsko for comments on an earlier version of this post.)</p>
+<p>(Thanks to Chris Lutsko for feedback on an earlier version of this post.)</p>
 
 
 
