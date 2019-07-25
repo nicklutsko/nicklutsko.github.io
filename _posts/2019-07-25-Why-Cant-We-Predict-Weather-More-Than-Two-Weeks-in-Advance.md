@@ -12,7 +12,7 @@ date: 2019-07-25
 
 <p>As an example, imagine we had a weather model and observations that were accurate down to 10km resolution, and we said the model became unusable once the errors reached a scale of 100km. If we improved the resolution down to 5km, any initial errors would grow so quickly that we’d only get a small increase in the forecast lead time compared to the 10km model and observations:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/predictability_example.jpg" alt="Predictability example" style="position:absolute; left:50px; width:652px;height:152px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/predictability_example.jpg" alt="Predictability example" style="position:absolute; left:100px; width:652px;height:152px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>We'd get even smaller gains from improving the resolution down to 2.5km, 1.25km, etc.</p>
