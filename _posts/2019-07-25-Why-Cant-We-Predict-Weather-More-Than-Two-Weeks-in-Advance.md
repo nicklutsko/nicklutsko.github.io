@@ -61,11 +61,11 @@ $$
 
 <p>The derivations by Lorenz and Rotunno and Snyder are long and technical, so it’s hard to get an intuitive feel for the difference between these different kinds of turbulence. Instead, I like to think about error growth as being like the dispersion of a passive tracer in a fluid: imagine two small patches of “error” in the atmosphere, how quickly do these move apart?</p> 
 
-<p>There is some classic literature on turbulent dispersion, going back to (at least) <a href="https://royalsocietypublishing.org/doi/abs/10.1098/rspa.1926.0043">Richardson (1926)</a>, who derived the “4/3” law. If we think of dispersion as a diffusive process, then a scaling for the diffusivity is:
+<p>There is some classic literature on turbulent dispersion, going back to (at least) <a href="https://royalsocietypublishing.org/doi/abs/10.1098/rspa.1926.0043">Richardson (1926)</a>, who derived the “4/3” law. If we model dispersion as a diffusive process, then a scaling for the diffusivity is:
 $$
 D \sim \sqrt{E l}
 $$
-where \(l\) is a length scale (the separation between the particles) and \(E\) is the kinetic energy density (units of energy/unit wavenumber or energy \(\times\) length). Substituting in \(E \sim k^{-5/3} = l^{5/3}\) then gives
+where \(l\) is a length scale (the separation between the error patches) and \(E\) is the kinetic energy density (units of energy/unit wavenumber or energy \(\times\) length). Substituting in \(E \sim k^{-5/3} = l^{5/3}\) then gives
 $$
 D \sim l^{4/3}.
 $$
@@ -85,7 +85,7 @@ $$
 
 <p>The spreading time-scale is now independent of length-scale, just as Rotunno and Snyder found in their formal derivation. You can also see that if \(p\) is greater than 3 the error spreading time is longer for smaller scales. (Note that an issue with what I’ve done here is it treats the error as a passive tracer – is it better to treat it as an active tracer?).</p> 
 
-<p>So one way of thinking about predictability is that it depends on how quickly errors diffuse to larger scales. In 2D turbulence the diffusivity grows as distance \(l^2\), which is fast enough that the doubling time is roughly constant as a function of scale, but for 3D turbulence and SQG, which are a better match for the observed atmosphere, the diffusivity grows more slowly, proportional to \(l^{4/3}\), and so the doubling time increases for larger scales.</p> 
+<p>So one way of thinking about predictability is that it depends on how quickly errors diffuse to larger scales. In 2D turbulence the diffusivity grows as distance \(l^2\), which is fast enough for the doubling time to be roughly constant as a function of scale, but for 3D turbulence and SQG, which are a better match for the observed atmosphere, the diffusivity grows more slowly, proportional to \(l^{4/3}\), and so the doubling time increases for larger scales.</p> 
 
 <p>(Thanks to Chris Lutsko for feedback on an earlier version of this post.)</p>
 
