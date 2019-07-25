@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why is the Weather Only Predictable for 2 Weeks at Most?"
+title: "Why Can't We Predict the Weather More Than 2 Weeks in Advance?"
 date: 2019-07-25
 ---
 
