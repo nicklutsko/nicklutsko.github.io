@@ -6,13 +6,13 @@ date: 2019-07-25
 
 <p>Someone asked me recently about the difference between weather and climate. When do we call it “weather” and when is it “climate”? And how can we predict the climate 10 or 100 years from now, when it’s so hard to predict the weather a week from now?</p>
 
-<p>As part of this conversation it came up that, even with a perfect weather model, tiny errors in the observed state of the atmosphere mean that we’d only be able to get accurate forecasts for up to about two weeks. For longer lead-times the model would lose all skill, until we asked about seasonal time-scales: we can safely predict that summer will be warmer than winter.</p>
+<p>As part of this conversation it came up that, even with a perfect weather model, tiny errors in the observed state of the atmosphere mean that we’d only be able to get accurate forecasts for up to about two weeks. For longer lead-times the model would lose all skill, until we got to seasonal time-scales: we can safely predict that summer will be warmer than winter.</p>
 
 <p>The reason for this is that errors – either problems with the model or with the observations used to initialize the model – grow faster at smaller scales than they do at larger scales. This can be quantified through doubling times: error takes much longer to grow from some scale \(x\) to \(2x\) than from \(x/2\) to \(x\). This puts a limit on the atmosphere’s predictability, since at a certain point the improvements from increasing resolution and improving data quality are negligible.</p>
 
 <p>As an example, imagine we had a weather model and observations that were accurate down to 10km resolution, and we said the model became unusable once the errors reached a scale of 100km. If we improved the resolution down to 5km, any initial errors would grow so quickly that we’d only get a small increase in the forecast lead time compared to the 10km model and observations:</p>
 
-<img src="http://nicklutsko.github.io/notes/images/predictability_example.png" alt="Predictability example" style="position:absolute; left:100px; width:978px;height:228px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/predictability_example.jpg" alt="Predictability example" style="position:absolute; left:0px; width:978px;height:228px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The “finite” predictability of the atmosphere, caused by the rapid doubling times at small scales, was first shown by Ed Lorenz in a <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2153-3490.1969.tb00444.x">1969 paper</a>. Plugging in some numbers, Lorenz did a back-of-the-envelope calculation to estimate that the predictability of the atmosphere is limited to about 2 weeks at most.</p> 
