@@ -21,7 +21,7 @@ date: 2019-07-25
 
 <h3>A Problem with Lorenz's Theory</h3>
 
-<p>In 2008, <a href="https://journals.ametsoc.org/doi/full/10.1175/2007JAS2449.1">Rotunno and Snyder</a> showed that there was a problem with Lorenz’s derivation. As part of this derivation, Lorenz had to assume something about the kinetic energy (KE) spectrum of atmospheric turbulence. The KE spectrum is the amount of kinetic energy contained at each wavenumber \(k\) (the inverse wavelength) of the turbulence and is typically assumed to follow a power law:
+<p>In 2008, <a href="https://journals.ametsoc.org/doi/full/10.1175/2007JAS2449.1">Rotunno and Snyder</a> showed that there was a problem with Lorenz’s derivation. As part of the derivation, Lorenz had to assume something about the kinetic energy (KE) spectrum of atmospheric turbulence. The KE spectrum is the amount of kinetic energy contained at each wavenumber \(k\) (the inverse wavelength) of the turbulence and is typically assumed to follow a power law:
 $$
 E \sim k^{-p}
 $$
@@ -29,15 +29,13 @@ Lorenz was working with 2D turbulence (the aspect ratio of the atmosphere is so 
 $$
 E_L \sim k^{-5/3}
 $$
-following Kolmogorov’s classic result for 3D turbulence.</p> 
-
-<p>Lorenz’s derivation relies on this 5/3 power to show that errors grow faster at smaller scales. But for 2D turbulence \(p\) is actually equal to 3: 
+following Kolmogorov’s classic result for 3D turbulence. Lorenz’s derivation relies on this 5/3 power to show that errors grow faster at smaller scales. But for 2D turbulence \(p\) is actually equal to 3: 
 $$
-E_L \sim k^{-3}
+E_{2D} \sim k^{-3}
 $$
 (note: the \(k^{-3}\) scaling was discovered around the same time as Lorenz did his calculations).</p>
 
-<p>Substituting the \(p = -3\) spectrum into the derivation gives “infinite” predictability: the rate of error growth is independent of scale, so that going from a 10km model to a 5km model increases the lead time by a factor of 2.  If \(E\) is proportional to a higher power than 3, errors take longer to grow at small scales than at large scales and using a better model gives a large increase in lead time.</p>
+<p>Substituting \(p = -3\) into the derivation gives “infinite” predictability: the rate of error growth is independent of scale, so that going from a 10km model to a 5km model increases the lead time by a factor of 2.  If \(E\) is proportional to a higher power than 3, errors take longer to grow at small scales than at large scales and using a better model gives a big increase in lead time.</p>
 
 <p>To see the difference, Rotunno and Snyder compared the growth of error energy for \(k^-5/3\)  and \(k^-3\) spectra:</p>
 
@@ -55,7 +53,7 @@ $$
 <img src="http://nicklutsko.github.io/notes/images/Gage_Nostrom_spectra.png" alt="Atmospheric spectra" style="position:absolute; left:230px; width:454px;height:448px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>(Figure 1 from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%282003%29060%3C0824%3ATKAKES%3E2.0.CO%3B2">Tung and Orlando (2003)</a>, note that the meridional wind and potential temperature data have been offset by a constant factor so they can all be plotted on the same figure.)</p> 
+<p>(Figure 1 from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%282003%29060%3C0824%3ATKAKES%3E2.0.CO%3B2">Tung and Orlando (2003)</a>, note that the meridional wind and potential temperature data have been offset by a constant factor so they can be plotted on the same figure.)</p> 
 
 <p>It’s thought that in this regime the atmosphere is best represented by surface quasi-geostrophic (SQG) turbulence, which is a kind of intermediate between 2D and 3D turbulence. See <a href="http://pordlabs.ucsd.edu/wryoung/theorySeminar/pdf14/HeldPierrehumbert.pdf">here</a> for more. The kinetic energy spectrum for SQG has a \(k^{-5/3}\) scaling and so there is a finite predictability barrier.</p> 
 
