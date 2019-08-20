@@ -4,18 +4,18 @@ title: "Why Doesn’t the Tropical Atmosphere Superrotate?"
 date: 2019-08-20
 ---
 
-<p>"Superrotation" refers to atmospheric flows that rotate more quickly than the planet beneath them, creating an angular momentum maximum in the interior of the atmosphere (rather than at the surface). Earth rotates west-to-east and this rotation is fastest at the equator, so a superrotating atmosphere has west-to-east winds (\(u > 0\)) at the equator. (It's possible to have superrotation at higher latitudes, but this required a very strong forcing to maintain it, since the flow would be inertially unstable.)
+<p>"Superrotation" refers to atmospheric flows that rotate more quickly than the planet beneath them, creating an angular momentum maximum in the interior of the atmosphere (rather than at the surface). Earth rotates west-to-east, with the fastest rotation at the equator, so a superrotating atmosphere has west-to-east winds (\(u > 0\)) at the equator. (It's possible to have superrotation at higher latitudes, but this requires a very strong forcing to maintain it, since the flow would be inertially unstable.)
 
-<p>Mathematically, the angular momentum (\(M\)) for a shallow atmosphere is:
+<p>Mathematically, the angular momentum (\(M\)) of a shallow atmosphere is
 $$
 M = (u + \Omega a cos\theta)acos\theta,
 $$
-where \(\Omega\) is the angular velocity at the Equator, \(a\) is Earth's radius and \(\theta\) is latitude. At the equator, the surface angular momentum is \(M = \Omega a^2\), so superrotating flow has 
+where \(\Omega\) is the angular velocity at the Equator, \(a\) is Earth's radius and \(\theta\) is latitude. At the equator, the surface angular momentum is \(M = \Omega a^2\), so superrotating flow has
 $$
 u_s > \Omega sin^2(\theta) / cos\theta.
 $$</p>
 
-<p>Hide's theorem says that the mean flow cannot maintain a superrotation state, so the only way to create superrotation is with (upgradient) eddy momentum fluxes. This turns out to be pretty common: the atmospheres of Venus, Jupiter, Saturn and Titan superrotate. People also get excited about superrotation because of the potential for bistability. Simple models often show hysteresis, where a superrotating and non-superrotating state co-exist for certain model parameters (e.g., <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1211%3AESAMOT%3E2.0.CO%3B2">here</a>). There are also ideas that <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008PA001652">superrotation was important for paleo climates</a>.</p>
+<p>Hide's theorem says that the mean flow cannot maintain a superrotation state, hence the only way to create superrotation is with (upgradient) eddy momentum fluxes. This turns out to be pretty common: the atmospheres of Venus, Jupiter, Saturn and Titan superrotate. People also get excited about superrotation because of the potential for bistability. Simple models often show hysteresis, where a superrotating and non-superrotating state co-exist for certain model parameters (e.g., <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1211%3AESAMOT%3E2.0.CO%3B2">here</a>). There are also ideas/evidence that superrotation was important for some <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008PA001652">paleoclimates</a> and at <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043468">very high CO\(_2\) concentrations.</p>
 
 <p>So why doesn’t Earth’s atmosphere superrotate? To answer this, we have to go through the terms in Earth’s zonal-mean angular momentum budget:
 $$
