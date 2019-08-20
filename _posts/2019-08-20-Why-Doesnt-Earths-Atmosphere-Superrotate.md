@@ -48,8 +48,7 @@ $$</p>
 <img src="http://nicklutsko.github.io/notes/images/November_superrotation_budget.png" alt="November superrotation budget" style="position:absolute; left:230px; width:400px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>(In the annual-mean, these stationary waves would show up as transient eddies.)</p> 
-
+<p>(When taking an annual-mean, these stationary waves would show up as transient eddies.)</p> 
 
 <p>So the lack of (annual-mean) superrotation in Earth's atmosphere comes from a cancellation between stationary waves, which accelerate the flow, and the seasonal cycle of the Hadley circulation, which damps the flow. To first order then, the main reason why Earth's atmosphere doesn't superrotate is that the ITCZ is north of the equator in the annual-mean. Hence the HC is always transporting low angular momentum air into the equator (if the ITCZ was at the equator the summer and winter HC transports would cancel out). But the HC isn't perfectly angular momentum-conserving, so to fully answer this question we have to better understand the seasonal interactions of the stationary waves and the mean flow, and how waves modify the angular momentum-conserving picture.</p> 
 
