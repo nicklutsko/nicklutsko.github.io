@@ -29,8 +29,8 @@ $$
 $$</p>
 
 <p>In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
-<img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:150px; width:400px;height:300px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:200px; width:400px;height:300px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>You can see that the main balance is between the transient eddies, which accelerate the zonal-mean flow at the equator, and the transient fluctuations of the mean flow, which decelerate the flow. (Note that the mean vertical term is important lower in the atmosphere, as the rising branch of the HC brings up high angular-momentum air.)</p>
 
@@ -38,8 +38,8 @@ $$</p>
 
 <p>The figure above shows that these fluxes are balanced by fluctuations in the zonal-mean flow, which really just means the seasonal cycle of the HC. Here's what the angular momentum transport (\(\overline{[u'][v']}\)) by the HC looks like over the course of the year (top panel):</p> 
 
-<img src="http://nicklutsko.github.io/notes/images/seasonal_cycles_equator.png" alt="Seasonal cycle equator" style="position:absolute; left:150px; width:500px;height:400px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/seasonal_cycles_equator.png" alt="Seasonal cycle equator" style="position:absolute; left:200px; width:500px;height:400px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>The largest convergences are in summer and in winter. To understand this, note that the divergence of the eddy momentum flux is equal to the meridional vorticity flux, \(-\frac{\partial}{\partial y}\overline{[u'][v']} = \overline{[v'][\zeta']} \), where \(\zeta\) is the vorticity. For an angular momentum conserving flow, \(\zeta + f = f_0\), where \(f_0\) is the Coriolis parameter at the ITCZ. In summer, \(\f_0 > 0\) -- the ITCZ is north of the equator -- so \(\zeta\) is greater than zero, \(v'\) is less than zero and \( \overline{[v'][\zeta']} \) is less than zero. In Northern hemisphere winter we have \(\f_0 &lt;derp> 0\) -- the ITCZ is north of the equator -- so \zeta is less than zero but \(v'\) is greater than zero and \( \overline{[v'][\zeta']} \) is still less than zero.</p>
 
