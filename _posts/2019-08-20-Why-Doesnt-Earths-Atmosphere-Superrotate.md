@@ -12,10 +12,10 @@ M = (u + \Omega a cos\theta)acos\theta,
 $$
 where \(\Omega\) is the angular velocity at the Equator, \(a\) is Earth's radius and \(\theta\) is latitude. At the equator, the surface angular momentum is \(M = \Omega a^2\), so superrotating flow has
 $$
-u_s > \Omega sin^2(\theta) / cos\theta.
+u_s > a\Omega sin^2(\theta) / cos\theta.
 $$</p>
 
-<p>Hide's theorem says that the mean flow cannot maintain a superrotation state, hence the only way to create superrotation is with (upgradient) eddy momentum fluxes. This is actually pretty common: the atmospheres of Venus, Jupiter, Saturn and Titan superrotate. People also get excited about superrotation because of the potential for bistability. Simple models often show hysteresis, where a superrotating and non-superrotating state co-exist for certain model parameters (e.g., <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1211%3AESAMOT%3E2.0.CO%3B2">here</a>). There are also ideas/evidence that superrotation was important for some <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008PA001652">paleoclimates</a> and at <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043468">very high CO\(_2\) concentrations</a>.</p>
+<p>Hide's theorem says that the mean flow cannot maintain a superrotation state, hence the only way to create superrotation is with (upgradient) eddy momentum fluxes. This is actually pretty common: the atmospheres of Venus, Jupiter, Saturn and Titan superrotate. People also get excited about superrotation because of the potential for bistability, as simple models often show a superrotating and non-superrotating state co-existing for certain parameters (e.g., <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0469%281993%29050%3C1211%3AESAMOT%3E2.0.CO%3B2">here</a>). There are also ideas/evidence that superrotation was important for some <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2008PA001652">paleoclimates</a> and could reappear at <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2010GL043468">very high CO\(_2\) concentrations</a>.</p>
 
 <p>So why doesn’t Earth’s atmosphere superrotate? To answer this, we have to go through the terms in Earth’s zonal-mean angular momentum budget:
 $$
@@ -29,8 +29,8 @@ $$
 $$</p>
 
 <p>In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
-<img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:200px; width:400px;height:300px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:230px; width:400px;height:300px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>You can see that the main balance is between the transient eddies, which accelerate the zonal-mean flow at the equator, and the transient fluctuations of the mean flow, which decelerate the flow. (Note that the mean vertical term is important lower in the atmosphere, as the rising branch of the HC brings up high angular-momentum air.)</p>
 
