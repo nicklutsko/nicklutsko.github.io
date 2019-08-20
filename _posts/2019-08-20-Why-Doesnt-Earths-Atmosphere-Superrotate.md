@@ -25,7 +25,7 @@ where \(v\) is the meridional (south-north) velocity, \(\omega\) is the pressure
 
 <p>This leaves the \(fv\) term and then terms corresponding to the divergence of momentum by the mean horizontal flow, the mean vertical flow, the stationary eddy horizontal flow, etc. The horizontal transient term can be broken down further into a transient zonal-mean term and a transient eddy term:
 $$
-[\overline{u'v'}] = \overline{[u'][v']} + [\overline{u'^*v'^*}].
+[\overline{u'v'}] = \underbrace{\overline{[u'][v']}}_{\text{transient mean flow}} + \underbrace{[\overline{u'^*v'^*}]}_{\text{transient eddies}}.
 $$</p>
 In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
 
