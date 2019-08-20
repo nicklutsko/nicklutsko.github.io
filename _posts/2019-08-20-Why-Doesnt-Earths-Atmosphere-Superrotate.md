@@ -19,7 +19,7 @@ $$</p>
 
 <p>So why doesn’t Earth’s atmosphere superrotate? To answer this, we have to go through the terms in Earth’s zonal-mean angular momentum budget:
 $$
-\frac{\partial \bar{u}}{\partial t} = f[\bar{v}] - [\bar{v}]\frac{\partial [\bar{u}]}{\partial y} - [\bar{\omega}]\frac{\partial[\bar{u}]}{\partial p} - \frac{\partial}{\partial y}\left([\bar{u}^*\bar{v}^*]\right) -\frac{\partial}{\partial p}[\bar{u}^*\bar{\omega}^*] - \frac{\partial}{\partial y}[\overline{u'v'}] - \frac{\partial}{\partial p}[\overline{u'\omega'}],
+\frac{\partial \bar{u}}{\partial t} = f[\bar{v}] - [\bar{v}]\frac{\partial [\bar{u}]}{\partial y} - [\bar{\omega}]\frac{\partial[\bar{u}]}{\partial p} - \frac{\partial}{\partial y}[\bar{u}^*\bar{v}^*] -\frac{\partial}{\partial p}[\bar{u}^*\bar{\omega}^*] - \frac{\partial}{\partial y}[\overline{u'v'}] - \frac{\partial}{\partial p}[\overline{u'\omega'}],
 $$
 where \(v\) is the meridional (south-north) velocity, \(\omega\) is the pressure velocity, overbars are zonal means, square brackets are time-means, asterisks are zonal anomalies and \('\)s are anomalies from the time-mean. For simplicity I've written the budget out in cartesian co-ordinates and left out the the vertical Coriolis term, the metric terms and surface friction.</p>
 
