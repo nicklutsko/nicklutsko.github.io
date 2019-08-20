@@ -29,7 +29,7 @@ $$
 $$</p>
 
 <p>In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
-<img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:150px; width:300px;height:450px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:150px; width:400px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>You can see that the main balance is between the transient eddies, which accelerate the zonal-mean flow at the equator, and the transient fluctuations of the mean flow, which decelerate the flow. (Note that the mean vertical term is important lower in the atmosphere, as the rising branch of the HC brings up high angular-momentum air.)</p>
@@ -44,7 +44,8 @@ $$</p>
 <p>The largest convergences are in summer and in winter. To understand this, note that the divergence of the eddy momentum flux is equal to the meridional vorticity flux, \(-\frac{\partial}{\partial y}\overline{[u'][v']} = \overline{[v'][\zeta']} \), where \(\zeta\) is the vorticity. For an angular momentum conserving flow, \(\zeta + f = f_0\), where \(f_0\) is the Coriolis parameter at the ITCZ. In summer, \(\f_0 > 0\) -- the ITCZ is north of the equator -- so \(\zeta\) is greater than zero, \(v'\) is less than zero and \( \overline{[v'][\zeta']} \) is less than zero. In Northern hemisphere winter we have \(\f_0 &lt;derp> 0\) -- the ITCZ is north of the equator -- so \zeta is less than zero but \(v'\) is greater than zero and \( \overline{[v'][\zeta']} \) is still less than zero.</p>
 
 <p> This argument comes from <a href="https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%281988%29045%3C2416%3AHCFZAH%3E2.0.CO%3B2">Lindzen and Hou (1988)</a>: when the ITCZ is off the equator, the angular momentum of the ITCZ is lower. This picture assumes an angular-momentum conserving flow, however, but interestingly, when you look at the actual value of the winds, there is superrotation, on average, in winter (bottom panel of above figure). Calculating the angular momentum budget for November (when the winds are accelerating) indicates that stationary waves are driving the superrotation (while also redistributing the momentum vertically). </p> 
-<img src="http://nicklutsko.github.io/notes/images/November_superrotation_budget.png" alt="November superrotation budget" style="position:absolute; left:150px; width:300px;height:450px;" class="center">
+
+<img src="http://nicklutsko.github.io/notes/images/November_superrotation_budget.png" alt="November superrotation budget" style="position:absolute; left:150px; width:400px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>So the lack of (annual-mean) superrotation in Earth's atmosphere comes from a cancellation between stationary waves, which accelerate the flow, and the seasonal cycle of the Hadley circulation, which counteracts the stationary wave fluxes. An important factor is that, in the annual-mean, the ITCZ is north of the equator, so that its always transporting low angular momentum air into the equator. But the HC isn't perfectly angular momentum conserving, and clearly there's an interaction between the seasonal cycle of the stationary waves and the mean flow. Finally, we need better theories for zonal anomalies in the HC.</p> 
