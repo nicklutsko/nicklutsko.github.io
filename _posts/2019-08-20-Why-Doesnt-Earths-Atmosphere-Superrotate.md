@@ -21,11 +21,11 @@ $$</p>
 $$
 \frac{\partial \bar{u}}{\partial t} = f[\bar{v}] - [\bar{v}]\frac{\partial [\bar{u}]}{\partial y} - [\bar{\omega}]\frac{\partial[\bar{u}]}{\partial p} - \frac{\partial}{\partial y}[\bar{u}^*\bar{v}^*] -\frac{\partial}{\partial p}[\bar{u}^*\bar{\omega}^*] - \frac{\partial}{\partial y}[\overline{u'v'}] - \frac{\partial}{\partial p}[\overline{u'\omega'}],
 $$
-where \(v\) is the meridional (northward) velocity, \(\omega\) is the pressure velocity, overbars are zonal means, square brackets are time-means, asterisks are zonal anomalies and \('\)s are anomalies from the time-mean. For simplicity I've written the budget out in cartesian co-ordinates and left out the the vertical Coriolis term, the metric terms and surface friction.</p>
+where \(v\) is the meridional (northward) velocity, \(\omega\) is the pressure velocity, overbars are time-means, square brackets are zonal-means, asterisks are zonal anomalies and \('\)s are anomalies from the time-mean. For simplicity I've written the budget out in cartesian co-ordinates and left out the the vertical Coriolis term, the metric terms and surface friction.</p>
 
 <p>This leaves the \(fv\) term and then terms corresponding to the divergence of momentum by the mean horizontal flow, by the mean vertical flow, by the stationary eddies, etc. The horizontal transient term can be broken down further into a transient zonal-mean term and a transient eddy term:
 $$
-[\overline{u'v'}] = \underbrace{\overline{[u'][v']}}_{\text{transient mean flow}} + \underbrace{[\overline{u'^*v'^*}]}_{\text{transient eddies}}
+[\overline{u'v'}] = \underbrace{\overline{[u]'[v]'}}_{\text{transient mean flow}} + \underbrace{[\overline{u'^*v'^*}]}_{\text{transient eddies}}
 $$</p>
 
 <p><a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">Lee (1999)</a> showed that these transient terms are the dominant terms in the equatorial angular momentum budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
