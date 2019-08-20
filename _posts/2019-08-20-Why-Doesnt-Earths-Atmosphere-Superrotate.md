@@ -27,8 +27,7 @@ where \(v\) is the meridional (south-north) velocity, \(\omega\) is the pressure
 $$
 [\overline{u'v'}] = \underbrace{\overline{[u'][v']}}_{\text{transient mean flow}} + \underbrace{[\overline{u'^*v'^*}]}_{\text{transient eddies}}.
 $$</p>
-In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
-
+In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:
 <img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:150px; width:300px;height:450px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br />
 
