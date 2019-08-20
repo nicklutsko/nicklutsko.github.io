@@ -28,11 +28,11 @@ $$
 [\overline{u'v'}] = \underbrace{\overline{[u'][v']}}_{\text{transient mean flow}} + \underbrace{[\overline{u'^*v'^*}]}_{\text{transient eddies}}.
 $$</p>
 
-<p> In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
+<p>In a <a href="http://www.meteo.psu.edu/~sxl31/papers/Lee99.pdf">paper from 1999</a>, Sukyoung Lee showed that these transient terms are the key terms in the budget. Here I've updated one of the figures, showing the budget at 200hPa and using data from the MERRA reanalysis:</p>
 <img src="http://nicklutsko.github.io/notes/images/annual_mean_superrotation_budget.png" alt="Superrotation budget" style="position:absolute; left:150px; width:300px;height:450px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-You can see that the main balance is between the transient eddies which accelerate the zonal-mean flow at the equator, and transient fluctuations of the mean flow, which decelerate the flow. (Note that the mean vertical term is important lower in the atmosphere, as the rising branch of the HC brings up high angular-momentum air.)</p>
+<p>You can see that the main balance is between the transient eddies which accelerate the zonal-mean flow at the equator, and transient fluctuations of the mean flow, which decelerate the flow. (Note that the mean vertical term is important lower in the atmosphere, as the rising branch of the HC brings up high angular-momentum air.)</p>
 
 <p>What do these transient terms represent? Pablo Zurita-Gotor looked into the tropical eddy momentum fluxes in two papers last year (<a href="https://journals.ametsoc.org/doi/full/10.1175/JAS-D-18-0297.1">here</a> and <a href="https://journals.ametsoc.org/doi/full/10.1175/JAS-D-18-0304.1">here</a>), and found that they have a pretty complicated structure. The main way eddies flux momentum across the equator seems to be interactions between tropical stationary waves and zonal-anomalies in the Hadley circulation (HC). (I.e., between the rotational zonal velocity and the divergent meridional velocity). On shorter time-scales, interactions between the MJO and the anomalous Hadley circulation also converge momentum into the equator, but this effect is smaller.</p> 
 
