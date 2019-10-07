@@ -7,7 +7,7 @@ Includes functions to calculate space-time cross-spectra and phase-speed cross-s
 
 Updated May 30th 2018 -- fixed bug identified by Ben Toms
 
-Updated March 14th 2019 -- fixed several errors identified by Neil Lewis
+Updated March 14th 2019 -- fixed several bugs identified by Neil Lewis
 
 Tested using Python 2.7.12
 """
