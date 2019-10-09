@@ -4,19 +4,17 @@ title: "What Drives Uncertainty in Transient Warming? Part 2 - Details"
 date: 2019-10-09
 ---
 
-<p>This is a follow-up to my post <a href="https://nicklutsko.github.io/blog/2019/09/26/What-Drives-Transient-Warming-Uncertainty-Part-1">"What Drives Uncertainty in Transient Warming?"</a>, which summarized a recent paper with Max Popp on <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084018">"Probing the Sources of Uncertainty in Transient Warming on Different Time Scales"</a>. Here I’m going to provide some of the details of the analysis.</p>
-
-<p>A Jupyter notebook with our analysis is available <a href="https://github.com/nicklutsko/TCR_Uncertainty/blob/master/TCR_Uncertainty.ipynb">here</a>.</p>
+<p>This is a follow-up to my post <a href="https://nicklutsko.github.io/blog/2019/09/26/What-Drives-Transient-Warming-Uncertainty-Part-1">"What Drives Uncertainty in Transient Warming?"</a>, which summarized a recent paper with Max Popp on <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084018">"Probing the Sources of Uncertainty in Transient Warming on Different Time Scales"</a>. Here I’m going to provide some of the details of the analysis. (A Jupyter notebook with our analysis is available <a href="https://github.com/nicklutsko/TCR_Uncertainty/blob/master/TCR_Uncertainty.ipynb">here</a>).</p>
 
 <h3>Theory</h3>
 
-<p>To understand the sensitivities of transient warming we started by analyzing the two box model. This can be solved for \(T_1\), either in real space or (more simply) by transforming to frequency space to give::
+<p>To understand the sensitivities of transient warming we started by thinking about the two box model I introduced in part 1. This can be solved for \(T_1\), either in real space or (more simply) by transforming to frequency space to give:
 $$
 \hat{T_1} = \frac{\omega}{70} \times \frac{F}{\lambda  + ic\omega +\epsilon\gamma \left(1 - \gamma /(ic_0\omega + \gamma)\right)},
 $$
-where we assume CO\(_2\) concentrations are going up by 1% per year. Looking at this expression gives a first sense for why the forcing matters so much: it’s the only term in the numerator, whereas there are several terms in the denominator. So even if the climate feedback (\(\lambda\)) was zero, the transient warming would still be finite (but the ECS would be infinite)..</p>
+where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up by 1% per year. Looking at this expression gives a first sense for why the forcing matters so much: it’s the only term in the numerator, whereas there are several terms in the denominator. So even if the climate feedback (\(\lambda\)) was zero, and the ECS was infinite, the transient warming would still be finite.</p>
 
-<p>We then calculated the absolute value of \(\hat{T_1}\), which is a complicated expression, but can be simplified into four transient warming regimes: 
+<p>We then calculated the absolute value of \(\hat{T_1}\), which is a complicated expression, but can be simplified into four transient warming regimes (for simplicitly I'm moving back to the time domain): 
 <ul>
 <li>the ultra-fast regime (\(t \(<\) t_H = \epsilon/(\lambda + \epsilon\gamma)\) ),</li>
 <li>the fast regime (\(t_H \(<\) t \(<<\) t_L= c_0 /\gamma\) ),</li>
