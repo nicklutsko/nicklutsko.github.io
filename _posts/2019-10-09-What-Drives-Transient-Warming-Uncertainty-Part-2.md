@@ -4,7 +4,7 @@ title: "What Drives Uncertainty in Transient Warming? Part 2 - Details"
 date: 2019-10-09
 ---
 
-<p>This is a follow-up to my post <a href="https://nicklutsko.github.io/blog/2019/09/26/What-Drives-Transient-Warming-Uncertainty-Part-1">"What Drives Uncertainty in Transient Warming?"</a>, which summarized a recent paper with Max Popp on <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084018">"Probing the Sources of Uncertainty in Transient Warming on Different Time Scales"</a>. Here I’m going to provide some of the details of the analysis. (A Jupyter notebook is also available <a href="https://github.com/nicklutsko/TCR_Uncertainty/blob/master/TCR_Uncertainty.ipynb">here</a>).</p>
+<p>This is a follow-up to my post <a href="https://nicklutsko.github.io/blog/2019/09/26/What-Drives-Transient-Warming-Uncertainty-Part-1">"What Drives Uncertainty in Transient Warming?"</a>, which summarized a recent paper with Max Popp on <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084018">"Probing the Sources of Uncertainty in Transient Warming on Different Time Scales"</a>. Here I’m going to provide some details on the analysis. (A Jupyter notebook is also available <a href="https://github.com/nicklutsko/TCR_Uncertainty/blob/master/TCR_Uncertainty.ipynb">here</a>).</p>
 
 <h3>Theory</h3>
 
@@ -12,7 +12,7 @@ date: 2019-10-09
 $$
 \hat{T_1} = \frac{\omega}{70} \times \frac{F}{\lambda  + ic\omega +\epsilon\gamma \left(1 - \gamma /(ic_0\omega + \gamma)\right)},
 $$
-where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up by 1% per year. Looking at this expression gives a first sense for why the forcing matters so much: it’s the only term in the numerator, whereas there are several terms in the denominator. So even if the climate feedback (\(\lambda\)) was zero, and the ECS was infinite, the transient warming would still be finite.</p>
+where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up by 1% per year. Looking at this expression gives a first sense for why the forcing matters so much: it’s the only term in the numerator, whereas there are several terms in the denominator. So, for example, even if the climate feedback (\(\lambda\)) was zero, and the ECS was infinite, the transient warming would still be finite.</p>
 
 <p>We then calculated the absolute value of \(\hat{T_1}\), which is a complicated expression, but can be simplified into four transient warming regimes (to make things more intuitive I'm going to move back to the time domain): 
 <ul>
@@ -29,7 +29,7 @@ where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up
 
 <p>In the fast regime the forcing is responsible for most of the uncertainty, with \(\lambda\), \(\gamma\) and \(\epsilon\) also contributing. But because these are all in the denominator, their uncertainties partially cancel, and \(F\) is the leading source of uncertainty. On these time-scales \(c\) is small compared to  \(λ + \epsilon \gamma\), so we don’t have to worry about the upper ocean heat capacity anymore.</p>
 
-<p>Once the deep ocean has started warming, the ocean heat uptake parameters \(\gamma\) and \(\epsilon\) contribute less to uncertainty. You can see in the denominator of the equation that the term in brackets starts decreasing as \(c_0 \omega\) increases, and the effects of \(\gamma\) and \(\epsilon\) are muted. Physically, heat is transferred to the deep ocean through the term \(H = \epsilon\gamma(T_1 – T_2)\). \(H\) cools \(T_1\), and so \(\gamma\) and \(\epsilon\) damp transient warming. But as the two layers come into equilibrium \(T_1 – T_2\) becomes small, so \(H\) is also small, and \(\gamma\) and \(\epsilon\) matter less. In equilibrium \(H\) is zero, and the values of \(\gamma\) and \(\epsilon\) don’t matter.</p>
+<p>Once the deep ocean has started warming, the ocean heat uptake parameters \(\gamma\) and \(\epsilon\) contribute less to uncertainty. You can see in the denominator of the equation that the term in brackets starts decreasing as \(c_0 \omega\) increases, and the effects of uncertainty in \(\gamma\) and \(\epsilon\) are muted. Physically, heat is transferred to the deep ocean through the term \(H = \epsilon\gamma(T_1 – T_2)\). \(H\) cools \(T_1\), and so \(\gamma\) and \(\epsilon\) damp transient warming. But as the two layers come into equilibrium \(T_1 – T_2\) becomes small, so \(H\) is also small, and \(\gamma\) and \(\epsilon\) matter less. In equilibrium \(H\) is zero, and it doens't matter what the values of \(\gamma\) and \(\epsilon\) are.</p>
 
 <p>An interesting subtlety is that \(\gamma\) cools the surface layer directly, but also warms it indirectly by making \(T_2\) larger (and hence \(H\) smaller). These opposing direct and indirect effects on surface temperature mean that \(\gamma\) is responsible for less uncertainty than \(\epsilon\), which always damps surface temperature. (Note: one of the original motivations for our study was trying to clarify how the ocean contributes to transient warming uncertainty.)</p>
 
@@ -38,10 +38,10 @@ where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up
 <p>So we can expect transient warming’s sensitivity to evolve as follows: 
 <ul>
 <li>for the first few years the upper ocean heat capacity matters most, but the importance of this quickly decreases,</li>
-<li>then the warming is most sensitive to the forcing, with the feedback and the ocean heat uptake terms (\(\gamma\) and \(\epsilon\)) also contributing,</li>
+<li>then the warming is most sensitive to the forcing, with the climate feedback and the ocean heat uptake terms (\(\gamma\) and \(\epsilon\)) also contributing,</li>
 <li>once the deep ocean has started heating up the sensitivity to the ocean heat uptake terms decreases, with the importance of \(\gamma\) decreasing faster than \(\epsilon\).</li>
 </ul></p>
-<p>Through all, the importance of the feedback \(\lambda\) relative to the forcing slowly increases, so that on the longest timescales transient warming is roughly as sensitive to \(\lambda\) as to \(F\).
+<p>Through these different stages, the importance of the feedback \(\lambda\) relative to the forcing slowly increases, so that on the longest timescales transient warming is roughly as sensitive to \(\lambda\) as to \(F\).
 </p>
 
 
