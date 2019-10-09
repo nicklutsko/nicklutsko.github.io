@@ -58,7 +58,7 @@ where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up
 
 <p>We looked at the effects on different time-scales by calculating the ratio \(r\) of the sensitivity of transient warming to uncertainty in each variable divided by the sensitivity of transient warming in the forcing \(F\). So if \(r_\gamma > 1\) at \(t =\) 20 years, it means that warming after 20 years of increasing CO\(_2\) by 1%/year is more sensitivity to uncertainty in \(\gamma\) than uncertainty in \(F\). If \(r_\gamma <\ 1\), then the warming is more sensitive to \(F\) than to \(\gamma\).</p>
 
-<img src="http://nicklutsko.github.io/notes/images/time_scale_uncertainty.jpg" alt="TCR uncertainty ratios" style="position:absolute; left:250px; width:288px;height:216px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/time_scale_uncertainty.jpg" alt="TCR uncertainty ratios" style="position:absolute; left:260px; width:288px;height:216px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>These calculations gave us exactly what we expected from the theory. Uncertainty in the upper ocean heat capacity matters a lot for the first few years, but quickly becomes negligible. The contributions of uncertainties in \(\gamma\) and \(\epsilon\) peak around 15 years, then diminish as the deep ocean heats up, with the contribution from \(\gamma\) decreasing faster than the contribution from \(\epsilon\). And the feedback \(\lambda\) becoming more important over time (though even after 140 years \(r_F\) is only \(\sim\)0.7).</p> 
