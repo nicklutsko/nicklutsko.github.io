@@ -14,10 +14,10 @@ $$
 $$
 where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up by 1% per year. Looking at this expression gives a first sense for why the forcing matters so much: it’s the only term in the numerator, whereas there are several terms in the denominator. So even if the climate feedback (\(\lambda\)) was zero, and the ECS was infinite, the transient warming would still be finite.</p>
 
-<p>We then calculated the absolute value of \(\hat{T_1}\), which is a complicated expression, but can be simplified into four transient warming regimes (for simplicitly I'm moving back to the time domain): 
+<p>We then calculated the absolute value of \(\hat{T_1}\), which is a complicated expression, but can be simplified into four transient warming regimes (to make things more intuitive I'm going to move back to the time domain): 
 <ul>
-<li>the ultra-fast regime (\(t \(<\) t_H = \epsilon/(\lambda + \epsilon\gamma)\) ),</li>
-<li>the fast regime (\(t_H \(<\) t \(<<\) t_L= c_0 /\gamma\) ),</li>
+<li>the ultra-fast regime (\(t <\ t_H = \epsilon/(\lambda + \epsilon\gamma)\) ),</li>
+<li>the fast regime (\(t_H <\ t <\<\ t_L= c_0 /\gamma\) ),</li>
 <li>the intermediate regime (\(t \leq t_L\) ),</li>
 <li>the slow regime (\(t_L > t\)).</li>
 </ul>
