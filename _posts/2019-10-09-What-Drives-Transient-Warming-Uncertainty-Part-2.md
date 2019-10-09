@@ -25,8 +25,6 @@ where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up
 
 <p>Using ensemble-mean values from CMIP5, the fast time-scale \(t_H  \approx\) 4 years and the slow time-scale \(t_L \approx\) 160 years. The fast and intermediate regimes are separated by the time it takes for the deep ocean to warm up significantly – when \(T_2\) is meaningfully greater than 0. Defining this as the time when \(t = 0.1 c_0 / \gamma\) gives a time-scale of 16 years.</p>
 
-<p>Our main goal was to separate out (1) the uncertainty in each variable, from (2) the sensitivity of transient warming to uncertainty in each variable. A variable could be highly uncertain but contribute little to uncertainty in the TCR, or vice-versa: a variable could be well known, but still be responsible for a lot of uncertainty. To put it another way: there’s a lot of emphasis on constraining the net feedback, but maybe there’s a better way of reducing uncertainty in the TCR?</p>
-
 <p>Going through the different regimes: In the ultra-fast regime most of the uncertainty comes from the upper-ocean heat capacity \(c\). Basically, how quickly does the surface start warming up? If \(c\) is large then the warming in the first few years will be small, and vice-versa.</p>
 
 <p>In the fast regime the forcing is responsible for most of the uncertainty, with \(\lambda\), \(\gamma\) and \(\epsilon\) also contributing. But because these are all in the denominator, their uncertainties cancel out somewhat, and \(F\) is the leading source of uncertainty. On these time-scales \(c\) is small compared to  \(λ + \epsilon \gamma\), so we don’t have to worry about the upper ocean heat capacity anymore.</p>
