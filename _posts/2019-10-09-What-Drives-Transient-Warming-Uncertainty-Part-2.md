@@ -4,7 +4,7 @@ title: "What Drives Uncertainty in Transient Warming? Part 2 - Details"
 date: 2019-10-09
 ---
 
-<p>This is a follow-up to my post <a href="https://github.com/nicklutsko/TCR_Uncertainty/blob/master/TCR_Uncertainty.ipynb">"What Drives Uncertainty in Transient Warming?"</a>, which summarized a recent paper with Max Popp on <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084018">"Probing the Sources of Uncertainty in Transient Warming on Different Time Scales"</a>. Here I’m going to provide some of the details of the analysis.</p>
+<p>This is a follow-up to my post <a href="https://nicklutsko.github.io/blog/2019/09/26/What-Drives-Transient-Warming-Uncertainty-Part-1">"What Drives Uncertainty in Transient Warming?"</a>, which summarized a recent paper with Max Popp on <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL084018">"Probing the Sources of Uncertainty in Transient Warming on Different Time Scales"</a>. Here I’m going to provide some of the details of the analysis.</p>
 
 <p>A Jupyter notebook with our analysis is available <a href="https://github.com/nicklutsko/TCR_Uncertainty/blob/master/TCR_Uncertainty.ipynb">here</a>.</p>
 
@@ -44,8 +44,8 @@ where we assume CO\(_2\) concentrations are going up by 1% per year. Looking at 
 <li>for the first few years the upper ocean heat capacity matters most, but the importance of this quickly decreases,</li>
 <li>then the warming is most sensitive to the forcing, with the feedback and the ocean heat uptake terms (\(\gamma\) and \(\epsilon\)) also contributing,</li>
 <li>once the deep ocean has started heating up the sensitivity to the ocean heat uptake terms decreases, with the importance of \(\gamma\) decreasing faster than \(\epsilon\).</li>
-</ul>
-Through all, the importance of the feedback \(\lambda\) relative to the forcing slowly increases, so that on the longest timescales transient warming is roughly as sensitive to \(\lambda\) as to \(F\).
+</ul></p>
+<p>Through all, the importance of the feedback \(\lambda\) relative to the forcing slowly increases, so that on the longest timescales transient warming is roughly as sensitive to \(\lambda\) as to \(F\).
 </p>
 
 
