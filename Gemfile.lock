@@ -47,7 +47,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  octopress (~> 3.0.0.rc.12)
+  octopress (~> 3.0)
 
 BUNDLED WITH
    1.16.1
