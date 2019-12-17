@@ -10,7 +10,7 @@ date: 2019-10-09
 
 <p>To understand the sensitivities of transient warming we started by thinking about the two box model I introduced in part 1. This can be solved for \(T_1\), either in real space or (more simply) by transforming to frequency space to give:
 $$
-\hat{T_1} = \frac{\omega}{70} \times \frac{F}{\lambda  + ic\omega +\epsilon\gamma \left(1 - \gamma /(ic_0\omega + \gamma)\right)},
+\hat{T_1} = \frac{70}{\omega}\times \frac{F}{\lambda  + ic\omega +\epsilon\gamma \left(1 - \gamma /(ic_0\omega + \gamma)\right)},
 $$
 where \(\omega\) is frequency and we assume CO\(_2\) concentrations are going up by 1% per year. Looking at this expression gives a first sense for why the forcing matters so much: it’s the only term in the numerator, whereas there are several terms in the denominator. So, for example, even if the climate feedback (\(\lambda\)) was zero, and the ECS was infinite, the transient warming would still be finite.</p>
 
