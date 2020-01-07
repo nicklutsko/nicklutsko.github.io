@@ -29,7 +29,7 @@ Combining their results, Seager et al attributed roughly 50% of the winter tempe
 In 2011, <a href="https://www.nature.com/articles/nature09924">Kaspi and Schneider</a> presented at alternative explanation for why North America is anomalously cold: heating of the atmosphere by warm ocean waters generates Rossby waves which radiate westward, cooling land to the west of the warm waters. So the Gulf Stream could excite a wave that cools the east coast of North America.
 
 <img src="http://nicklutsko.github.io/notes/images/Kaspi_Schneider_RW.png" alt="Kaspi Schneider Figure" style="position:absolute; left:40px; width:800px;height:114px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br />
 (Zonal surface temperature anomalies in idealized simulations from Kaspi and Schneider. The triangles are the “Gulf Stream” regions of anomalous warmth, and the rotation rate increases from 1xEarth to 8xEarth going left to right. Adapted from their Figure 2.)
 
 While this is an elegant explanation, and works very well in the idealized simulations Kaspi and Schneider ran, it doesn’t seem like there’s much evidence for it in the Seager paper. In their simulation without  ocean heat transport -- i.e., with no Gulf Stream -- the waters off the East Coast were cooler than in the control simulation,  but temperatures over the East Coast didn’t seem to change much compared to the control simulation (Figure 12 in Seager et al). This suggests that the westward radiation of Rossby waves plays a secondary role, though it’s probably worth a more focused investigation.
