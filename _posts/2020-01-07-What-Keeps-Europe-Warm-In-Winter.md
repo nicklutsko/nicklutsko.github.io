@@ -4,7 +4,7 @@ title: "What Keeps Europe Warm in the Winter?"
 date: 2020-01-07
 ---
 
-<a href="https://en.wikipedia.org/wiki/Lisbon">Lisbon</a> is at roughly the same latitude as <a href="https://en.wikipedia.org/wiki/New_York_City">New York</a>, but its average December daily low temperature is 9&#176;C, whereas New York’s average December daily low temperature is 0&#176;C. But in summer New York is actually slightly warmer, with daily highs of 28.9&#176;C in July, compared to 27.9&#176;C for Lisbon. Making a map of wintertime (December-January-February) temperatures shows that eastern North America is typically 15-20&#176;C colder than western Europe:
+<a href="https://en.wikipedia.org/wiki/Lisbon">Lisbon</a> is at roughly the same latitude as <a href="https://en.wikipedia.org/wiki/New_York_City">New York</a>, but its average December daily low temperature is 9&#176;C, whereas New York’s average December daily low temperature is 0&#176;C. But in summer New York is actually slightly warmer, with daily highs of 28.9&#176;C in July, compared to 27.9&#176;C for Lisbon. Making a map of wintertime (December-January-February) temperatures shows that western Europe is typically 15-20&#176;C warmer than eastern North America:
 
 <img src="http://nicklutsko.github.io/notes/images/ERA_20c_North_Atlantic_comp.png" alt="ERA 20C TE" style="position:absolute; left:230px; width:450px;height:321px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
