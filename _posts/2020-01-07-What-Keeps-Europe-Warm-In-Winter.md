@@ -20,7 +20,7 @@ In a seminal paper from 2002, <a href="http://ocp.ldeo.columbia.edu/res/div/ocp/
 <li>Atmospheric heat transport, and quasi-stationary waves in the atmosphere.</li>
 </ul>
 
-Using observations and various simulations (with/without ocean heat transport, and with varying mixed layer depths), Seager et al showed that the seasonal absorption and release of heat by the ocean has a much larger impact on regional climates than heat transport by ocean currents. They also ran simulations with the Rockies flattened, and found that the stationary wave forced by the Rockies strongly cools the East Coast and warms Europe (i.e., flattening the Rockies reduces the temperature difference).
+Using observations and various simulations (with/without ocean heat transport, and varying the mixed layer depths), Seager et al showed that the seasonal absorption and release of heat by the ocean has a much larger impact on regional climates than heat transport by ocean currents. They also ran simulations with the Rockies flattened, and found that the stationary wave forced by the Rockies strongly cools the East Coast and warms Europe (i.e., flattening the Rockies reduces the temperature difference).
 
 Combining their results, Seager et al attributed roughly 50% of the winter temperature difference between eastern North America and Europe to seasonal ocean heat storage, and roughly 50% to quasi-stationary atmospheric waves, with heat transport by the Gulf Stream playing a minor role.
 
