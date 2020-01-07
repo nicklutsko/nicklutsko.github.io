@@ -8,6 +8,7 @@ date: 2020-01-07
 
 <img src="http://nicklutsko.github.io/notes/images/ERA_20c_North_Atlantic_comp.png" alt="ERA 20C TE" style="position:absolute; left:220px; width:450px;height:321px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 (Climatological DJF zonal anomalies in surface temperature in the North Atlantic sector, data taken from the ERA 20th Century reanalysis)
 
 It’s often said that Europe’s mild winters are due to the Gulf Stream, which carries heat northeast from the southeastern coast of the US towards western Europe. This idea sometimes leads to panic that Europe would get much colder if the Gulf Stream “shuts down” as a result of global warming. But, while the intuition that the Gulf Stream is responsible for Europe’s mild winters makes some sense, we also know that at mid-latitudes the atmosphere transports much more heat than the ocean does (see <a href="https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%282001%29058%3C0943%3ATPOTPE%3E2.0.CO%3B2">here</a> for a nice discussion). This makes it seem unlikely that the Gulf Stream is really so important for Europe’s winters.
@@ -27,7 +28,7 @@ Combining their results, Seager et al attributed roughly 50% of the winter tempe
 
 In 2011, <a href="https://www.nature.com/articles/nature09924">Kaspi and Schneider</a> presented at alternative explanation for why North America is anomalously cold: heating of the atmosphere by warm ocean waters generates Rossby waves which radiate westward, cooling land to the west of the warm waters. So the Gulf Stream could excite a wave that cools the east coast of North America.
 
-<img src="http://nicklutsko.github.io/notes/images/Kaspi_Schneider_RW.png" alt="Kaspi Schneider Figure" style="position:absolute; left:10px; width:875px;height:125px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/Kaspi_Schneider_RW.png" alt="Kaspi Schneider Figure" style="position:absolute; left:10px; width:800px;height:114px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Zonal surface temperature anomalies in idealized simulations from Kaspi and Schneider. The triangles are the “Gulf Stream” regions of anomalous warmth, and the rotation rate increases from 1xEarth to 8xEarth going left to right. Adapted from their Figure 2.)
 
@@ -39,7 +40,7 @@ The Seager et al study was published in 2002, and used relatively coarse models 
 
 In our recent paper on <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-19-0129.1">regional patterns of temperature variability</a>, we did some simulations with a modern, high resolution (~50km) climate model -- GFDL CM2.5-FLOR -- including one with the Rockies flattened (thanks to Jane Baldwin who actually ran the simulations). Our focus was on temperature variability, but these simulations can also be used to estimate the impact of the Rockies on the temperature difference across the North Atlantic. 
 
-<img src="http://nicklutsko.github.io/notes/images/North_Atlantic_comp.png" alt="FLOR simulations" style="position:absolute; left:130px; width:720px;height:300px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/North_Atlantic_comp.png" alt="FLOR simulations" style="position:absolute; left:115px; width:720px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Climatological zonal anomalies in DJF near-surface temperature from a control simulation with GFDL CM2.5-FLOR (a) and from a simulation in which the Rockies are flattened (b).)
 
