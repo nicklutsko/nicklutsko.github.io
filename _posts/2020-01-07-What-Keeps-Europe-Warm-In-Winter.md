@@ -28,7 +28,7 @@ Combining their results, Seager et al attributed roughly 50% of the winter tempe
 
 In 2011, <a href="https://www.nature.com/articles/nature09924">Kaspi and Schneider</a> presented at alternative explanation for why North America is anomalously cold: heating of the atmosphere by warm ocean waters generates Rossby waves which radiate westward, cooling land to the west of the warm waters. So the Gulf Stream could excite a wave that cools the east coast of North America.
 
-<img src="http://nicklutsko.github.io/notes/images/Kaspi_Schneider_RW.png" alt="Kaspi Schneider Figure" style="position:absolute; left:10px; width:800px;height:114px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/Kaspi_Schneider_RW.png" alt="Kaspi Schneider Figure" style="position:absolute; left:40px; width:800px;height:114px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Zonal surface temperature anomalies in idealized simulations from Kaspi and Schneider. The triangles are the “Gulf Stream” regions of anomalous warmth, and the rotation rate increases from 1xEarth to 8xEarth going left to right. Adapted from their Figure 2.)
 
@@ -41,7 +41,7 @@ The Seager et al study was published in 2002, and used relatively coarse models 
 In our recent paper on <a href="https://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-19-0129.1">regional patterns of temperature variability</a>, we did some simulations with a modern, high resolution (~50km) climate model -- GFDL CM2.5-FLOR -- including one with the Rockies flattened (thanks to Jane Baldwin who actually ran the simulations). Our focus was on temperature variability, but these simulations can also be used to estimate the impact of the Rockies on the temperature difference across the North Atlantic. 
 
 <img src="http://nicklutsko.github.io/notes/images/North_Atlantic_comp.png" alt="FLOR simulations" style="position:absolute; left:115px; width:720px;height:300px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Climatological zonal anomalies in DJF near-surface temperature from a control simulation with GFDL CM2.5-FLOR (a) and from a simulation in which the Rockies are flattened (b).)
 
 The plot above shows the near-surface temperatures over the Atlantic sector for a control simulation and for the no-Rockies simulation. In the control simulation the largest temperature difference between eastern North America and Western Europe is 17.7&#176;C, and this is reduced to 14.5&#176;C in the no-Rockies simulation, mostly due to warming of North America. Western Europe isn’t strongly affected in this model by flattening the Rockies.
