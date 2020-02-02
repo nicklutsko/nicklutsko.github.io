@@ -58,7 +58,7 @@ One way of thinking about this is that low sensitivity models are conservative a
 
 All this isn't to say that emergent constraints based on the historical record should be thrown out, and that we should focus on the cloud-based constraints. Cloud-based constraints rely on a major, untestable assumption: that the relationship between variability and the forced response is the same in the real world as it is in models. And clearly, the historical record is one of the most important pieces of data we have for constraining climate sensitivity. But we do need to think carefully about the implications of constraints based on comparing simulated and historical warming rates.
 
-(Thanks to <a href="https://cristi.web.illinois.edu/">Cristi Proistosescu</a> for helpful comments and thoughts.)
+(Thanks to <a href="https://cristi.web.illinois.edu/">Cristi Proistosescu</a> for insightful comments and thoughts.)
 
 
 
