@@ -10,12 +10,11 @@ On the other hand, "physical" emergent constraints, typically based on low cloud
 
 Something that's been bothering me then, is how we can reconcile what these two different approaches are telling us about Earth’s climate sensitivity. Is there something fundamentally wrong with one of them? Or are they consistent in some non-obvious way?
 
-At a first pass, the cloud-based emergent constraint framework is difficult to unpack. It seems pretty robust that we can take measures of low cloud variability -- let’s summarize them all by a quantity \(C\) -- and correlate them across models with climate sensitivity. So we have: 
+<p>At a first pass, the cloud-based emergent constraint framework is difficult to unpack. It seems pretty robust that we can take measures of low cloud variability -- let’s summarize them all by a quantity \(C\) -- and correlate them across models with climate sensitivity. So we have: 
 $$
 ECS = \alpha \times C.
 $$
-
-If we measure \(C\), and take \(\alpha\) from models, we can estimate Earth’s ECS. But it’s hard (impossible?) to say whether the co-efficient \(\alpha\) is the same for the real world as it is in models. If you are inclined to believe the historical warming rates more, you could just not believe in the model \(\alpha\). But it would be hard to prove this either way.
+If we measure \(C\), and take \(\alpha\) from models, we can estimate Earth’s ECS. But it’s hard (impossible?) to say whether the co-efficient \(\alpha\) is the same for the real world as it is in models. If you are inclined to believe the historical warming rates more, you could just not believe in the model \(\alpha\). But it would be hard to prove this either way.</p>
 
 Going back to the constraints based on historical warming rates, I do think there are at least 2 reasons to be suspicious:
 
@@ -24,19 +23,19 @@ Going back to the constraints based on historical warming rates, I do think ther
 Compare these simulations with two different coupled models of the 1880 to 2000 period:
 
 <img src="http://nicklutsko.github.io/notes/images/20thC_warming.png" alt="20C warming" style="position:absolute; left:240px; width:400px;height:266px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Both models do a good job of matching the obs, though the red curve does a bit better over the last few decades of the 20th century. Now look at the simulations from 2000 to 2014:
 
 <img src="http://nicklutsko.github.io/notes/images/21stC_warming.png" alt="21C warming" style="position:absolute; left:240px; width:400px;height:266px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 The blue curves (model 1) are MRI-ESM2.0, which has an ECS of 3.14C and a TCR of 1.56C, and the red curves (model 2) are CanESM5, which has an ECS of 5.66C and a TCR of 2.66C.  If we were picking which model is better based on their simulations of the 20th century we might pick CanESM5, but adding in the extra 15 years makes us want to choose MRI-ESM2.0.
 
 Looking at running 10 year trends, and adding in some more CMIP6 models, also shows how important the start of the 21st century is:
 
 <img src="http://nicklutsko.github.io/notes/images/ten_yr_trends.png" alt="ten year trends" style="position:absolute; left:240px; width:400px;height:266px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 The "hiatus" in warming over the first 15 years or so of the 21st century leads to a weak observed trend from the early 2000s onwards, which few models are able to reproduce. Emergent constraints based on historical warming rates, especially over shorter periods (like 1970 to present), will be strongly influenced by the hiatus, and will pick out the models that warm the least from ~2000-2015. These are likely to be low sensitivity models, since we think the aerosol forcing was weak over that period. But we also know that models struggle to simulate the correct SST patterns during the hiatus, so these models might be getting the right answer for the wrong reasons. If we want to believe the low sensitivity models, we need to be confident that they are accurately reproducing the hiatus, and for the right reasons.
 
@@ -49,7 +48,7 @@ More speculatively, another reason comparing with the historical record favors l
 To offset a large TCR, a model needs strong aerosol forcing to match the historical record. Not only that, but the aerosol forcing also has to have the right timing for the model to match the obs. Generally, we see aerosol forcing flattening out over the past few decades, and this flattening out has to happen at the right time for a high sensitivity model. Getting the timing of the aerosol forcing right is less important in a low sensitivity model:
 
 <img src="http://nicklutsko.github.io/notes/images/ten_yr_trends.png" alt="ten year trends" style="position:absolute; left:240px; width:400px;height:266px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 (Notice that in CanESM5 the cooling in the aerosol-only run flattens out around 1998)
 
