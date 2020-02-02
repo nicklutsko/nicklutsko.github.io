@@ -10,7 +10,7 @@ On the other hand, "physical" emergent constraints, typically based on low cloud
 
 Something that's been bothering me then, is how we can reconcile what these two different approaches are telling us about Earth’s climate sensitivity. Is there something fundamentally wrong with one of these approaches? Or are they consistent in some non-obvious way?
 
-<p>At a first pass, the cloud-based emergent constraint framework is difficult to unpack. It seems pretty robust that we can take measures of low cloud variability -- let’s summarize them all by a quantity \(C\) -- and correlate them across models with climate sensitivity. So we have: 
+<p>At a first pass, the cloud-based emergent constraint framework is difficult to unpack. It seems pretty robust that we can take measures of low cloud variability -- let’s summarize them all by a quantity \(C\) -- and correlate them across models with climate sensitivity (this is something I've <a href="https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-17-0736.1">worked on</a>). So we have: 
 $$
 ECS = \alpha \times C.
 $$
@@ -45,7 +45,7 @@ The "hiatus" in warming over the first 15 years or so of the 21st century led to
 
 More speculatively, another reason comparing with the historical record favors low sensitivity models is that you have to get more things right for a high sensitivity model to match the historical record.
 
-To offset a large TCR, a model needs strong aerosol forcing to match the historical record. Not only that, but the aerosol forcing also has to have the right timing for the model to match the obs. Generally, we see aerosol forcing flattening out over the past few decades, and this flattening out has to happen at the right time for a high sensitivity model. Getting the timing of the aerosol forcing right is less important in a low sensitivity model:
+To offset a large TCR, a model needs strong aerosol forcing to match the historical record. Not only that, but the aerosol forcing also has to have the right timing for the model to match the obs. The aerosol forcing seems to have flattened out over the past few decades, and this flattening out has to happen at the right time for a high sensitivity model. Getting the correct timing for this flattening is less important in a low sensitivity model:
 
 <img src="http://nicklutsko.github.io/notes/images/aer_GHG_comp.png" alt="ten year trends" style="position:absolute; left:280px; width:300px;height:400px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -54,9 +54,9 @@ To offset a large TCR, a model needs strong aerosol forcing to match the histori
 
 Another factor is internal variability. If you believe that more sensitive models have larger variability (as argued <a href="https://www.nature.com/articles/s41558-019-0527-4">here</a>, for example), then the internal variability has to have the right phasing, or the model will always struggle to reproduce the historical record. A lower sensitivity model, with less internal variability, won't stray as far from the historical record.
 
-One way of thinking about this is that low sensitivity models are conservative and higher sensitivity models are "boom-or-bust", or in terms of a bias-variance trade-off. When comparing across an ensemble, the outliers are likely to be high sensitivity models, and constraints based on warming trends will favor the lower end, the more conservative models.
+One way of thinking about this is that low sensitivity models are conservative and higher sensitivity models are "boom-or-bust", or in terms of a bias-variance trade-off: a collection of high sensitivity models will probably have more variance, and larger biases. When comparing across an ensemble, the outliers are likely to be high sensitivity models, and constraints based on warming trends will favor the lower end, the more conservative models.
 
-All this isn’t to say that emergent constraints based on the historical record should be thrown out, and that we should focus on the cloud-based constraints. Cloud-based constraints rely on a major, untestable assumption: that the relationship between variability and the forced response is the same in the real world as it is in models. And clearly, the historical record is one of the most important pieces of data we have for constraining climate sensitivity. But we do need to think carefully about the implications of constraints based on comparing simulated and historical warming rates.
+All this isn't to say that emergent constraints based on the historical record should be thrown out, and that we should focus on the cloud-based constraints. Cloud-based constraints rely on a major, untestable assumption: that the relationship between variability and the forced response is the same in the real world as it is in models. And clearly, the historical record is one of the most important pieces of data we have for constraining climate sensitivity. But we do need to think carefully about the implications of constraints based on comparing simulated and historical warming rates.
 
 (Thanks to <a href="https://cristi.web.illinois.edu/">Cristi Proistosescu</a> for helpful comments and thoughts.)
 
