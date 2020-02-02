@@ -19,7 +19,7 @@ If we measure \(C\), and take \(\alpha\) from models, we can estimate Earth’s 
 
 Going back to the constraints based on historical warming rates, I do think there are at least 2 reasons to be suspicious:
 
-<h3>Dependence on end point (i.e., the hiatus problem)</h3>
+<h3>1. Dependence on end point (i.e., the hiatus problem)</h3>
 
 Compare these simulations with two different coupled models of the 1880 to 2000 period:
 
@@ -42,7 +42,7 @@ The "hiatus" in warming over the first 15 years or so of the 21st century leads 
 
 (Aside: the models have weak trends, or even cooling trends, for end years in much of the 90s. Looking at the temperature curves, it seems like many of the models experience a strong cooling in response to the 1991 Pinatubo eruption, much stronger than was observed.)
 
-<h3>It’s harder to build a high sensitivity model that matches the historical record</h3>
+<h3>2. It’s harder to build a high sensitivity model that matches the historical record</h3>
 
 More speculatively, another reason comparing with the historical record favors low sensitivity models is that you have to get more things right for a high sensitivity model to match the historical record.
 
