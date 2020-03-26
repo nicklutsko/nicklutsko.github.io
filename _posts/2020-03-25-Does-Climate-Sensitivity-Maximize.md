@@ -12,6 +12,7 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 
 <img src="http://nicklutsko.github.io/notes/images/Schneider_figure.png" alt="Schneider break-up" style="position:absolute; left:80px; width:771px;height:255px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 (Modified version of Figure 3 from Schneider et al.)
 
 <p>This is a worst-case scenario for what a very high climate sensitivity world would look like. The paper got quite a bit of pushback, but I think it was mostly meant as a proof of concept for their model, and the 1200ppm level shouldn't be taken too seriously. Paleoclimate data suggest that Earth's climate has been stable in the past with higher levels of CO\(_2\), though these come with their own caveats.</p>
