@@ -4,38 +4,40 @@ title: "Does Climate Sensitivity Have A Maximum At Around 310K?"
 date: 2020-03-25
 ---
 
-People outside of climate science often worry as much about the high end of climate sensitivity estimates as they do about the mean of the estimates. As discussed by Wagner and Weitzman in <a href="https://www.amazon.com/Climate-Shock-Economic-Consequences-Hotter/dp/0691159475">Climate Shock</a>, risk is the likelihood of something happening multiplied by the damage if that thing happens. So the warm tail of the climate sensitivity distribution accounts for a lot of climate risk, since these scenarios would involve huge damages. Constraining the high end of climate sensitivity is hard, but maybe this is something we should be putting more effort into? (Carbon cycle feedbacks which would also lead to large warmings, like melting methane clathrates, are another issue.)
+People outside of climate science often worry as much about the high end of climate sensitivity estimates as they do about the mean of the estimates. As Wagner and Weitzman write in <a href="https://www.amazon.com/Climate-Shock-Economic-Consequences-Hotter/dp/0691159475">Climate Shock</a>, risk is the likelihood of something happening multiplied by the damage if that thing happens. So the warm tail of the climate sensitivity distribution accounts for a lot of climate risk, since these scenarios would involve huge damages, even if they're quite unlikely. Constraining the high end of climate sensitivity is hard, is something we should maybe be putting more effort into. (Carbon cycle feedbacks which would also lead to large warmings, like melting methane clathrates, are another issue.)
 
-A recent study related to the issue of the high end of climate sensitivity is <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a> who used an idealized "climate model", consisting of a deep convection box, like what is seen over the warm pool in the western Pacific, coupled to a high resolution (LES) box, representing the low cloud decks of the east Pacific. Low clouds cool the planet by reflecting solar radiation, and are the main source of uncertainty in climate sensitivity, with high climate sensitivity models showing reductions in low cloud cover with warming, and low climate sensitivity models showing increases in low cloud cover.
+A recent study related to the issue of the high end of climate sensitivity is <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a>, who used an idealized "climate model", consisting of a deep convection box, like what is seen over the warm pool in the western Pacific, coupled to a high resolution (LES) box, representing the low cloud decks of the east Pacific. Low clouds cool the planet by reflecting solar radiation, and are the main source of uncertainty in climate sensitivity, with high climate sensitivity models showing reductions in low cloud cover with warming, and low climate sensitivity models showing increases in low cloud cover.
 
-Schneider et al's LES model produces very detailed (and, by implication, realistic) simulations of low clouds, and they explored how low clouds change as atmospheric CO2 concentrations are ramped up. Worryingly, they found that the low clouds in their model became unstable and dissipated when the CO2 concentration was increased to 1200ppm, leading to a jump of about 8&#176;C in the model’s climate sensitivity:
+Schneider et al's LES model produces very detailed (and, by implication, realistic) simulations of low clouds, and they explored how the model's low clouds changed as the CO\(_2\) concentration is ramped up. Worryingly, the low clouds became unstable and dissipated when the CO\(_2\) concentration was increased to 1200ppm, leading to a jump of about 8&#176;C in the model’s climate sensitivity:
 
 <img src="http://nicklutsko.github.io/notes/images/Schneider_figure.png" alt="Schneider break-up" style="position:absolute; left:240px; width:296px;height:450px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Modified version of Figure 3 from Schneider et al.)
 
 
-This is a worst-case scenario for what a very high climate sensitivity world would look like. The paper got quite a bit of pushback, but I think it was mostly meant as a proof of concept for their model, and the 1200ppm level shouldn't be taken too seriously. Paleoclimate data suggest that Earth's climate has been stable in the past with higher levels of CO$_2$, though these come with their own caveats.
+This is a worst-case scenario for what a very high climate sensitivity world would look like. The paper got quite a bit of pushback, but I think it was mostly meant as a proof of concept for their model, and the 1200ppm level shouldn't be taken too seriously. Paleoclimate data suggest that Earth's climate has been stable in the past with higher levels of CO\(_2\), though these come with their own caveats.
 
-What’s interesting is that the climate sensitivity jump came at a tropical sea-surface temperature of around 305K. A number of other studies looking at climate sensitivity across a large range of warmings (CO2 increases or increases in solar radiation) have also found maxima somewhere between 305 and 320K: (please let me know about other studies I've missed):
-
+What’s interesting is that the climate sensitivity jump came at a tropical sea-surface temperature of around 305K. A number of other studies looking at climate sensitivity across a large range of warmings (CO\(_2\) increases or increases in solar radiation) have also found maxima somewhere between 305 and 320K:
+ 
 | Study | Temperature of maximum ECS | Model  |
 |:-------------:|:-------------:|:-----:|
-| <a href="https://www.nature.com/articles/nature12827">Leconte et al. (2013)</a>  | $\sim$310K | LMD GCM |
-| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL058118">Mauraner et al. (2013)</a>  | $\sim$313K  |   1D RCE model (based on ECHAM6) |
-| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023302">Wolf and Toon (2015)</a> | $\sim$310 |    CAM4 |
+| <a href="https://www.nature.com/articles/nature12827">Leconte et al. (2013)</a>  | 310K | LMD GCM |
+| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL058118">Mauraner et al. (2013)</a>  | 313K  |   1D RCE model (based on ECHAM6) |
+| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023302">Wolf and Toon (2015)</a> | 310 |    CAM4 |
 | <a href="https://www.nature.com/articles/ncomms10627#ref-CR9">Popp et al. (2016)</a> | 320K |  Modified ECHAM6 |
 | <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029262">Wolf et al. (2018)</a> | 320K |  CESM1 |
 | <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a> | 305K  | Two-box/LES model |
 | <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-19-0682.1?mobileUi=0">Romps (2020)</a> | 310K   |    DAM RCE model |
 
-<a href="https://www.nature.com/articles/s41561-019-0310-1">Caballero and Huber (2013)</a> found the climate sensitivity maximum at around 299K in their Paleogene simulations, but this could be due to the way they set-up their model to make it match the Paleogene. There is also some <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069243">paleo evidence</a> of higher climate sensitivity in warmer climates. Also, note that the the temperatures of maximum ECS mean different things in these studies: some are global-means and some are representative tropical values from RCE simulations.
+(Please let me know about other studies I've missed. Also, note that the temperatures of maximum ECS mean different things in these studies: some are global-means and some are representative tropical values from RCE simulations.)
 
-The reasons given for these jumps are often, but not always similar. First, the radiative forcing from doubling CO2 increases at higher and higher CO2 concentrations, but doesn’t seem to have a maximum in this temperature range. Instead, its something about the feedbacks which causes the maximum:
+<a href="https://www.nature.com/articles/s41561-019-0310-1">Caballero and Huber (2013)</a> found a climate sensitivity maximum at around 299K in simulations of the Paleogene, but this could be due to the way they set-up their model to make it match the Paleogene period. There is also some <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069243">paleo evidence</a> of higher climate sensitivity in warmer climates. 
+
+The reasons for these maxima seem to do with changes in climate feedbacks, rather than peaks in radiative forcing. The radiative forcing from doubling CO\(_2\) increases at higher and higher CO\(_2\) concentrations, but doesn't seem to have a maximum in this temperature range:
 
 <img src="http://nicklutsko.github.io/notes/images/Romps_figure.png" alt="Romps sensitivity" style="position:absolute; left:240px; width:531px;height:180px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-(Figure 7 from Romps (2020)
+(Figure 7 from Romps (2020))
 
 A number of reasons have been proposed for this maxima:
 <ul>
