@@ -51,7 +51,7 @@ Various reasons have been given for why the climate feedback has a minimum at wa
 
 Testing these different mechanisms further seems worth doing, especially with higher resolution global models (which can resolve low clouds), and with models that accurately simulate the <a href="https://atmos.washington.edu/~dennis/Gasparini_et_al-2019-JAMES.pdf">radiative effects of high clouds</a>. I am also curious what causes the sensitivity maximum in the DAM RCE simulations, which won't have low cloud decks.
 
-For strong enough forcing, Earth's climate would probably runaway into a moist greenhouse state, like Venus' atmosphere. But it seems that even before then, there would be a peak in climate sensitivity for a global-mean temperature near 310K (i.e., near 40&#176;C), possibly associated with a rapid break-up of the low cloud decks and/or an increase in high cloud cover (I don't understand the water vapor feedback mechanism very well). This might actually be good news, implying that we still have a ways to go before hitting a dangerous climate sensitivity peak of 6+&#176;C.
+For strong enough forcing, Earth's climate would probably runaway into a moist greenhouse state, like Venus' atmosphere. But it seems that even before then, there would be a peak in climate sensitivity for a global-mean temperature near 310K (i.e., near 40&#176;C), possibly associated with a rapid break-up of the low cloud decks and/or an increase in high cloud cover (I don't understand the water vapor feedback mechanism very well). This might actually be good news, as we might still have a ways to go before hitting a dangerous climate sensitivity peak of 6+&#176;C.
 
 
 
