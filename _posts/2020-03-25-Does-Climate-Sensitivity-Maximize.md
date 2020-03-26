@@ -10,8 +10,8 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 
 Schneider et al's LES model produces very detailed (and, by implication, realistic) simulations of low clouds, and they explored how the model's low clouds changed as the CO\(_2\) concentration is ramped up. Worryingly, the low clouds became unstable and dissipated when the CO\(_2\) concentration was increased to 1200ppm, leading to a jump of about 8&#176;C in the model’s climate sensitivity:
 
-<img src="http://nicklutsko.github.io/notes/images/Schneider_figure.png" alt="Schneider break-up" style="position:absolute; left:240px; width:771px;height:255px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/Schneider_figure.png" alt="Schneider break-up" style="position:absolute; left:80px; width:771px;height:255px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Modified version of Figure 3 from Schneider et al.)
 
 
@@ -36,17 +36,17 @@ What’s interesting is that the climate sensitivity jump came at a tropical sea
 
 The reasons for these maxima seem to do with changes in climate feedbacks, rather than peaks in radiative forcing. The radiative forcing from doubling CO\(_2\) increases at higher and higher CO\(_2\) concentrations, but doesn't seem to have a maximum in this temperature range:
 
-<img src="http://nicklutsko.github.io/notes/images/Romps_figure.png" alt="Romps sensitivity" style="position:absolute; left:240px; width:1062px;height:360px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<img src="http://nicklutsko.github.io/notes/images/Romps_figure.png" alt="Romps sensitivity" style="position:absolute; left:100px; width:708px;height:240px;" class="center">
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Figure 7 from Romps (2020))
 
-A number of reasons have been proposed for this maxima:
+Various reasons have been given for minima in climate feedback (leading to a maximum in climate sensitivity):
 <ul>
-<li>The jump in Schneider et al. comes from the break-up of the low clouds as a result of various processes. Wolf and Toon (2013) and Wolf et al. (2018) both also attribute their sensitivity maxima to low cloud break-ups. [Caballero and Huber (2010) also seem to attribute their climate sensitivity maximum to a decrease in ltropical cover, as well as cloud cover over the Southern Ocean.)</li>
-<li>Popp et al also attribute their jump to clouds, but they focus on high clouds, showing that in their model deep convection spreads out into the subtropics, leading at first to a positive long-wave cloud feedback, which is eventually canceled out by a negative short-wave cloud feedback at warm enough temperatures.</li> 
-<li>Mauraner et al ignore clouds in their analysis, and attribute the high sensitivities to a strengthening water vapor feedback as the troposphere deepens, which is then reduced as moist adiabat becomes increasingly steep and the amount of mass in the cold tropopause region diminishes. This weakens the water vapor feedback relative to temperature feedback at very high temperatures and results in a decreasing ECS.</li> 
-<li>Russell et al attribute their maximum to both cloud feedbacks (increase in high clouds and decrease in low clouds) and increasing water vapor feedback.</li>
-<li>Caballero and Huber attribute their climate sensitivity maximum to a decrease in cloud cover throughout the tropics (where the reduction in low cloud cover presumably wins out), as well as a decrease cloud cover over the Southern Ocean.</li>
+<li>The jump in Schneider et al. clearly comes from the break-up of the low clouds, which is a result of various processes. This break-up can only happen once, leading to a climate sensitivity maximum at that temperature. Wolf and Toon (2013) and Wolf et al. (2018) also attribute their sensitivity maxima to low cloud break-ups.</li>
+<li>Popp et al. attribute their jump to clouds, but they focus on high clouds, showing that in their model deep convection spreads out into the subtropics, leading at first to a positive long-wave cloud feedback, which is eventually canceled out by a negative short-wave (high) cloud feedback at warm enough temperatures.</li> 
+<li>Mauraner et al. ignore clouds in their analysis, and attribute the high sensitivities to a strengthening water vapor feedback as the troposphere deepens, which is then reduced as the moist adiabat becomes increasingly steep and the amount of mass in the cold tropopause region diminishes. This weakens the water vapor feedback relative to temperature feedback at high temperatures and results in a decreasing ECS.</li> 
+<li>Russell et al. find that both cloud feedbacks (increases in high clouds and decreases in low clouds) and the water vapor feedback contribute to their sensitivity maximum.</li>
+<li>Caballero and Huber show that their climate sensitivity maximum is associated with a decrease in cloud cover throughout the tropics (where the reduction in low cloud cover presumably wins out), as well as with a decrease in cloud cover over the Southern Ocean.</li>
 </ul>
 
 For strong enough forcing, Earth's climate would probably runaway into a moist greenhouse, like Venus' atmosphere. But it seems that even before then, there would be a peak in climate sensitivity for global-mean temperature near 310K (i.e., near 40&#176;C), possibly associated with a rapid break-up of the low cloud decks and/or an increase in high cloud cover (I don't understand the water vapor feedback mechanism very well). This might actually be good news, implying that we still have a ways to go before hitting a catastrophic climate sensitivity peak of 6+&#176;C.
