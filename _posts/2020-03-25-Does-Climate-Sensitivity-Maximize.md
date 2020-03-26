@@ -10,7 +10,7 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 
 Schneider et al's LES model produces very detailed (and, by implication, realistic) simulations of low clouds, and they explored how the model's low clouds changed as the CO\(_2\) concentration is ramped up. Worryingly, the low clouds became unstable and dissipated when the CO\(_2\) concentration was increased to 1200ppm, leading to a jump of about 8&#176;C in the model’s climate sensitivity:
 
-<img src="http://nicklutsko.github.io/notes/images/Schneider_figure.png" alt="Schneider break-up" style="position:absolute; left:240px; width:296px;height:450px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/Schneider_figure.png" alt="Schneider break-up" style="position:absolute; left:240px; width:771px;height:255px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Modified version of Figure 3 from Schneider et al.)
 
@@ -29,13 +29,14 @@ What’s interesting is that the climate sensitivity jump came at a tropical sea
 | <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a> | 305K  | Two-box/LES model |
 | <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-19-0682.1?mobileUi=0">Romps (2020)</a> | 310K   |    DAM RCE model |
 
+
 (Please let me know about other studies I've missed. Also, note that the temperatures of maximum ECS mean different things in these studies: some are global-means and some are representative tropical values from RCE simulations.)
 
 <a href="https://www.nature.com/articles/s41561-019-0310-1">Caballero and Huber (2013)</a> found a climate sensitivity maximum at around 299K in simulations of the Paleogene, but this could be due to the way they set-up their model to make it match the Paleogene period. There is also some <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069243">paleo evidence</a> of higher climate sensitivity in warmer climates. 
 
 The reasons for these maxima seem to do with changes in climate feedbacks, rather than peaks in radiative forcing. The radiative forcing from doubling CO\(_2\) increases at higher and higher CO\(_2\) concentrations, but doesn't seem to have a maximum in this temperature range:
 
-<img src="http://nicklutsko.github.io/notes/images/Romps_figure.png" alt="Romps sensitivity" style="position:absolute; left:240px; width:531px;height:180px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/Romps_figure.png" alt="Romps sensitivity" style="position:absolute; left:240px; width:1062px;height:360px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 (Figure 7 from Romps (2020))
 
@@ -48,7 +49,7 @@ A number of reasons have been proposed for this maxima:
 <li>Caballero and Huber attribute their climate sensitivity maximum to a decrease in cloud cover throughout the tropics (where the reduction in low cloud cover presumably wins out), as well as a decrease cloud cover over the Southern Ocean.</li>
 </ul>
 
-For strong enough forcing, Earth's climate would probably runaway into a moist greenhouse, like Venus' atmosphere. But it seems like even before then, there would be a peak in climate sensitivity for global-mean temperature near 310K (i.e., near 40&#176;C), possible associated with a rapid break-up of the low cloud decks and/or an increase in high cloud cover (I don't understand the water vapor feedback mechanism very well). This might actually be good news, implying that we still have a ways to go before hitting a climate sensitivity peak of catastropic warming of 6+&#176;C of warming.
+For strong enough forcing, Earth's climate would probably runaway into a moist greenhouse, like Venus' atmosphere. But it seems that even before then, there would be a peak in climate sensitivity for global-mean temperature near 310K (i.e., near 40&#176;C), possibly associated with a rapid break-up of the low cloud decks and/or an increase in high cloud cover (I don't understand the water vapor feedback mechanism very well). This might actually be good news, implying that we still have a ways to go before hitting a catastrophic climate sensitivity peak of 6+&#176;C.
 
 
 
