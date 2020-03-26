@@ -19,16 +19,16 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 
 <p>What’s interesting is that the climate sensitivity jump came at a tropical sea-surface temperature of around 305K. A number of other studies looking at climate sensitivity across a large range of warmings (CO\(_2\) increases or increases in solar insolation) have also found maxima somewhere between 305 and 320K:</p>
  
-| Study | Temperature of maximum ECS | Model  |
-|:-------------:|:-------------:|:-----:|
-| <a href="https://www.nature.com/articles/nature12827">Leconte et al. (2013)</a>  | 310K | LMD GCM |
-| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL058118">Mauraner et al. (2013)</a>  | 313K  |   1D RCE model (based on ECHAM6) |
-| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL056755">Russell et al. (2013)</a>  | 313K  |   GISS‐AOM |
-| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023302">Wolf and Toon (2015)</a> | 310 |    CAM4 |
-| <a href="https://www.nature.com/articles/ncomms10627#ref-CR9">Popp et al. (2016)</a> | 320K |  Modified ECHAM6 |
-| <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029262">Wolf et al. (2018)</a> | 320K |  CESM1 |
-| <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a> | 305K  | Two-box/LES model |
-| <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-19-0682.1?mobileUi=0">Romps (2020)</a> | 310K   |    DAM RCE model |
+| Study | Temperature of maximum ECS | Maximum ECS | Model  |
+|:-------------:|:-------------:|:-----:|:-----:|
+| <a href="https://www.nature.com/articles/nature12827">Leconte et al. (2013)</a>  | 310K | 7K | LMD GCM |
+| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL058118">Mauraner et al. (2013)</a>  | 313K  |  6K | 1D RCE model (based on ECHAM6) |
+| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL056755">Russell et al. (2013)</a>  | 313K | 8K |   GISS‐AOM |
+| <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD023302">Wolf and Toon (2015)</a> | 310 | 8K |  CAM4 |
+| <a href="https://www.nature.com/articles/ncomms10627#ref-CR9">Popp et al. (2016)</a> | 320K |  6.5K | Modified ECHAM6 |
+| <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JD029262">Wolf et al. (2018)</a> | 320K | 15K | CESM1 |
+| <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a> | 305K  | 8K | Two-box/LES model |
+| <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-19-0682.1?mobileUi=0">Romps (2020)</a> | 310K   | 5.5K |   DAM RCE model |
 
 <p><a href="https://www.nature.com/articles/s41561-019-0310-1">Caballero and Huber (2013)</a> found a climate sensitivity maximum at around 299K in simulations of the Paleogene, but this could be due to the way they set-up their model to make it match the Paleogene period. There is also some evidence from <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069243">paleoclimate data </a> of higher climate sensitivity in warmer climates. And in an early study, <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JD005776">Hansen et al. (2005)</a> found a jump in climate sensitivity at 8xCO\(_2\).</p>
 
