@@ -19,8 +19,8 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 
 <p>What’s interesting is that the climate sensitivity jump came at a tropical sea-surface temperature of around 305K. A number of other studies looking at climate sensitivity across a large range of warmings (CO\(_2\) increases or increases in solar insolation) have also found maxima somewhere between 305 and 320K:</p>
  
-| Study | Temperature of maximum ECS | Maximum ECS | Model  |
-|:-------------:|:-------------:|:-----:|:-----:|
+| Study | Temperature of maximum ECS | Maximum ECSTemperature of maximum ECS | Model  |
+|:-------------:|:-------------:|:----------:|:-----:|
 | <a href="https://www.nature.com/articles/nature12827">Leconte et al. (2013)</a>  | 310K | 7K | LMD GCM |
 | <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL058118">Mauraner et al. (2013)</a>  | 313K  |  6K | 1D RCE model (based on ECHAM6) |
 | <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013GL056755">Russell et al. (2013)</a>  | 313K | 8K |   GISS‐AOM |
@@ -49,7 +49,7 @@ Various reasons have been given for why the climate feedback has a minimum at wa
 <li>Caballero and Huber show that their climate sensitivity maximum is associated with a decrease in cloud cover throughout the tropics (where the reduction in low cloud cover presumably wins out), as well as with a decrease in cloud cover over the Southern Ocean.</li>
 </ul>
 
-Testing these different mechanisms further seems worth doing, especially with higher resolution global models (which can resolve low clouds), and with models that accurately simulate the <a href="https://atmos.washington.edu/~dennis/Gasparini_et_al-2019-JAMES.pdf">radiative effects of high clouds</a>.
+Testing these different mechanisms further seems worth doing, especially with higher resolution global models (which can resolve low clouds), and with models that accurately simulate the <a href="https://atmos.washington.edu/~dennis/Gasparini_et_al-2019-JAMES.pdf">radiative effects of high clouds</a>. I am also curious what causes the high sensitivity in the DAM RCE model, which won't have low cloud decks.
 
 For strong enough forcing, Earth's climate would probably runaway into a moist greenhouse state, like Venus' atmosphere. But it seems that even before then, there would be a peak in climate sensitivity for a global-mean temperature near 310K (i.e., near 40&#176;C), possibly associated with a rapid break-up of the low cloud decks and/or an increase in high cloud cover (I don't understand the water vapor feedback mechanism very well). This might actually be good news, implying that we still have a ways to go before hitting a dangerous climate sensitivity peak of 6+&#176;C.
 
