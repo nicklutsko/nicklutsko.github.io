@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Does Climate Sensitivity Have A Maximum At Around 310K?"
+title: "Does Climate Sensitivity Maximize Near 310K?"
 date: 2020-03-25
 ---
 
