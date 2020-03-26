@@ -15,9 +15,9 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 
 (Modified version of Figure 3 from Schneider et al.)
 
-<p>This is a worst-case scenario for what a very high climate sensitivity world would look like, with global-mean temperature potentially increasing by more than 4&#176;C over the next century. The paper got quite a bit of pushback, but I think it was mostly meant as a proof of concept for their model, and the 1200ppm level shouldn't be taken too seriously. Paleoclimate data suggest that Earth's climate has been stable in the past with higher levels of CO\(_2\), though these come with their own caveats.</p>
+<p>This is a worst-case scenario for what a very high climate sensitivity world would look. The paper got quite a bit of pushback, but I think it was mostly meant as a proof of concept for their model, and the 1200ppm level shouldn't be taken too seriously. Paleoclimate data suggest that Earth's climate has been stable in the past with higher levels of CO\(_2\), though these come with their own caveats.</p>
 
-<p>What’s interesting is that the climate sensitivity jump came at a tropical sea-surface temperature of around 305K. A number of other studies looking at climate sensitivity across a large range of warmings (CO\(_2\) increases or increases in solar insolation) have also found maxima somewhere between 305 and 320K:</p>
+<p>What’s interesting is that the jump came at a tropical sea-surface temperature of around 305K. A number of other studies looking at climate sensitivity across a large range of warmings (CO\(_2\) increases or increases in solar insolation) have also found maxima somewhere between 305 and 320K:</p>
  
 | Study | Maximum ECS | Temperature of maximum ECS | Model  |
 |:-------------:|:-------------:|:---------:|:-----:|
@@ -30,11 +30,11 @@ A recent study related to the issue of the high end of climate sensitivity is <a
 | <a href="https://www.nature.com/articles/s41561-019-0310-1">Schneider et al. (2019)</a> | 8K  | 305K | Two-box/LES model |
 | <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-19-0682.1?mobileUi=0">Romps (2020)</a> | 5.5K   | 310K |   DAM RCE model |
 
-<p><a href="https://www.nature.com/articles/s41561-019-0310-1">Caballero and Huber (2013)</a> found a climate sensitivity maximum at around 299K in simulations of the Paleogene, but this could be due to the way they set-up their model to make it match the Paleogene period. There is also some evidence from <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069243">paleoclimate data </a> of higher climate sensitivity in warmer climates. And in an early study, <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JD005776">Hansen et al. (2005)</a> found a jump in climate sensitivity at 8xCO\(_2\).</p>
+<p><a href="https://www.nature.com/articles/s41561-019-0310-1">Caballero and Huber (2013)</a> found a climate sensitivity maximum at a lower global-mean temperature of 299K in simulations of the Paleogene, but this could be due to the way they set-up their model to make it match the Paleogene period. There is also some evidence from <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069243">paleoclimate data </a> of higher climate sensitivity in warmer climates. And in an early study, <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JD005776">Hansen et al. (2005)</a> found a jump in climate sensitivity at 8xCO\(_2\).</p>
 
 (Please let me know about other studies I've missed. Also, note that the temperatures of maximum ECS mean different things in these studies: some are global-means and some are representative tropical values from RCE simulations.)
 
-<p>These maxima seem to be caused by minima in climate feedbacks, rather than by peaks in radiative forcing. The radiative forcing from doubling CO\(_2\) increases at higher and higher CO\(_2\) concentrations, but doesn't seem to have a maximum in this temperature range:</p>
+<p>These maxima seem to be caused by minima in climate feedbacks, rather than by peaks in radiative forcing. The radiative forcing from doubling CO\(_2\) increases at higher and higher CO\(_2\) concentrations, but doesn't have a maximum in this temperature range:</p>
 
 <img src="http://nicklutsko.github.io/notes/images/Romps_figure.png" alt="Romps sensitivity" style="position:absolute; left:100px; width:708px;height:240px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
