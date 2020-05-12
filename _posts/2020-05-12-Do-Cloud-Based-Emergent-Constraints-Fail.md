@@ -19,7 +19,7 @@ I like this approach for several reasons: it hones in on the most relevant regio
 <img src="http://nicklutsko.github.io/notes/images/CMIP5_emergent_constraint.png" alt="CMIP5 emergent constraint" style="position:absolute; left:280px; width:400px;height:300px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-Interestingly, the ECS estimate is lower than most previous cloud-based emergent constraints, though this is just a quick estimate. Nevertheless, so far the regional emergent constraint seems promising. But one of the criteria <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0631.1">Caldwell et al.</a> use to define a "credible" emergent constraint is that it holds in multiple ensembles. So how does the regional emergent constraint do in CMIP6? Not well...
+Interestingly, the ECS estimate is lower than most previous cloud-based emergent constraints, though this is a quick and dirty estimate. Nevertheless, so far the regional emergent constraint seems promising. But one of the criteria <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0631.1">Caldwell et al.</a> use to define a "credible" emergent constraint is that it holds in multiple ensembles. So how does the regional emergent constraint do in CMIP6? Not well...
 
 <img src="http://nicklutsko.github.io/notes/images/CMIP6_Box_plots_CRE_r2.png" alt="CMIP6 regional" style="position:absolute; left:160px; width:600px;height:500px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
