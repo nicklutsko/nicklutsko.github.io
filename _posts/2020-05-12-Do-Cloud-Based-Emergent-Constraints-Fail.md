@@ -11,7 +11,7 @@ In a <a href="https://nicklutsko.github.io/blog/2020/02/02/Historical-Warming-Cl
 I like this approach for several reasons: it hones in on the most relevant regions for developing emergent constraints, and if there are multiple "hot-spot" regions then the climate sensitivity estimates produced by each region can be checked against the others, providing a consistency check. It would be exciting if distinct climate regimes, like the subtropical north Pacific and the Southern Ocean, gave similar estimates of ECS. 
 
 <p>In CMIP5 this regional constraint works well, consistent with other cloud-based emergent constraints. The figure below shows \(r^2\) values for correlations across models between  \(\alpha_{loc}\) and equilibrium climate sensitivity (ECS) for 18 CMIP5 models. The \(\alpha_{loc}\) values are estimated from historical simulations, and the top panel shows results using monthly data and the bottom panel shows results using annual-mean data.</p> 
-<img src="http://nicklutsko.github.io/notes/images/Box_plots_CRE_r2.png" alt="CMIP5 regional" style="position:absolute; left:180px; width:600px;height:500px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/Box_plots_CRE_r2.png" alt="CMIP5 regional" style="position:absolute; left:160px; width:600px;height:500px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <p>A number of "hot-spots" show-up, mostly on the edges of subtropical stratocumulus regions, with the most prominent hot-spot in the northeast Pacific, roughly over Hawaii. Combining surface temperatures from the ERA-Interim reanalysis and net CRE data from CERES, I have a rough emergent constraint on ECS based on the average value of monthly \(\alpha_{loc}\) in the region outlined by the red boxes.</p>
@@ -21,7 +21,7 @@ I like this approach for several reasons: it hones in on the most relevant regio
 
 This seems promising, but one of the criteria <a href="https://journals.ametsoc.org/doi/10.1175/JCLI-D-17-0631.1">Caldwell et al.</a> use to define a "credible" emergent constraint is that it holds in multiple ensembles. So how does the regional emergent constraint do in CMIP6? Not well...
 
-<img src="http://nicklutsko.github.io/notes/images/CMIP6_Box_plots_CRE_r2.png" alt="CMIP6 regional" style="position:absolute; left:180px; width:600px;height:500px;" class="center">
+<img src="http://nicklutsko.github.io/notes/images/CMIP6_Box_plots_CRE_r2.png" alt="CMIP6 regional" style="position:absolute; left:160px; width:600px;height:500px;" class="center">
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Apart from some hints in the Southern Ocean, there don't seem to be any hot-spot regions in which local cloud fluctuations on monthly or annual time-scales tell us something about climate sensitivity.
