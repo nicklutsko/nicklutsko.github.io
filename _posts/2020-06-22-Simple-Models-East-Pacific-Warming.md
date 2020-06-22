@@ -25,20 +25,20 @@ $$
 $$
 m_4 \frac{dT_4}{dt} = q(T_3 - T_4),
 $$
-where $T_i$ is the temperature in each box and $m_i$ is the mass of each box. $\epsilon$ is a branching parameter, which determines the ratio of water flowing out from the eastern and western tropical boxes, respectively. $H_i$ is the temperature tendency induced by ocean-atmosphere heat fluxes and by radiation:
+where \(T_i\) is the temperature in each box and \(m_i\) is the mass of each box. \(\epsilon\) is a branching parameter, which determines the ratio of water flowing out from the eastern and western tropical boxes, respectively. \(H_i\) is the temperature tendency induced by ocean-atmosphere heat fluxes and by radiation:
 $$
 H_i = \frac{1}{c_p\rho h_i} \left(H_{SW} - H_{LW} - H_{latent} - H_{sensible}\right).
 $$
-Finally, $q$ is the net upwelling, given by
+Finally, \(q\) is the net upwelling, given by
 $$
 q = A_H(T_eq - T_3) + A_W(T_1 - T_2),
 $$
-where $A_H$ and $A_W$ are "coupling parameters" for the Hadley and Walker circulations, and $T_{eq}$ is the average temperature of the two boxes.</p> 
+where \(A_H\) and \(A_W\) are "coupling parameters" for the Hadley and Walker circulations, and \(T_{eq}\) is the average temperature of the two boxes.</p> 
 
 <img src="http://nicklutsko.github.io/notes/images/Pacific_box_model.png" alt="Pacific box model" style="position:absolute; left:280px; width:346px;height:252px;" class="center">
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-<p>To understand the different mechanisms, we can look at the response of the temperatures in the two tropical Pacific boxes to an external forcing, keeping only first-order terms and assuming the masses and \(\epsilon/) are fixed:</p>
+<p>To understand the different mechanisms, we can look at the response of the temperatures in the two tropical Pacific boxes to an external forcing, keeping only first-order terms and assuming the masses and \(\epsilon/) are fixed:
 $$
 m_1 \frac{d \Delta T_1}{dt} = F + m_1\Delta H_1 + q(1 - \epsilon)(\Delta T_2 - \Delta T_1) + \Delta q(T_2 - T_1)
 $$
