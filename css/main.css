@@ -1,5 +1,5 @@
 body {
-    width: 6a0%;
+    width: 600px;
     padding-left:  300px;
     padding-top:  50px;
 }
@@ -40,7 +40,7 @@ ol {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 3;
-    width: 850px;
+    width: 860px;
 }
 ul.index { 
     width: 570px;
