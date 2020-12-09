@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Drives Uncertainty in Transient Warming? Part 2 - Details"
+title: "Paper Summary: What Drives Uncertainty in Transient Warming? Part 2"
 date: 2019-10-09
 ---
 
