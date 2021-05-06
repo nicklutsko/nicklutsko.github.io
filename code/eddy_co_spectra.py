@@ -14,7 +14,7 @@ Tested using Python 2.7.12
 import numpy as np
 import scipy.signal as ss
 import scipy.interpolate as si
-
+import matplotlib.pyplot as mm
 
 def calc_spacetime_cross_spec( a, b, ts = 1., smooth = 1, width = 15., NFFT = 256 ):
 	"""
