@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Climate Science to Inform Solar Geoengineering Research (w/Matthew Henry)"
+title: "Using Basic Climate Science to Inform Solar Geoengineering Research (w/Matthew Henry)"
 date: 2021-09-13
 ---
 
